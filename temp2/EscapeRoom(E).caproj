@@ -1,0 +1,919 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>EscapeRoom(E)</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>1uvdsiqn0pi85</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1920</width>
+        <height>1200</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="door" sid="991472928832309">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="578863559497243" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\Escape Room\door (320 x 700).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="528201893250587">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="closetDoor" sid="796824352956778">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="open" sid="558348216661340" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="455578404581897" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\Electronics Game\art\closet closed 01.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="718112501300009" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\Electronics Game\art\closet opened 01.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="themostat" sid="366597206844122">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="power" sid="990637395308785" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="925107503070382" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\Escape Room\thermostat (100 x 50).png">
+                        <collision-poly>
+                            <point x="0.02" y="0.04" />
+                            <point x="0.5" y="0" />
+                            <point x="0.98" y="0.04" />
+                            <point x="1" y="0.5" />
+                            <point x="0.98" y="0.96" />
+                            <point x="0.5" y="1" />
+                            <point x="0.02" y="0.96" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tv" sid="524782459883767">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="power" sid="600212888706353" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299631284908519" speed="5">
+                    <frame duration="1" hotspotX="0.501235" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\Escape Room\TV (405 x 320).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AC" sid="609202586194130">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="539217744595356" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\AC 01 ver 1 on.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.5" />
+                            <point x="0.961667" y="0.895455" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0366667" y="0.9" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="160398821967684" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\AC 01 ver 2 off.png">
+                        <collision-poly>
+                            <point x="0.00333333" y="0.00909091" />
+                            <point x="0.996667" y="0.00909091" />
+                            <point x="1" y="0.5" />
+                            <point x="0.961667" y="0.895455" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0366667" y="0.9" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="carpet" sid="517256264688317">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="758383515871375" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\Electronics Game\art\rug normal (1400 x 200).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="lightSwitch" sid="368916391714722">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="power" sid="434065201935935" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="262007793673611" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\Escape Room\light switch on (50 x 100).png">
+                        <collision-poly>
+                            <point x="0.02" y="0.01" />
+                            <point x="0.98" y="0.01" />
+                            <point x="1" y="0.5" />
+                            <point x="0.98" y="0.99" />
+                            <point x="0.02" y="0.99" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="381818857971775" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\Escape Room\light switch off (50 x 100).png">
+                        <collision-poly>
+                            <point x="0.02" y="0.01" />
+                            <point x="0.98" y="0.01" />
+                            <point x="1" y="0.5" />
+                            <point x="0.98" y="0.99" />
+                            <point x="0.02" y="0.99" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="waterHeater" sid="542285343726565">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="power" sid="168308051670266" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="568282850354843" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\boiler 01 .png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="374682942720225" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TVPlug" sid="142851338513374">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="782643646673210" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\Escape Room\power outlet (50 x 100).png">
+                        <collision-poly>
+                            <point x="0.02" y="0.01" />
+                            <point x="0.98" y="0.01" />
+                            <point x="1" y="0.5" />
+                            <point x="0.98" y="0.99" />
+                            <point x="0.02" y="0.99" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ACLight" sid="710644523837427">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="353665889860127" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\Escape Room\power light (32 x 32).png">
+                        <collision-poly>
+                            <point x="0.3125" y="0.3125" />
+                            <point x="0.5" y="0.21875" />
+                            <point x="0.6875" y="0.3125" />
+                            <point x="0.8125" y="0.5" />
+                            <point x="0.71875" y="0.71875" />
+                            <point x="0.5" y="0.8125" />
+                            <point x="0.28125" y="0.71875" />
+                            <point x="0.1875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="theLight" sid="281527392550060">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="267532489715047" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dpprCrack" sid="625913089810387">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="872985681498014" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TvLight" sid="931044624528725">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="637130753080654" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\Escape Room\power light (32 x 32).png">
+                        <collision-poly>
+                            <point x="0.3125" y="0.3125" />
+                            <point x="0.5" y="0.21875" />
+                            <point x="0.6875" y="0.3125" />
+                            <point x="0.8125" y="0.5" />
+                            <point x="0.71875" y="0.71875" />
+                            <point x="0.5" y="0.8125" />
+                            <point x="0.28125" y="0.71875" />
+                            <point x="0.1875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="timer" sid="489831126689661">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="284295710669100" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="anchor" sid="346313271022171">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="ropeCount" sid="352618972055835" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Physics" sid="355574022871064">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="502399390466255" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="163931330398959">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="wire1" sid="827808121210369">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="numbers" sid="842762742504147" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="400752465693040" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wire2" sid="601849826305117">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="740923036483604" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wire3" sid="715253998805749">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="509060364676882" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wire4" sid="810236973879737">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="593648849118656" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wire5" sid="856778956016782">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="703613303186291" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wire6" sid="754583226335140">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="272969325930728" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wire7" sid="599841896897474">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="569127413912104" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wire8" sid="952842129994328">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="421021690496691" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wire9" sid="950019578170369">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="302432458458270" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wire10" sid="948967559913658">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424967433948480" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wire11" sid="385333827162598">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="600948931044445" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wire12" sid="320352111181005">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="231283779535386" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wire13" sid="455227139571653">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="629798539380658" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wire14" sid="294644695138888">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="387739889015074" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="plugHole" sid="961413063499052">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="ancho" sid="504975715214602" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Physics" sid="683816518937747">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="805663951739494" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\power plug in socket .png">
+                        <collision-poly>
+                            <point x="0" y="0.0333333" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="star" sid="585805207428925">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="190581505173029" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\empty star (new).png">
+                        <collision-poly>
+                            <point x="0.328" y="0.328" />
+                            <point x="0.5" y="0.074" />
+                            <point x="0.672" y="0.328" />
+                            <point x="0.716" y="0.5" />
+                            <point x="0.746" y="0.746" />
+                            <point x="0.5" y="0.672" />
+                            <point x="0.256" y="0.744" />
+                            <point x="0.282" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="411204226432564" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\star full (new).png">
+                        <collision-poly>
+                            <point x="0.336" y="0.336" />
+                            <point x="0.5" y="0.044" />
+                            <point x="0.668" y="0.332" />
+                            <point x="0.916" y="0.5" />
+                            <point x="0.808" y="0.808" />
+                            <point x="0.212" y="0.788" />
+                            <point x="0.096" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="star2" sid="481730065799659">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="706873693725402" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\empty star (new).png">
+                        <collision-poly>
+                            <point x="0.328" y="0.328" />
+                            <point x="0.5" y="0.074" />
+                            <point x="0.672" y="0.328" />
+                            <point x="0.716" y="0.5" />
+                            <point x="0.746" y="0.746" />
+                            <point x="0.5" y="0.672" />
+                            <point x="0.256" y="0.744" />
+                            <point x="0.282" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="832457924320771" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\star full (new).png">
+                        <collision-poly>
+                            <point x="0.336" y="0.336" />
+                            <point x="0.5" y="0.044" />
+                            <point x="0.668" y="0.332" />
+                            <point x="0.916" y="0.5" />
+                            <point x="0.808" y="0.808" />
+                            <point x="0.212" y="0.788" />
+                            <point x="0.096" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="star3" sid="235814677387277">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="612671291844888" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\empty star (new).png">
+                        <collision-poly>
+                            <point x="0.328" y="0.328" />
+                            <point x="0.5" y="0.074" />
+                            <point x="0.672" y="0.328" />
+                            <point x="0.716" y="0.5" />
+                            <point x="0.746" y="0.746" />
+                            <point x="0.5" y="0.672" />
+                            <point x="0.256" y="0.744" />
+                            <point x="0.282" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="562906419077360" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\star full (new).png">
+                        <collision-poly>
+                            <point x="0.336" y="0.336" />
+                            <point x="0.5" y="0.044" />
+                            <point x="0.668" y="0.332" />
+                            <point x="0.916" y="0.5" />
+                            <point x="0.808" y="0.808" />
+                            <point x="0.212" y="0.788" />
+                            <point x="0.096" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="gameover" sid="895379236184776">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite" sid="942981036058136">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="102504821315326" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hint" sid="427085470208447">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="211078213317013" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hint2" sid="985923724934347">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="526602134204534" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hint3" sid="652270876279413">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="196039456889058" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hint4" sid="197021143184425">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708346636474318" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BG" sid="163941857351160">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="501967803024136" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\Escape Room\background (1920 x 1200).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="boilerLight" sid="534234427592059">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="913439988523157" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\Electronics Game\art\power light (32 x 32).png">
+                        <collision-poly>
+                            <point x="0.3125" y="0.3125" />
+                            <point x="0.5" y="0.21875" />
+                            <point x="0.6875" y="0.3125" />
+                            <point x="0.8125" y="0.5" />
+                            <point x="0.71875" y="0.71875" />
+                            <point x="0.5" y="0.8125" />
+                            <point x="0.28125" y="0.71875" />
+                            <point x="0.1875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tutorial" sid="718932201945458">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="startt" sid="542198773839925">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="TvWire" sid="433159822280581">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="572694193562463" speed="5">
+                    <frame duration="1" hotspotX="0.375" hotspotY="0.625">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="146344297787928">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="CLICKER" sid="355006477204342">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="723924630337412" speed="5">
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\8bit_pixelated_hand_shaped_fridge_magnets_set_1.jpg" />
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="666436352894372" speed="5">
+                    <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\8bit_pixelated_hand_shaped_fridge_magnets_set_1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="flashy" sid="534425250137241">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="473533097873473" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="flashy2" sid="789770773599542">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="247240864957158" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="endMenu" sid="182344279611706">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="891593356486801">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746088648583912" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Win Fail State.png">
+                        <image-point name="Imagepoint 1" x="0.126667" y="0.0357143" />
+                        <image-point name="Imagepoint 2" x="0.875" y="0.0357143" />
+                        <collision-poly>
+                            <point x="0.0137383" y="0.00629931" />
+                            <point x="1" y="0.00787411" />
+                            <point x="1" y="0.988976" />
+                            <point x="0.00433842" y="0.990551" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="endBlur" sid="402645651063084">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="461270697670242" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="endDescription" sid="866052392663947">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="retry" sid="176340151047429">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="328352371719672" speed="5">
+                    <frame duration="1" hotspotX="0.491667" hotspotY="0.4625" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Retry1.png">
+                        <collision-poly>
+                            <point x="0.084127" y="0.155556" />
+                            <point x="0.5" y="0.133333" />
+                            <point x="0.915873" y="0.162698" />
+                            <point x="0.95" y="0.5" />
+                            <point x="0.930159" y="0.887302" />
+                            <point x="0.5" y="0.938889" />
+                            <point x="0.0753968" y="0.888889" />
+                            <point x="0.0555556" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="354305290393842" speed="5">
+                    <frame duration="1" hotspotX="0.491667" hotspotY="0.4875" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Retry2.png">
+                        <collision-poly>
+                            <point x="0.067397" y="0.135714" />
+                            <point x="0.496933" y="0.138889" />
+                            <point x="0.919325" y="0.133333" />
+                            <point x="0.978571" y="0.496454" />
+                            <point x="0.909159" y="0.878571" />
+                            <point x="0.482647" y="0.921429" />
+                            <point x="0.119413" y="0.892857" />
+                            <point x="0.0142857" y="0.482269" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="exit" sid="419817504541576">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="446638547326968" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Exit1.png">
+                        <collision-poly>
+                            <point x="0.155556" y="0.155556" />
+                            <point x="0.5" y="0.127778" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="0.955556" y="0.5" />
+                            <point x="0.894444" y="0.894444" />
+                            <point x="0.5" y="0.933333" />
+                            <point x="0.111111" y="0.888889" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="689251013006105" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Exit2.png">
+                        <collision-poly>
+                            <point x="0.155556" y="0.155556" />
+                            <point x="0.5" y="0.127778" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="0.955556" y="0.5" />
+                            <point x="0.872222" y="0.872222" />
+                            <point x="0.5" y="0.9" />
+                            <point x="0.133333" y="0.866667" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="endHolder" sid="797245910248428">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="205522995045166">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="253525213285821" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="0.125" y="0.5" />
+                        <image-point name="Imagepoint 2" x="0.875" y="0.5" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menuHolder" sid="649875520043954">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="418000513414004">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="936508808665543" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="timerHolder" sid="897836776044482">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="360873838004177" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\timer bar.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="timerX2" sid="144332223076106">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="218012033778220" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\timer icon.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="key" sid="873793781358523">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="pickup" sid="685910374491091" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="751398550045195" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\key01 (60 x 30).png">
+                        <collision-poly>
+                            <point x="0.166667" y="0.0833333" />
+                            <point x="0.5" y="0.0166667" />
+                            <point x="0.833333" y="0.0833333" />
+                            <point x="0.6" y="0.5" />
+                            <point x="0.833333" y="0.916667" />
+                            <point x="0.5" y="1" />
+                            <point x="0.4" y="0.8" />
+                            <point x="0.4" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="wires" plugin-id="Sprite" sid="644140661896544">
+            <members>
+                <member>wire1</member>
+                <member>wire10</member>
+                <member>wire11</member>
+                <member>wire12</member>
+                <member>wire13</member>
+                <member>wire14</member>
+                <member>wire2</member>
+                <member>wire3</member>
+                <member>wire4</member>
+                <member>wire5</member>
+                <member>wire6</member>
+                <member>wire7</member>
+                <member>wire8</member>
+                <member>wire9</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="number" sid="747947886143482" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Physics" sid="687814541682762">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="TvWires" plugin-id="Sprite" sid="723228820898907">
+            <members>
+                <member>TvWire</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="number" sid="968615706278313" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Physics" sid="699440617533424">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+        <layout>tutorial1.xml</layout>
+        <layout>tutorial2.xml</layout>
+        <layout>tutorial3.xml</layout>
+        <layout>main(e).xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>main.xml</event-sheet>
+        <event-sheet>tut1.xml</event-sheet>
+        <event-sheet>tut2.xml</event-sheet>
+        <event-sheet>tut3.xml</event-sheet>
+        <event-sheet>main(e).xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="1">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="83">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder>
+        <file name="sfx_AC.m4a" />
+        <file name="sfx_AC.ogg" />
+        <file name="sfx_bus_horn.m4a" />
+        <file name="sfx_bus_horn.ogg" />
+        <file name="sfx_clicking_clikable_obj.m4a" />
+        <file name="sfx_clicking_clikable_obj.ogg" />
+        <file name="sfx_clicking_unclickable_obj.m4a" />
+        <file name="sfx_clicking_unclickable_obj.ogg" />
+        <file name="sfx_door_open.m4a" />
+        <file name="sfx_door_open.ogg" />
+        <file name="sfx_waterheater.m4a" />
+        <file name="sfx_waterheater.ogg" />
+        <file name="sfx_click_unclickable_obj01.m4a" />
+        <file name="sfx_click_unclickable_obj01.ogg" />
+        <file name="sfx_doorlock.m4a" />
+        <file name="sfx_doorlock.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
