@@ -86,7 +86,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="716896227238623" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\door01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\door02.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -900,6 +900,44 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="m2_2_toasterLight" sid="717999257924417">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="895345557689508" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\power light (32 x 32).png">
+                        <collision-poly>
+                            <point x="0.3125" y="0.3125" />
+                            <point x="0.5" y="0.21875" />
+                            <point x="0.6875" y="0.3125" />
+                            <point x="0.8125" y="0.5" />
+                            <point x="0.71875" y="0.71875" />
+                            <point x="0.5" y="0.8125" />
+                            <point x="0.28125" y="0.71875" />
+                            <point x="0.1875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_2_covfefeLight" sid="480848575300130">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="523370799821269" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\power light (32 x 32).png">
+                        <collision-poly>
+                            <point x="0.3125" y="0.3125" />
+                            <point x="0.5" y="0.21875" />
+                            <point x="0.6875" y="0.3125" />
+                            <point x="0.8125" y="0.5" />
+                            <point x="0.71875" y="0.71875" />
+                            <point x="0.5" y="0.8125" />
+                            <point x="0.28125" y="0.71875" />
+                            <point x="0.1875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="m2_2_fridgeWires" plugin-id="Sprite" sid="661142185253820">
@@ -999,6 +1037,20 @@
         <file name="sfx_doorlock.ogg" />
         <file name="sfx_waterheater.m4a" />
         <file name="sfx_waterheater.ogg" />
+        <file name="sfx_computer_hum.m4a" />
+        <file name="sfx_computer_hum.ogg" />
+        <file name="sfx_fastfan.m4a" />
+        <file name="sfx_fastfan.ogg" />
+        <file name="sfx_fridge.m4a" />
+        <file name="sfx_fridge.ogg" />
+        <file name="sfx_lever.m4a" />
+        <file name="sfx_lever.ogg" />
+        <file name="sfx_openbook.m4a" />
+        <file name="sfx_openbook.ogg" />
+        <file name="sfx_slowfan.m4a" />
+        <file name="sfx_slowfan.ogg" />
+        <file name="sfx_water_drip.m4a" />
+        <file name="sfx_water_drip.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>

@@ -257,12 +257,15 @@
                                 <action id="-14" name="Toggle boolean" sid="189909590568589" type="m2_2_actualFaucet">
                                     <param id="0" name="Instance variable">water</param>
                                 </action>
+                                <action id="6" name="Stop" sid="363628133888687" type="Audio">
+                                    <param id="0" name="Tag">&quot;w0ta&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="904940462694601">
                             <conditions>
                                 <condition id="-6" name="Every X seconds" sid="835176183917643" type="System">
-                                    <param id="0" name="Interval (seconds)">1.0</param>
+                                    <param id="0" name="Interval (seconds)">0.5</param>
                                 </condition>
                                 <condition id="-8" name="Is boolean instance variable set" sid="424686981280482" type="m2_2_actualFaucet">
                                     <param id="0" name="Instance variable">water</param>
@@ -712,18 +715,148 @@
         </event-block>
         <event-group description="" sid="532840385904450" title="m2_2_sound">
             <sub-events>
+                <event-block sid="838303514709334">
+                    <conditions>
+                        <condition id="14" name="On tap" sid="569829408363334" type="Touch" />
+                        <condition id="-14" name="Compare variable" sid="577159708715105" type="System">
+                            <param id="0" name="Variable">playing</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="586493479208652">
+                            <conditions>
+                                <condition id="4" inverted="1" name="Is touching object" sid="791448607332005" type="Touch">
+                                    <param id="0" name="Object">m2_2_coffeeMaker</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Is touching object" sid="532617832071058" type="Touch">
+                                    <param id="0" name="Object">m2_2_covfefePlug</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Is touching object" sid="499674851859711" type="Touch">
+                                    <param id="0" name="Object">m2_2_Door</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Is touching object" sid="780325447317666" type="Touch">
+                                    <param id="0" name="Object">m2_2_fridge</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Is touching object" sid="448867991476388" type="Touch">
+                                    <param id="0" name="Object">m2_2_fridgePlugThing</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Is touching object" sid="787412062613790" type="Touch">
+                                    <param id="0" name="Object">m2_2_key</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Is touching object" sid="220096199847240" type="Touch">
+                                    <param id="0" name="Object">m2_2_Lights</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Is touching object" sid="122206297827718" type="Touch">
+                                    <param id="0" name="Object">m2_2_microwave</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Is touching object" sid="564757888516840" type="Touch">
+                                    <param id="0" name="Object">m2_2_microwavePlug</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Is touching object" sid="783354817793643" type="Touch">
+                                    <param id="0" name="Object">m2_2_stoveLight</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Is touching object" sid="491909178560685" type="Touch">
+                                    <param id="0" name="Object">m2_2_toaster</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Is touching object" sid="268783622661966" type="Touch">
+                                    <param id="0" name="Object">m2_2_toasterPlug</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Is touching object" sid="977916405699842" type="Touch">
+                                    <param id="0" name="Object">m2_2_uselessShit1</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Is touching object" sid="409736776610946" type="Touch">
+                                    <param id="0" name="Object">m2_2_valve</param>
+                                </condition>
+                                <condition id="4" inverted="1" name="Is touching object" sid="305897611711711" type="Touch">
+                                    <param id="0" name="Object">m2_2_waterFaucet</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="747808763460436" type="Audio">
+                                    <param id="0" name="Audio file">sfx_click_unclickable_obj01</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">-20</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block any="1" sid="902852876034951">
+                            <conditions>
+                                <condition id="4" name="Is touching object" sid="357803112290839" type="Touch">
+                                    <param id="0" name="Object">m2_2_coffeeMaker</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="156561796939793" type="Touch">
+                                    <param id="0" name="Object">m2_2_covfefePlug</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="359160587050591" type="Touch">
+                                    <param id="0" name="Object">m2_2_fridge</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="900414014939453" type="Touch">
+                                    <param id="0" name="Object">m2_2_fridgePlugThing</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="101948450974416" type="Touch">
+                                    <param id="0" name="Object">m2_2_key</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="691099914889894" type="Touch">
+                                    <param id="0" name="Object">m2_2_Lights</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="228831215176173" type="Touch">
+                                    <param id="0" name="Object">m2_2_microwave</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="510640367756526" type="Touch">
+                                    <param id="0" name="Object">m2_2_microwavePlug</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="451123624674340" type="Touch">
+                                    <param id="0" name="Object">m2_2_stoveLight</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="811031555808272" type="Touch">
+                                    <param id="0" name="Object">m2_2_toaster</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="805191047855927" type="Touch">
+                                    <param id="0" name="Object">m2_2_toasterPlug</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="602255208189576" type="Touch">
+                                    <param id="0" name="Object">m2_2_uselessShit1</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="109936413238764" type="Touch">
+                                    <param id="0" name="Object">m2_2_valve</param>
+                                </condition>
+                                <condition id="4" name="Is touching object" sid="332816911790691" type="Touch">
+                                    <param id="0" name="Object">m2_2_waterFaucet</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="680036063203118" type="Audio">
+                                    <param id="0" name="Audio file">sfx_clicking_clikable_obj</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">-15</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
                 <event-block sid="645662291147766">
                     <conditions>
                         <condition id="-2" name="On start of layout" sid="106006957576667" type="System" />
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="973121697390427" type="Audio">
+                            <param id="0" name="Audio file">sfx_water_drip</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">30</param>
+                            <param id="1" name="Tag (optional)">&quot;w0ta&quot;</param>
+                        </action>
                         <action id="-41" name="Wait for signal" sid="144558971350331" type="System">
                             <param id="0" name="Tag">&quot;baeaeaeh&quot;</param>
                         </action>
                         <action id="0" name="Play" sid="802427516551265" type="Audio">
                             <param id="0" name="Audio file">sfx_bus_horn</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
+                            <param id="3" name="Volume">-20</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
@@ -784,21 +917,6 @@
                         <action id="-9" name="Destroy" sid="862192994598950" type="m2_2_theLight" />
                     </actions>
                     <sub-events>
-                        <event-block sid="258455741337107">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="463127404909800" type="System">
-                                    <param id="0" name="Variable">m2_2_fridge</param>
-                                    <param id="1" name="Comparison">5</param>
-                                    <param id="2" name="Value">1</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-9" name="Set value" sid="333685207673221" type="System">
-                                    <param id="0" name="Variable">win</param>
-                                    <param id="1" name="Value">3</param>
-                                </action>
-                            </actions>
-                        </event-block>
                         <event-block sid="497312294891405">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="545093762535626" type="System">
@@ -811,36 +929,126 @@
                                 <action id="0" name="Set text" sid="933855401128788" type="m2_2_endDescription">
                                     <param id="0" name="Text">&quot;You were electrocuted&quot;</param>
                                 </action>
-                                <action id="-9" name="Set value" sid="285831093294811" type="System">
+                                <action id="-9" name="Set value" sid="330502021459347" type="System">
                                     <param id="0" name="Variable">score</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="168541440710747">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="201848145182151" type="System">
-                                    <param id="0" name="Variable">win</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">3</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Set text" sid="969716729644955" type="m2_2_endDescription">
-                                    <param id="0" name="Text">&quot;Your food spoiled&quot;</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="384098174169654" type="System">
-                                    <param id="0" name="Variable">score</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
+                        <event-block sid="202616939665353">
+                            <conditions />
+                            <actions />
+                            <sub-events>
+                                <event-block sid="241392167634382">
+                                    <conditions>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="322108363636036" type="m2_2_actualFaucet">
+                                            <param id="0" name="Instance variable">water</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="966127747342747" type="System">
+                                            <param id="0" name="Variable">score</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="232326966402486">
+                                    <conditions>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="374071238548535" type="m2_2_coffeeMaker">
+                                            <param id="0" name="Instance variable">power</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="686360661328279" type="System">
+                                            <param id="0" name="Variable">score</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="254621993790237">
+                                    <conditions>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="675939643580595" type="m2_2_microwave">
+                                            <param id="0" name="Instance variable">power</param>
+                                        </condition>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="788017751592685" type="m2_2_microwave">
+                                            <param id="0" name="Instance variable">opens</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="415173174261720" type="System">
+                                            <param id="0" name="Variable">score</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="502267219408419">
+                                    <conditions>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="427301970402781" type="m2_2_stoveLight">
+                                            <param id="0" name="Instance variable">power</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="884634470292782" type="System">
+                                            <param id="0" name="Variable">score</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="801847564280109">
+                                    <conditions>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="304265090177919" type="m2_2_toaster">
+                                            <param id="0" name="Instance variable">power</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="203154193761423" type="System">
+                                            <param id="0" name="Variable">score</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="731727744044990">
+                                    <conditions>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="323350527206429" type="m2_2_Lights">
+                                            <param id="0" name="Instance variable">power</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Add to" sid="364615065151603" type="System">
+                                            <param id="0" name="Variable">score</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block any="1" sid="258455741337107">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="463127404909800" type="System">
+                                            <param id="0" name="Variable">m2_2_fridge</param>
+                                            <param id="1" name="Comparison">5</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="168858401499514" type="m2_2_fridge">
+                                            <param id="0" name="Instance variable">opens</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="480607069112876" type="System">
+                                            <param id="0" name="Variable">score</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="1" name="Append text" sid="333685207673221" type="m2_2_endDescription">
+                                            <param id="0" name="Text">newline &amp; &quot;Your food spoiled&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                         <event-block sid="855220654650493">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="379063102470499" type="System">
                                     <param id="0" name="Variable">score</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">4</param>
+                                    <param id="2" name="Value">6</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -863,7 +1071,7 @@
                                 <condition id="-14" name="Compare variable" sid="893621003058466" type="System">
                                     <param id="0" name="Variable">score</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">3</param>
+                                    <param id="2" name="Value">5</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -882,7 +1090,7 @@
                                 <condition id="-14" name="Compare variable" sid="249713040728966" type="System">
                                     <param id="0" name="Variable">score</param>
                                     <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">2</param>
+                                    <param id="2" name="Value">3</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -905,6 +1113,29 @@
                                     <param id="0" name="Text">&quot;&quot;</param>
                                 </action>
                             </actions>
+                            <sub-events>
+                                <event-block any="1" sid="998295185813714">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="144490327418427" type="System">
+                                            <param id="0" name="Variable">m2_2_fridge</param>
+                                            <param id="1" name="Comparison">5</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="645701493030985" type="m2_2_fridge">
+                                            <param id="0" name="Instance variable">opens</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="697910774323018" type="System">
+                                            <param id="0" name="Variable">score</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="1" name="Append text" sid="249335262450860" type="m2_2_endDescription">
+                                            <param id="0" name="Text">newline &amp; &quot;Your food spoiled&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                         <event-block sid="498083555821971">
                             <conditions>
@@ -919,6 +1150,29 @@
                                     <param id="0" name="Text">&quot;Time&apos;s Up&quot;</param>
                                 </action>
                             </actions>
+                            <sub-events>
+                                <event-block any="1" sid="676542488935540">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="332154637090583" type="System">
+                                            <param id="0" name="Variable">m2_2_fridge</param>
+                                            <param id="1" name="Comparison">5</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="410105936993733" type="m2_2_fridge">
+                                            <param id="0" name="Instance variable">opens</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="276186514951073" type="System">
+                                            <param id="0" name="Variable">score</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="1" name="Append text" sid="865728838733461" type="m2_2_endDescription">
+                                            <param id="0" name="Text">newline &amp; &quot;Your food spoiled&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                         <event-group description="" sid="191794632724762" title="buttons">
                             <sub-events>
@@ -995,6 +1249,14 @@
                     <param id="0" name="Animation">&quot;a&quot;&amp;m2_2_microwave.open&amp;m2_2_stoveLight.open&amp;m2_2_fridge.open</param>
                     <param id="1" name="From">1</param>
                 </action>
+                <action id="-3" name="Set position" sid="266967976462397" type="m2_2_covfefeLight">
+                    <param id="0" name="X">m2_2_coffeeMaker.X+45</param>
+                    <param id="1" name="Y">m2_2_coffeeMaker.Y-70</param>
+                </action>
+                <action id="-3" name="Set position" sid="655480944777076" type="m2_2_toasterLight">
+                    <param id="0" name="X">m2_2_toaster.X+25</param>
+                    <param id="1" name="Y">m2_2_toaster.Y-45</param>
+                </action>
             </actions>
             <sub-events>
                 <event-block sid="324334703931038">
@@ -1017,6 +1279,54 @@
                     </conditions>
                     <actions>
                         <action id="-16" name="Set opacity" sid="962904624902464" type="m2_2_microwaveLight">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="448372267850395">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="297760677966400" type="m2_2_toaster">
+                            <param id="0" name="Instance variable">power</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="929299562959166" type="m2_2_toasterLight">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="399407475460112">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="900534927223419" type="m2_2_toaster">
+                            <param id="0" name="Instance variable">power</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="249224429824725" type="m2_2_toasterLight">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="603170613682887">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="492474097565335" type="m2_2_coffeeMaker">
+                            <param id="0" name="Instance variable">power</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="463930712549216" type="m2_2_covfefeLight">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="544835723626860">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="765907320218670" type="m2_2_coffeeMaker">
+                            <param id="0" name="Instance variable">power</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="592190293999687" type="m2_2_covfefeLight">
                             <param id="0" name="Opacity">0</param>
                         </action>
                     </actions>

@@ -13,10 +13,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">Layout 1(useless)</layout>
         <layout order="1">tutorial3</layout>
         <layout order="3">tutorial1</layout>
-        <layout order="5">main(e)</layout>
+        <layout active="1" order="5">main(e)</layout>
         <event-sheet order="2">tut3</event-sheet>
         <event-sheet order="4">main(useless)</event-sheet>
-        <event-sheet active="1" order="6">main(e)</event-sheet>
+        <event-sheet order="6">main(e)</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

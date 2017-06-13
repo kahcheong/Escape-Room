@@ -76,5 +76,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/m2_2_toasterWire/" />
         <folder expanded="1" path="animation-folder/m2_2_covfefeWire/" />
         <folder expanded="1" path="animation-folder/m2_2_microwaveWire/" />
+        <folder expanded="1" path="animation-folder/m2_2_toasterLight/" />
+        <folder expanded="1" path="animation-folder/m2_2_covfefeLight/" />
     </folders-expanded>
 </c2uistate>
