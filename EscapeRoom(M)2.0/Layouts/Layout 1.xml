@@ -250,8 +250,8 @@
                         <x>830</x>
                         <y>465</y>
                         <z>0</z>
-                        <width>30</width>
-                        <height>30</height>
+                        <width>45</width>
+                        <height>45</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -329,8 +329,8 @@
                         <x>830</x>
                         <y>500</y>
                         <z>0</z>
-                        <width>30</width>
-                        <height>30</height>
+                        <width>45</width>
+                        <height>45</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -367,8 +367,8 @@
                         <x>830</x>
                         <y>535</y>
                         <z>0</z>
-                        <width>30</width>
-                        <height>30</height>
+                        <width>45</width>
+                        <height>45</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -802,10 +802,10 @@
                         <x>504</x>
                         <y>414</y>
                         <z>0</z>
-                        <width>45</width>
-                        <height>90</height>
+                        <width>60</width>
+                        <height>120</height>
                         <depth>0</depth>
-                        <hotspotX>0.48888889</hotspotX>
+                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -986,8 +986,8 @@
                         <x>1866.5</x>
                         <y>883</y>
                         <z>0</z>
-                        <width>30</width>
-                        <height>30</height>
+                        <width>45</width>
+                        <height>45</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1185,6 +1185,28 @@
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="m2_2_doorCrack" uid="47">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>273</x>
+                        <y>942</y>
+                        <z>0</z>
+                        <width>532</width>
+                        <height>250</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>0.5</opacity>
                     </world>
                 </instance>
             </instances>

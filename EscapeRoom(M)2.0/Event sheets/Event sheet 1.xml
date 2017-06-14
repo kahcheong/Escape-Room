@@ -461,6 +461,9 @@
                                         <action id="-1" name="Set X" sid="157099332675650" type="m2_2_theLight">
                                             <param id="0" name="X">3000</param>
                                         </action>
+                                        <action id="-16" name="Set opacity" sid="766099363285183" type="m2_2_doorCrack">
+                                            <param id="0" name="Opacity">10</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="185684605633491">
@@ -472,6 +475,9 @@
                                     <actions>
                                         <action id="-1" name="Set X" sid="648929427207877" type="m2_2_theLight">
                                             <param id="0" name="X">960</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="833896439056739" type="m2_2_doorCrack">
+                                            <param id="0" name="Opacity">45</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -944,6 +950,7 @@
                                         <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="322108363636036" type="m2_2_actualFaucet">
                                             <param id="0" name="Instance variable">water</param>
                                         </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="741380108460022" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="966127747342747" type="System">
@@ -957,6 +964,7 @@
                                         <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="374071238548535" type="m2_2_coffeeMaker">
                                             <param id="0" name="Instance variable">power</param>
                                         </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="870114024538723" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="686360661328279" type="System">
@@ -973,6 +981,7 @@
                                         <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="788017751592685" type="m2_2_microwave">
                                             <param id="0" name="Instance variable">opens</param>
                                         </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="989257931677154" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="415173174261720" type="System">
@@ -986,6 +995,7 @@
                                         <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="427301970402781" type="m2_2_stoveLight">
                                             <param id="0" name="Instance variable">power</param>
                                         </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="413299720568670" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="884634470292782" type="System">
@@ -999,6 +1009,7 @@
                                         <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="304265090177919" type="m2_2_toaster">
                                             <param id="0" name="Instance variable">power</param>
                                         </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="556877953385823" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="203154193761423" type="System">
@@ -1012,6 +1023,7 @@
                                         <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="323350527206429" type="m2_2_Lights">
                                             <param id="0" name="Instance variable">power</param>
                                         </condition>
+                                        <condition id="-4" name="Trigger once while true" sid="550231029595288" type="System" />
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="364615065151603" type="System">
@@ -1070,7 +1082,7 @@
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="893621003058466" type="System">
                                     <param id="0" name="Variable">score</param>
-                                    <param id="1" name="Comparison">0</param>
+                                    <param id="1" name="Comparison">5</param>
                                     <param id="2" name="Value">5</param>
                                 </condition>
                             </conditions>
@@ -1089,7 +1101,7 @@
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="249713040728966" type="System">
                                     <param id="0" name="Variable">score</param>
-                                    <param id="1" name="Comparison">0</param>
+                                    <param id="1" name="Comparison">5</param>
                                     <param id="2" name="Value">3</param>
                                 </condition>
                             </conditions>

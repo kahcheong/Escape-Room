@@ -625,7 +625,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="308777116406959" speed="5">
-                    <frame duration="1" hotspotX="0.488889" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\key01 (60 x 30).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\key01 (60 x 30).png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -729,18 +729,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="318254172393448" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\power plug in socket .png">
-                        <collision-poly>
-                            <point x="0.175" y="0.175" />
-                            <point x="0.5" y="0" />
-                            <point x="0.825" y="0.175" />
-                            <point x="1" y="0.5" />
-                            <point x="0.9" y="0.9" />
-                            <point x="0.5" y="1" />
-                            <point x="0.1" y="0.9" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\power plug in socket .png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -935,6 +924,14 @@
                             <point x="0.1875" y="0.5" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_2_doorCrack" sid="200145384232021">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="618621246364548" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
