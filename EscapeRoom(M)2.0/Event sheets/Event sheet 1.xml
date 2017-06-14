@@ -8,11 +8,11 @@
         <variable constant="0" name="m2_2_checkerT" sid="467444950115489" static="0" type="number">0</variable>
         <variable constant="0" name="m2_2_fridge" sid="826188448059228" static="0" type="number">0</variable>
         <variable constant="0" name="m2_2_chker" sid="720910140943799" static="0" type="number">0</variable>
-        <variable constant="0" name="Variable1" sid="726972936817100" static="0" type="number">0</variable>
-        <variable constant="0" name="playing" sid="116402929902207" static="0" type="number">1</variable>
-        <variable constant="0" name="score" sid="471000514429909" static="0" type="number">0</variable>
-        <variable constant="0" name="win" sid="750987597721381" static="0" type="number">-1</variable>
-        <variable constant="0" name="timer" sid="333493582682826" static="0" type="number">15</variable>
+        <variable constant="0" name="m2_2_Variable1" sid="726972936817100" static="0" type="number">0</variable>
+        <variable constant="0" name="m2_2_playing" sid="116402929902207" static="0" type="number">1</variable>
+        <variable constant="0" name="m2_2_score" sid="471000514429909" static="0" type="number">0</variable>
+        <variable constant="0" name="m2_2_win" sid="750987597721381" static="0" type="number">-1</variable>
+        <variable constant="0" name="m2_2_timer" sid="333493582682826" static="0" type="number">15</variable>
         <event-group description="" sid="524315539581255" title="m2_2_Scoring&amp;setUp">
             <sub-events>
                 <event-block sid="804477834408803">
@@ -64,19 +64,19 @@
                             <param id="0" name="Interval (seconds)">0.01</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="682337810258025" type="System">
-                            <param id="0" name="Variable">playing</param>
+                            <param id="0" name="Variable">m2_2_playing</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="685770845768597" type="System">
-                            <param id="0" name="Variable">win</param>
+                            <param id="0" name="Variable">m2_2_win</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">-1</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="-11" name="Subtract from" sid="296313175028355" type="System">
-                            <param id="0" name="Variable">timer</param>
+                            <param id="0" name="Variable">m2_2_timer</param>
                             <param id="1" name="Value">0.01</param>
                         </action>
                     </actions>
@@ -85,32 +85,32 @@
                     <conditions>
                         <condition id="-1" name="Every tick" sid="729608492960284" type="System" />
                         <condition id="-14" name="Compare variable" sid="131305215336805" type="System">
-                            <param id="0" name="Variable">timer</param>
+                            <param id="0" name="Variable">m2_2_timer</param>
                             <param id="1" name="Comparison">4</param>
                             <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="-5" name="Set width" sid="326214856272877" type="m2_2_timer">
-                            <param id="0" name="Width">128*timer</param>
+                            <param id="0" name="Width">128*m2_2_timer</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="405012545476795">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="721454611898636" type="System">
-                            <param id="0" name="Variable">timer</param>
+                            <param id="0" name="Variable">m2_2_timer</param>
                             <param id="1" name="Comparison">3</param>
                             <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" sid="989632161675215" type="System">
-                            <param id="0" name="Variable">playing</param>
+                            <param id="0" name="Variable">m2_2_playing</param>
                             <param id="1" name="Value">0</param>
                         </action>
                         <action id="-9" name="Set value" sid="456141304735800" type="System">
-                            <param id="0" name="Variable">win</param>
+                            <param id="0" name="Variable">m2_2_win</param>
                             <param id="1" name="Value">0</param>
                         </action>
                     </actions>
@@ -121,18 +121,18 @@
                             <param id="0" name="Object">m2_2_Door</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="691232052202161" type="System">
-                            <param id="0" name="Variable">playing</param>
+                            <param id="0" name="Variable">m2_2_playing</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" sid="918002462539236" type="System">
-                            <param id="0" name="Variable">win</param>
+                            <param id="0" name="Variable">m2_2_win</param>
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="-9" name="Set value" sid="918862864318933" type="System">
-                            <param id="0" name="Variable">playing</param>
+                            <param id="0" name="Variable">m2_2_playing</param>
                             <param id="1" name="Value">0</param>
                         </action>
                         <action id="0" name="Play" sid="588216010660549" type="Audio">
@@ -146,12 +146,12 @@
                 <event-block sid="631165223835963">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="650868916650073" type="System">
-                            <param id="0" name="Variable">timer</param>
+                            <param id="0" name="Variable">m2_2_timer</param>
                             <param id="1" name="Comparison">2</param>
                             <param id="2" name="Value">5.01</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="381023357922982" type="System">
-                            <param id="0" name="Variable">timer</param>
+                            <param id="0" name="Variable">m2_2_timer</param>
                             <param id="1" name="Comparison">4</param>
                             <param id="2" name="Value">1</param>
                         </condition>
@@ -167,7 +167,7 @@
         <event-block sid="532971569855062">
             <conditions>
                 <condition id="-14" name="Compare variable" sid="509734178368655" type="System">
-                    <param id="0" name="Variable">playing</param>
+                    <param id="0" name="Variable">m2_2_playing</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
@@ -403,11 +403,11 @@
                                     </conditions>
                                     <actions>
                                         <action id="-9" name="Set value" sid="387424475937150" type="System">
-                                            <param id="0" name="Variable">playing</param>
+                                            <param id="0" name="Variable">m2_2_playing</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
                                         <action id="-9" name="Set value" sid="776434709766824" type="System">
-                                            <param id="0" name="Variable">win</param>
+                                            <param id="0" name="Variable">m2_2_win</param>
                                             <param id="1" name="Value">2</param>
                                         </action>
                                     </actions>
@@ -424,11 +424,11 @@
                                     </conditions>
                                     <actions>
                                         <action id="-9" name="Set value" sid="757887165787775" type="System">
-                                            <param id="0" name="Variable">playing</param>
+                                            <param id="0" name="Variable">m2_2_playing</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
                                         <action id="-9" name="Set value" sid="489856966514774" type="System">
-                                            <param id="0" name="Variable">win</param>
+                                            <param id="0" name="Variable">m2_2_win</param>
                                             <param id="1" name="Value">2</param>
                                         </action>
                                     </actions>
@@ -725,7 +725,7 @@
                     <conditions>
                         <condition id="14" name="On tap" sid="569829408363334" type="Touch" />
                         <condition id="-14" name="Compare variable" sid="577159708715105" type="System">
-                            <param id="0" name="Variable">playing</param>
+                            <param id="0" name="Variable">m2_2_playing</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
@@ -905,7 +905,7 @@
                 <event-block sid="188347533529499">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="431582752861433" type="System">
-                            <param id="0" name="Variable">win</param>
+                            <param id="0" name="Variable">m2_2_win</param>
                             <param id="1" name="Comparison">1</param>
                             <param id="2" name="Value">-1</param>
                         </condition>
@@ -926,7 +926,7 @@
                         <event-block sid="497312294891405">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="545093762535626" type="System">
-                                    <param id="0" name="Variable">win</param>
+                                    <param id="0" name="Variable">m2_2_win</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">2</param>
                                 </condition>
@@ -936,7 +936,7 @@
                                     <param id="0" name="Text">&quot;You were electrocuted&quot;</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="330502021459347" type="System">
-                                    <param id="0" name="Variable">score</param>
+                                    <param id="0" name="Variable">m2_2_score</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
                             </actions>
@@ -954,7 +954,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="966127747342747" type="System">
-                                            <param id="0" name="Variable">score</param>
+                                            <param id="0" name="Variable">m2_2_score</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
                                     </actions>
@@ -968,7 +968,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="686360661328279" type="System">
-                                            <param id="0" name="Variable">score</param>
+                                            <param id="0" name="Variable">m2_2_score</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
                                     </actions>
@@ -985,7 +985,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="415173174261720" type="System">
-                                            <param id="0" name="Variable">score</param>
+                                            <param id="0" name="Variable">m2_2_score</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
                                     </actions>
@@ -999,7 +999,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="884634470292782" type="System">
-                                            <param id="0" name="Variable">score</param>
+                                            <param id="0" name="Variable">m2_2_score</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
                                     </actions>
@@ -1013,7 +1013,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="203154193761423" type="System">
-                                            <param id="0" name="Variable">score</param>
+                                            <param id="0" name="Variable">m2_2_score</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
                                     </actions>
@@ -1027,7 +1027,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="-10" name="Add to" sid="364615065151603" type="System">
-                                            <param id="0" name="Variable">score</param>
+                                            <param id="0" name="Variable">m2_2_score</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
                                     </actions>
@@ -1045,7 +1045,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="-9" name="Set value" sid="480607069112876" type="System">
-                                            <param id="0" name="Variable">score</param>
+                                            <param id="0" name="Variable">m2_2_score</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
                                         <action id="1" name="Append text" sid="333685207673221" type="m2_2_endDescription">
@@ -1058,7 +1058,7 @@
                         <event-block sid="855220654650493">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="379063102470499" type="System">
-                                    <param id="0" name="Variable">score</param>
+                                    <param id="0" name="Variable">m2_2_score</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">6</param>
                                 </condition>
@@ -1081,7 +1081,7 @@
                         <event-block sid="614367554205798">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="893621003058466" type="System">
-                                    <param id="0" name="Variable">score</param>
+                                    <param id="0" name="Variable">m2_2_score</param>
                                     <param id="1" name="Comparison">5</param>
                                     <param id="2" name="Value">5</param>
                                 </condition>
@@ -1100,7 +1100,7 @@
                         <event-block sid="499247363354823">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="249713040728966" type="System">
-                                    <param id="0" name="Variable">score</param>
+                                    <param id="0" name="Variable">m2_2_score</param>
                                     <param id="1" name="Comparison">5</param>
                                     <param id="2" name="Value">3</param>
                                 </condition>
@@ -1115,7 +1115,7 @@
                         <event-block sid="694828739638912">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="353311659909230" type="System">
-                                    <param id="0" name="Variable">win</param>
+                                    <param id="0" name="Variable">m2_2_win</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">1</param>
                                 </condition>
@@ -1139,7 +1139,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="-9" name="Set value" sid="697910774323018" type="System">
-                                            <param id="0" name="Variable">score</param>
+                                            <param id="0" name="Variable">m2_2_score</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
                                         <action id="1" name="Append text" sid="249335262450860" type="m2_2_endDescription">
@@ -1152,7 +1152,7 @@
                         <event-block sid="498083555821971">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="843250210155428" type="System">
-                                    <param id="0" name="Variable">win</param>
+                                    <param id="0" name="Variable">m2_2_win</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
@@ -1176,7 +1176,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="-9" name="Set value" sid="276186514951073" type="System">
-                                            <param id="0" name="Variable">score</param>
+                                            <param id="0" name="Variable">m2_2_score</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
                                         <action id="1" name="Append text" sid="865728838733461" type="m2_2_endDescription">

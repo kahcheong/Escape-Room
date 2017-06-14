@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">m2_3_main</layout>
-        <event-sheet order="1">m2_3_main</event-sheet>
+        <layout order="0">m2_3_main</layout>
+        <event-sheet active="1" order="1">m2_3_main</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -44,5 +44,24 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/m2_3_door/" />
         <folder expanded="1" path="animation-folder/m2_3_powerBar/" />
         <folder expanded="1" path="animation-folder/m2_3_Modem/" />
+        <folder expanded="1" path="animation-folder/m2_3_timer/" />
+        <folder expanded="1" path="animation-folder/m2_3_timerHolder/" />
+        <folder expanded="1" path="animation-folder/m2_3_tmr/" />
+        <folder expanded="1" path="animation-folder/m2_3_towerLight/" />
+        <folder expanded="1" path="animation-folder/m2_3_menu/" />
+        <folder expanded="1" path="animation-folder/m2_3_endScreen/" />
+        <folder expanded="1" path="animation-folder/m2_3_star1/" />
+        <folder expanded="1" path="animation-folder/m2_3_star2/" />
+        <folder expanded="1" path="animation-folder/m2_3_star3/" />
+        <folder expanded="1" path="animation-folder/m2_3_exit/" />
+        <folder expanded="1" path="animation-folder/m2_3_retry/" />
+        <folder expanded="1" path="animation-folder/m2_3_NiteLite/" />
+        <folder expanded="1" path="animation-folder/m2_3_shaduw/" />
+        <folder expanded="1" path="animation-folder/m2_3towerLite/" />
+        <folder expanded="1" path="animation-folder/m2_3_Curtain/" />
+        <folder expanded="1" path="animation-folder/m2_3_wire1/" />
+        <folder expanded="1" path="animation-folder/m2_3_wire2/" />
+        <folder expanded="1" path="animation-folder/m2_3_curtainLite/" />
+        <folder expanded="1" path="animation-folder/m2_3_cuzAnimations/" />
     </folders-expanded>
 </c2uistate>
