@@ -12,7 +12,7 @@
         <variable constant="0" name="m2_2_playing" sid="116402929902207" static="0" type="number">1</variable>
         <variable constant="0" name="m2_2_score" sid="471000514429909" static="0" type="number">0</variable>
         <variable constant="0" name="m2_2_win" sid="750987597721381" static="0" type="number">-1</variable>
-        <variable constant="0" name="m2_2_timer" sid="333493582682826" static="0" type="number">15</variable>
+        <variable constant="0" name="m2_2_timer" sid="333493582682826" static="0" type="number">30</variable>
         <event-group description="" sid="524315539581255" title="m2_2_Scoring&amp;setUp">
             <sub-events>
                 <event-block sid="804477834408803">
@@ -26,7 +26,7 @@
                             <param id="1" name="Y">600</param>
                         </action>
                         <action id="-18" name="Set layer opacity" sid="122775389341023" type="System">
-                            <param id="0" name="Layer">1</param>
+                            <param id="0" name="Layer">&quot;endGame&quot;</param>
                             <param id="1" name="Opacity">0</param>
                         </action>
                         <action id="-13" name="Set boolean" sid="260555947579042" type="m2_2_microwave">
@@ -53,8 +53,8 @@
                             <param id="0" name="Instance variable">power</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-1" name="Set X" sid="353291346494623" type="m2_2_theLight">
-                            <param id="0" name="X">960</param>
+                        <action id="-16" name="Set opacity" sid="134044928808451" type="m2_2_microwaveLite">
+                            <param id="0" name="Opacity">100</param>
                         </action>
                     </actions>
                 </event-block>
@@ -92,7 +92,7 @@
                     </conditions>
                     <actions>
                         <action id="-5" name="Set width" sid="326214856272877" type="m2_2_timer">
-                            <param id="0" name="Width">128*m2_2_timer</param>
+                            <param id="0" name="Width">64*m2_2_timer</param>
                         </action>
                     </actions>
                 </event-block>
@@ -450,126 +450,117 @@
                                     <param id="0" name="Instance variable">power</param>
                                 </action>
                             </actions>
-                            <sub-events>
-                                <event-block sid="616488008869282">
-                                    <conditions>
-                                        <condition id="-8" name="Is boolean instance variable set" sid="203542861160703" type="m2_2_Lights">
-                                            <param id="0" name="Instance variable">power</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-1" name="Set X" sid="157099332675650" type="m2_2_theLight">
-                                            <param id="0" name="X">3000</param>
-                                        </action>
-                                        <action id="-16" name="Set opacity" sid="766099363285183" type="m2_2_doorCrack">
-                                            <param id="0" name="Opacity">10</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="185684605633491">
-                                    <conditions>
-                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="527980424106813" type="m2_2_Lights">
-                                            <param id="0" name="Instance variable">power</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-1" name="Set X" sid="648929427207877" type="m2_2_theLight">
-                                            <param id="0" name="X">960</param>
-                                        </action>
-                                        <action id="-16" name="Set opacity" sid="833896439056739" type="m2_2_doorCrack">
-                                            <param id="0" name="Opacity">45</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
                         </event-block>
-                        <event-block sid="183335670410342">
+                        <event-block sid="928583133265625">
                             <conditions>
-                                <condition id="17" name="On tap object" sid="280441198226675" type="Touch">
-                                    <param id="0" name="Object">m2_2_fridge</param>
-                                </condition>
+                                <condition id="-1" name="Every tick" sid="335682576652478" type="System" />
                             </conditions>
-                            <actions>
-                                <action id="-14" name="Toggle boolean" sid="686406243624414" type="m2_2_fridge">
-                                    <param id="0" name="Instance variable">opens</param>
-                                </action>
-                            </actions>
+                            <actions />
                             <sub-events>
-                                <event-block sid="810237015779406">
+                                <event-block sid="886430299175981">
                                     <conditions>
-                                        <condition id="-8" name="Is boolean instance variable set" sid="277436017736592" type="m2_2_fridge">
-                                            <param id="0" name="Instance variable">opens</param>
-                                        </condition>
-                                        <condition id="-14" name="Compare variable" sid="740048671758839" type="System">
-                                            <param id="0" name="Variable">m2_2_fridge</param>
-                                            <param id="1" name="Comparison">5</param>
-                                            <param id="2" name="Value">1</param>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="913737734432489" type="m2_2_stoveLight">
+                                            <param id="0" name="Instance variable">power</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="4" name="Set animation" sid="362475786821894" type="m2_2_fridge">
-                                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="-10" name="Set value" sid="538521226469868" type="m2_2_fridge">
-                                            <param id="0" name="Instance variable">open</param>
-                                            <param id="1" name="Value">0</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="207493176593242">
-                                    <conditions>
-                                        <condition id="-8" name="Is boolean instance variable set" sid="864116340536129" type="m2_2_fridge">
-                                            <param id="0" name="Instance variable">opens</param>
-                                        </condition>
-                                        <condition id="-14" name="Compare variable" sid="333180531750143" type="System">
-                                            <param id="0" name="Variable">m2_2_fridge</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">0</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="847235656750323" type="m2_2_fridge">
-                                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="-10" name="Set value" sid="508311337879240" type="m2_2_fridge">
+                                        <action id="-10" name="Set value" sid="907875409105908" type="m2_2_stoveLight">
                                             <param id="0" name="Instance variable">open</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
+                                        <action id="-16" name="Set opacity" sid="654665176897166" type="m2_2_stoveLightLight">
+                                            <param id="0" name="Opacity">100</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="141562873054011" type="m2_2_stoveLite">
+                                            <param id="0" name="Opacity">100</param>
+                                        </action>
                                     </actions>
                                 </event-block>
-                                <event-block sid="879438416972656">
+                                <event-block sid="379029418204202">
                                     <conditions>
-                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="394613485210244" type="m2_2_fridge">
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="569291804515973" type="m2_2_stoveLight">
+                                            <param id="0" name="Instance variable">power</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Set value" sid="187886714631292" type="m2_2_stoveLight">
+                                            <param id="0" name="Instance variable">open</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="998501112601478" type="m2_2_stoveLightLight">
+                                            <param id="0" name="Opacity">0</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="750949478651388" type="m2_2_stoveLite">
+                                            <param id="0" name="Opacity">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="611842651436747">
+                                    <conditions>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="525224575220873" type="m2_2_microwave">
+                                            <param id="0" name="Instance variable">opens</param>
+                                        </condition>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="408722537702199" type="m2_2_microwave">
+                                            <param id="0" name="Instance variable">power</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Set value" sid="520298182685453" type="m2_2_microwave">
+                                            <param id="0" name="Instance variable">open</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="922899270122511" type="m2_2_microwave">
+                                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="211960998132524" type="m2_2_microwaveLite">
+                                            <param id="0" name="Opacity">100</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="416239717010423">
+                                    <conditions>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="409307584187177" type="m2_2_microwave">
+                                            <param id="0" name="Instance variable">opens</param>
+                                        </condition>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="859605992740733" type="m2_2_microwave">
+                                            <param id="0" name="Instance variable">power</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-10" name="Set value" sid="921341144992113" type="m2_2_microwave">
+                                            <param id="0" name="Instance variable">open</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="538107713543266" type="m2_2_microwave">
+                                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="845705211755775" type="m2_2_microwaveLite">
+                                            <param id="0" name="Opacity">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="985002421584937">
+                                    <conditions>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="553002955261318" type="m2_2_microwave">
                                             <param id="0" name="Instance variable">opens</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="4" name="Set animation" sid="216492838429409" type="m2_2_fridge">
-                                            <param id="0" name="Animation">&quot;Default&quot;</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action id="-10" name="Set value" sid="748246173661650" type="m2_2_fridge">
+                                        <action id="-10" name="Set value" sid="605032616696870" type="m2_2_microwave">
                                             <param id="0" name="Instance variable">open</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
+                                        <action id="4" name="Set animation" sid="713538136115838" type="m2_2_microwave">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="993835147324910" type="m2_2_microwaveLite">
+                                            <param id="0" name="Opacity">0</param>
+                                        </action>
                                     </actions>
                                 </event-block>
-                            </sub-events>
-                        </event-block>
-                        <event-block sid="973583879575499">
-                            <conditions>
-                                <condition id="17" name="On tap object" sid="134618157396754" type="Touch">
-                                    <param id="0" name="Object">m2_2_uselessShit1</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-14" name="Toggle boolean" sid="896120201073965" type="m2_2_uselessShit1">
-                                    <param id="0" name="Instance variable">open</param>
-                                </action>
-                            </actions>
-                            <sub-events>
                                 <event-block sid="178682671100842">
                                     <conditions>
                                         <condition id="-8" name="Is boolean instance variable set" sid="240416228188441" type="m2_2_uselessShit1">
@@ -596,7 +587,141 @@
                                         </action>
                                     </actions>
                                 </event-block>
+                                <event-block sid="616488008869282">
+                                    <conditions>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="203542861160703" type="m2_2_Lights">
+                                            <param id="0" name="Instance variable">power</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Set opacity" sid="766099363285183" type="m2_2_doorCrack">
+                                            <param id="0" name="Opacity">10</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="712617063402927" type="m2_2_Lights">
+                                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-18" name="Set layer opacity" sid="382416532480754" type="System">
+                                            <param id="0" name="Layer">&quot;light&quot;</param>
+                                            <param id="1" name="Opacity">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="185684605633491">
+                                    <conditions>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="527980424106813" type="m2_2_Lights">
+                                            <param id="0" name="Instance variable">power</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Set opacity" sid="833896439056739" type="m2_2_doorCrack">
+                                            <param id="0" name="Opacity">45</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="671475441932034" type="m2_2_Lights">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-18" name="Set layer opacity" sid="692949792869798" type="System">
+                                            <param id="0" name="Layer">&quot;light&quot;</param>
+                                            <param id="1" name="Opacity">100</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="810237015779406">
+                                    <conditions>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="277436017736592" type="m2_2_fridge">
+                                            <param id="0" name="Instance variable">opens</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="740048671758839" type="System">
+                                            <param id="0" name="Variable">m2_2_fridge</param>
+                                            <param id="1" name="Comparison">5</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="362475786821894" type="m2_2_fridge">
+                                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="538521226469868" type="m2_2_fridge">
+                                            <param id="0" name="Instance variable">open</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="630959047988796" type="m2_2_fridgeLite">
+                                            <param id="0" name="Opacity">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="207493176593242">
+                                    <conditions>
+                                        <condition id="-8" name="Is boolean instance variable set" sid="864116340536129" type="m2_2_fridge">
+                                            <param id="0" name="Instance variable">opens</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="333180531750143" type="System">
+                                            <param id="0" name="Variable">m2_2_fridge</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="847235656750323" type="m2_2_fridge">
+                                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="508311337879240" type="m2_2_fridge">
+                                            <param id="0" name="Instance variable">open</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="793165601411830" type="m2_2_fridgeLite">
+                                            <param id="0" name="Opacity">100</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="879438416972656">
+                                    <conditions>
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="394613485210244" type="m2_2_fridge">
+                                            <param id="0" name="Instance variable">opens</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="4" name="Set animation" sid="216492838429409" type="m2_2_fridge">
+                                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="748246173661650" type="m2_2_fridge">
+                                            <param id="0" name="Instance variable">open</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="849918436124167" type="m2_2_fridgeLite">
+                                            <param id="0" name="Opacity">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
                             </sub-events>
+                        </event-block>
+                        <event-block sid="183335670410342">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="280441198226675" type="Touch">
+                                    <param id="0" name="Object">m2_2_fridge</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-14" name="Toggle boolean" sid="686406243624414" type="m2_2_fridge">
+                                    <param id="0" name="Instance variable">opens</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="973583879575499">
+                            <conditions>
+                                <condition id="17" name="On tap object" sid="134618157396754" type="Touch">
+                                    <param id="0" name="Object">m2_2_uselessShit1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-14" name="Toggle boolean" sid="896120201073965" type="m2_2_uselessShit1">
+                                    <param id="0" name="Instance variable">open</param>
+                                </action>
+                            </actions>
                         </event-block>
                         <event-block sid="411369756984895">
                             <conditions>
@@ -609,40 +734,6 @@
                                     <param id="0" name="Instance variable">power</param>
                                 </action>
                             </actions>
-                            <sub-events>
-                                <event-block sid="886430299175981">
-                                    <conditions>
-                                        <condition id="-8" name="Is boolean instance variable set" sid="913737734432489" type="m2_2_stoveLight">
-                                            <param id="0" name="Instance variable">power</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="907875409105908" type="m2_2_stoveLight">
-                                            <param id="0" name="Instance variable">open</param>
-                                            <param id="1" name="Value">1</param>
-                                        </action>
-                                        <action id="-16" name="Set opacity" sid="654665176897166" type="m2_2_stoveLightLight">
-                                            <param id="0" name="Opacity">100</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="379029418204202">
-                                    <conditions>
-                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="569291804515973" type="m2_2_stoveLight">
-                                            <param id="0" name="Instance variable">power</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="187886714631292" type="m2_2_stoveLight">
-                                            <param id="0" name="Instance variable">open</param>
-                                            <param id="1" name="Value">0</param>
-                                        </action>
-                                        <action id="-16" name="Set opacity" sid="998501112601478" type="m2_2_stoveLightLight">
-                                            <param id="0" name="Opacity">0</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
                         </event-block>
                         <event-block sid="288970232742592">
                             <conditions>
@@ -655,65 +746,6 @@
                                     <param id="0" name="Instance variable">opens</param>
                                 </action>
                             </actions>
-                            <sub-events>
-                                <event-block sid="611842651436747">
-                                    <conditions>
-                                        <condition id="-8" name="Is boolean instance variable set" sid="525224575220873" type="m2_2_microwave">
-                                            <param id="0" name="Instance variable">opens</param>
-                                        </condition>
-                                        <condition id="-8" name="Is boolean instance variable set" sid="408722537702199" type="m2_2_microwave">
-                                            <param id="0" name="Instance variable">power</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="520298182685453" type="m2_2_microwave">
-                                            <param id="0" name="Instance variable">open</param>
-                                            <param id="1" name="Value">1</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="922899270122511" type="m2_2_microwave">
-                                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="416239717010423">
-                                    <conditions>
-                                        <condition id="-8" name="Is boolean instance variable set" sid="409307584187177" type="m2_2_microwave">
-                                            <param id="0" name="Instance variable">opens</param>
-                                        </condition>
-                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="859605992740733" type="m2_2_microwave">
-                                            <param id="0" name="Instance variable">power</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="921341144992113" type="m2_2_microwave">
-                                            <param id="0" name="Instance variable">open</param>
-                                            <param id="1" name="Value">0</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="538107713543266" type="m2_2_microwave">
-                                            <param id="0" name="Animation">&quot;Animation2&quot;</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="985002421584937">
-                                    <conditions>
-                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="553002955261318" type="m2_2_microwave">
-                                            <param id="0" name="Instance variable">opens</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="605032616696870" type="m2_2_microwave">
-                                            <param id="0" name="Instance variable">open</param>
-                                            <param id="1" name="Value">0</param>
-                                        </action>
-                                        <action id="4" name="Set animation" sid="713538136115838" type="m2_2_microwave">
-                                            <param id="0" name="Animation">&quot;Default&quot;</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
                         </event-block>
                     </sub-events>
                 </event-group>
@@ -916,7 +948,7 @@
                             <param id="1" name="Y">600</param>
                         </action>
                         <action id="-18" name="Set layer opacity" sid="244555975876584" type="System">
-                            <param id="0" name="Layer">1</param>
+                            <param id="0" name="Layer">&quot;endGame&quot;</param>
                             <param id="1" name="Opacity">100</param>
                         </action>
                         <action id="-9" name="Destroy" sid="832807589640498" type="m2_2_timer" />

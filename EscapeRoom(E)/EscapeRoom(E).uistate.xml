@@ -11,12 +11,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Layout 1(useless)</layout>
-        <layout order="1">tutorial3</layout>
-        <layout order="3">tutorial1</layout>
-        <layout active="1" order="5">main(e)</layout>
-        <event-sheet order="2">tut3</event-sheet>
-        <event-sheet order="4">main(useless)</event-sheet>
-        <event-sheet order="6">main(e)</event-sheet>
+        <layout order="5">m2_1_tutorial3</layout>
+        <layout order="3">m2_1_tutorial1</layout>
+        <layout order="6">m2_1_main(e)</layout>
+        <layout order="4">m2_1_tutorial2</layout>
+        <event-sheet order="1">m2_1_tut3</event-sheet>
+        <event-sheet order="2">main(useless)</event-sheet>
+        <event-sheet order="7">m2_1_main(e)</event-sheet>
+        <event-sheet active="1" order="8">m2_1_tut1</event-sheet>
+        <event-sheet order="9">m2_1_tut2</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -25,8 +28,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1">
-        <family expanded="0" name="wires" />
-        <family expanded="0" name="TvWires" />
+        <family expanded="0" name="m2_1_wires" />
+        <family expanded="0" name="m2_1_TvWires" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
@@ -36,58 +39,58 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="1" path="file-folder/Icons/" />
-        <folder expanded="1" path="animation-folder/door/" />
-        <folder expanded="1" path="animation-folder/closetDoor/" />
-        <folder expanded="1" path="animation-folder/themostat/" />
-        <folder expanded="1" path="animation-folder/Tv/" />
-        <folder expanded="1" path="animation-folder/AC/" />
-        <folder expanded="1" path="animation-folder/carpet/" />
-        <folder expanded="1" path="animation-folder/lightSwitch/" />
-        <folder expanded="1" path="animation-folder/waterHeater/" />
-        <folder expanded="1" path="animation-folder/TVPlug/" />
-        <folder expanded="1" path="animation-folder/ACLight/" />
-        <folder expanded="1" path="animation-folder/theLight/" />
-        <folder expanded="1" path="animation-folder/dpprCrack/" />
-        <folder expanded="1" path="animation-folder/TvLight/" />
-        <folder expanded="1" path="animation-folder/timer/" />
-        <folder expanded="1" path="animation-folder/anchor/" />
-        <folder expanded="1" path="animation-folder/wire1/" />
-        <folder expanded="1" path="animation-folder/wire2/" />
-        <folder expanded="1" path="animation-folder/wire3/" />
-        <folder expanded="1" path="animation-folder/wire4/" />
-        <folder expanded="1" path="animation-folder/wire5/" />
-        <folder expanded="1" path="animation-folder/wire6/" />
-        <folder expanded="1" path="animation-folder/wire7/" />
-        <folder expanded="1" path="animation-folder/wire8/" />
-        <folder expanded="1" path="animation-folder/wire9/" />
-        <folder expanded="1" path="animation-folder/wire10/" />
-        <folder expanded="1" path="animation-folder/wire11/" />
-        <folder expanded="1" path="animation-folder/wire12/" />
-        <folder expanded="1" path="animation-folder/wire13/" />
-        <folder expanded="1" path="animation-folder/wire14/" />
-        <folder expanded="1" path="animation-folder/plugHole/" />
-        <folder expanded="1" path="animation-folder/star/" />
-        <folder expanded="1" path="animation-folder/star2/" />
-        <folder expanded="1" path="animation-folder/star3/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
-        <folder expanded="1" path="animation-folder/hint/" />
-        <folder expanded="1" path="animation-folder/hint2/" />
-        <folder expanded="1" path="animation-folder/hint3/" />
-        <folder expanded="1" path="animation-folder/hint4/" />
-        <folder expanded="1" path="animation-folder/BG/" />
-        <folder expanded="1" path="animation-folder/boilerLight/" />
-        <folder expanded="1" path="animation-folder/TvWire/" />
-        <folder expanded="1" path="animation-folder/CLICKER/" />
-        <folder expanded="1" path="animation-folder/flashy/" />
-        <folder expanded="1" path="animation-folder/flashy2/" />
-        <folder expanded="1" path="animation-folder/endMenu/" />
-        <folder expanded="1" path="animation-folder/endBlur/" />
-        <folder expanded="1" path="animation-folder/retry/" />
-        <folder expanded="1" path="animation-folder/exit/" />
-        <folder expanded="1" path="animation-folder/endHolder/" />
-        <folder expanded="1" path="animation-folder/menuHolder/" />
-        <folder expanded="1" path="animation-folder/timerHolder/" />
-        <folder expanded="1" path="animation-folder/timerX2/" />
-        <folder expanded="1" path="animation-folder/key/" />
+        <folder expanded="1" path="animation-folder/m2_1_door/" />
+        <folder expanded="1" path="animation-folder/m2_1_closetDoor/" />
+        <folder expanded="1" path="animation-folder/m2_1_themostat/" />
+        <folder expanded="1" path="animation-folder/m2_1_Tv/" />
+        <folder expanded="1" path="animation-folder/m2_1_AC/" />
+        <folder expanded="1" path="animation-folder/m2_1_carpet/" />
+        <folder expanded="1" path="animation-folder/m2_1_lightSwitch/" />
+        <folder expanded="1" path="animation-folder/m2_1_waterHeater/" />
+        <folder expanded="1" path="animation-folder/m2_1_TVPlug/" />
+        <folder expanded="1" path="animation-folder/m2_1_ACLight/" />
+        <folder expanded="1" path="animation-folder/m2_1theLight/" />
+        <folder expanded="1" path="animation-folder/m2_1_dpprCrack/" />
+        <folder expanded="1" path="animation-folder/m2_1_TvLight/" />
+        <folder expanded="1" path="animation-folder/m2_1_timer/" />
+        <folder expanded="1" path="animation-folder/m2_1_anchor/" />
+        <folder expanded="1" path="animation-folder/m2_1_wire1/" />
+        <folder expanded="1" path="animation-folder/m2_1_wire2/" />
+        <folder expanded="1" path="animation-folder/m2_1_wire3/" />
+        <folder expanded="1" path="animation-folder/m2_1_wire4/" />
+        <folder expanded="1" path="animation-folder/m2_1_wire5/" />
+        <folder expanded="1" path="animation-folder/m2_1_wire6/" />
+        <folder expanded="1" path="animation-folder/m2_1_wire7/" />
+        <folder expanded="1" path="animation-folder/m2_1_wire8/" />
+        <folder expanded="1" path="animation-folder/m2_1_wire9/" />
+        <folder expanded="1" path="animation-folder/m2_1_wire10/" />
+        <folder expanded="1" path="animation-folder/m2_1_wire11/" />
+        <folder expanded="1" path="animation-folder/m2_1_wire12/" />
+        <folder expanded="1" path="animation-folder/m2_1_wire13/" />
+        <folder expanded="1" path="animation-folder/m2_1_wire14/" />
+        <folder expanded="1" path="animation-folder/m2_1_plugHole/" />
+        <folder expanded="1" path="animation-folder/m2_1_star/" />
+        <folder expanded="1" path="animation-folder/m2_1_star2/" />
+        <folder expanded="1" path="animation-folder/m2_1_star3/" />
+        <folder expanded="1" path="animation-folder/m2_1_Sprite/" />
+        <folder expanded="1" path="animation-folder/m2_1_hint/" />
+        <folder expanded="1" path="animation-folder/m2_1_hint2/" />
+        <folder expanded="1" path="animation-folder/m2_1_hint3/" />
+        <folder expanded="1" path="animation-folder/m2_1_hint4/" />
+        <folder expanded="1" path="animation-folder/m2_1_BG/" />
+        <folder expanded="1" path="animation-folder/m2_1_boilerLight/" />
+        <folder expanded="1" path="animation-folder/m2_1_TvWire/" />
+        <folder expanded="1" path="animation-folder/m2_1_CLICKER/" />
+        <folder expanded="1" path="animation-folder/m2_1_flashy/" />
+        <folder expanded="1" path="animation-folder/m2_1_flashy2/" />
+        <folder expanded="1" path="animation-folder/m2_1_endMenu/" />
+        <folder expanded="1" path="animation-folder/m2_1_endBlur/" />
+        <folder expanded="1" path="animation-folder/m2_1_retry/" />
+        <folder expanded="1" path="animation-folder/m2_1_exit/" />
+        <folder expanded="1" path="animation-folder/m2_1_endHolder/" />
+        <folder expanded="1" path="animation-folder/m2_1_menuHolder/" />
+        <folder expanded="1" path="animation-folder/m2_1_timerHolder/" />
+        <folder expanded="1" path="animation-folder/m2_1_timerX2/" />
+        <folder expanded="1" path="animation-folder/m2_1_key/" />
     </folders-expanded>
 </c2uistate>

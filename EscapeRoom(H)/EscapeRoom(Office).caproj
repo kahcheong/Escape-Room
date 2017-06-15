@@ -65,10 +65,16 @@
                 <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="674649929672180" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\box opened (680 x 470).png">
                         <collision-poly>
-                            <point x="0.00882353" y="0.012766" />
-                            <point x="0.991176" y="0.012766" />
-                            <point x="0.991176" y="0.987234" />
-                            <point x="0.00882353" y="0.987234" />
+                            <point x="0" y="0" />
+                            <point x="0.170588" y="0" />
+                            <point x="0.161764" y="0.919149" />
+                            <point x="0.826471" y="0.931915" />
+                            <point x="0.830882" y="0.142553" />
+                            <point x="0.177206" y="0.124468" />
+                            <point x="0.18125" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -78,17 +84,11 @@
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="open" sid="701329375247323" type="boolean" />
+                <instance-variable name="password" sid="391640752245407" type="number" />
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="925391781462094" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.506667" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\book closed (100 x 150).png">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="0.55" y="0" />
-                            <point x="0.545" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="1" hotspotY="0.506667" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\book closed (100 x 150).png" />
                 </animation>
                 <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="452256094158773" speed="5">
                     <frame duration="1" hotspotX="1" hotspotY="0.506667" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\book opened (200 x 150).png" />
@@ -137,8 +137,15 @@
         </object-type>
         <object-type name="m2_3_monitor" sid="704107188469260">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="power" sid="106915885873472" type="boolean" />
+                <instance-variable name="lock" sid="467788444548092" type="number" />
+            </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="353970354502180" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\monitor (430 x 466).png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="890373151730944" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\monitor (430 x 466).png" />
                 </animation>
             </animation-folder>
@@ -219,6 +226,9 @@
         </object-type>
         <object-type name="m2_3_nightLight" sid="163489075241341">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="power" sid="438453035344170" type="boolean" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="DragDrop" sid="579095582038691">
                     <behavior id="DragnDrop" />
@@ -258,10 +268,13 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="204337889412556" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\fan off (150 x 200).png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\fan off (150 x 200).png">
+                        <image-point name="Imagepoint 1" x="0.366667" y="0.925" />
+                    </frame>
                 </animation>
                 <animation framecount="4" loop="0" name="med" pingpong="0" repeatcount="1" repeatto="0" sid="543291304351742" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\fan\fan on med frame 1.png">
+                        <image-point name="Imagepoint 1" x="0.366667" y="0.925" />
                         <collision-poly>
                             <point x="0.366667" y="0.275" />
                             <point x="0.5" y="0.275" />
@@ -274,6 +287,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\fan\fan on med frame 2.png">
+                        <image-point name="Imagepoint 1" x="0.366667" y="0.925" />
                         <collision-poly>
                             <point x="0.366667" y="0.275" />
                             <point x="0.5" y="0.275" />
@@ -286,6 +300,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\fan\fan on med frame 3.png">
+                        <image-point name="Imagepoint 1" x="0.366667" y="0.925" />
                         <collision-poly>
                             <point x="0.366667" y="0.275" />
                             <point x="0.5" y="0.275" />
@@ -298,6 +313,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\fan\fan on med frame 4.png">
+                        <image-point name="Imagepoint 1" x="0.366667" y="0.925" />
                         <collision-poly>
                             <point x="0.366667" y="0.275" />
                             <point x="0.5" y="0.275" />
@@ -312,6 +328,7 @@
                 </animation>
                 <animation framecount="4" loop="0" name="high" pingpong="0" repeatcount="1" repeatto="0" sid="194113473028783" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\fan\fan on high frame 1.png">
+                        <image-point name="Imagepoint 1" x="0.366667" y="0.925" />
                         <collision-poly>
                             <point x="0.366667" y="0.275" />
                             <point x="0.5" y="0.275" />
@@ -324,6 +341,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\fan\fan on high frame 2.png">
+                        <image-point name="Imagepoint 1" x="0.366667" y="0.925" />
                         <collision-poly>
                             <point x="0.366667" y="0.275" />
                             <point x="0.5" y="0.275" />
@@ -336,6 +354,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\fan\fan on high frame 3.png">
+                        <image-point name="Imagepoint 1" x="0.366667" y="0.925" />
                         <collision-poly>
                             <point x="0.366667" y="0.275" />
                             <point x="0.5" y="0.275" />
@@ -348,6 +367,7 @@
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\fan\fan on high frame 4.png">
+                        <image-point name="Imagepoint 1" x="0.366667" y="0.925" />
                         <collision-poly>
                             <point x="0.366667" y="0.275" />
                             <point x="0.5" y="0.275" />
@@ -380,17 +400,18 @@
         </object-type>
         <object-type name="m2_3_Modem" sid="999841578874514">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="power" sid="197571790572108" type="boolean" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Physics" sid="787261125716390">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="632633587377791" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\modem.png">
-                        <collision-poly>
-                            <point x="0.27" y="0.135" />
-                            <point x="0.5" y="0.07" />
-                            <point x="0.74" y="0.13" />
-                            <point x="0.74" y="0.87" />
-                            <point x="0.5" y="1" />
-                            <point x="0.27" y="0.865" />
-                        </collision-poly>
+                        <image-point name="Imagepoint 1" x="0.5" y="0.75" />
                     </frame>
                 </animation>
             </animation-folder>
@@ -487,6 +508,19 @@
                         </collision-poly>
                     </frame>
                 </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="586776780206379" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\star full (new).png">
+                        <collision-poly>
+                            <point x="0.336" y="0.336" />
+                            <point x="0.5" y="0.044" />
+                            <point x="0.668" y="0.332" />
+                            <point x="0.916" y="0.5" />
+                            <point x="0.808" y="0.808" />
+                            <point x="0.212" y="0.788" />
+                            <point x="0.096" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="m2_3_star2" sid="630047065596417">
@@ -505,6 +539,19 @@
                         </collision-poly>
                     </frame>
                 </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="214475496646044" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\star full (new).png">
+                        <collision-poly>
+                            <point x="0.336" y="0.336" />
+                            <point x="0.5" y="0.044" />
+                            <point x="0.668" y="0.332" />
+                            <point x="0.916" y="0.5" />
+                            <point x="0.808" y="0.808" />
+                            <point x="0.212" y="0.788" />
+                            <point x="0.096" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="m2_3_star3" sid="830385769114521">
@@ -512,6 +559,19 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="672862646606131" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\empty star (new).png">
+                        <collision-poly>
+                            <point x="0.336" y="0.336" />
+                            <point x="0.5" y="0.044" />
+                            <point x="0.668" y="0.332" />
+                            <point x="0.916" y="0.5" />
+                            <point x="0.808" y="0.808" />
+                            <point x="0.212" y="0.788" />
+                            <point x="0.096" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="422449090972693" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\star full (new).png">
                         <collision-poly>
                             <point x="0.336" y="0.336" />
                             <point x="0.5" y="0.044" />
@@ -801,7 +861,7 @@
                 <animation framecount="1" loop="0" name="a4" pingpong="0" repeatcount="1" repeatto="0" sid="833717491053568" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.496" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\padlock strip (each number_ 261 x 124_ png size_ 1305 x 124).png" />
                 </animation>
-                <animation framecount="1" loop="0" name="a0" pingpong="0" repeatcount="1" repeatto="0" sid="983060145455181" speed="5">
+                <animation framecount="1" loop="0" name="a5" pingpong="0" repeatcount="1" repeatto="0" sid="983060145455181" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.496" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\padlock strip (each number_ 261 x 124_ png size_ 1305 x 124).png" />
                 </animation>
             </animation-folder>
@@ -858,13 +918,43 @@
         <object-type name="m2_3_zoomPCMenu" sid="576899363771783">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="765386739764547" speed="5">
+                <animation framecount="1" loop="0" name="a1" pingpong="0" repeatcount="1" repeatto="0" sid="765386739764547" speed="5">
                     <frame duration="1" hotspotX="0.500412" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\monitor window (1213 x 808).png">
                         <collision-poly>
-                            <point x="0.0016488" y="0.00247525" />
-                            <point x="0.998351" y="0.00247525" />
-                            <point x="0.998351" y="0.997525" />
-                            <point x="0.0016488" y="0.997525" />
+                            <point x="0.939819" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.0965348" />
+                            <point x="0.940643" y="0.101485" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="a2" pingpong="0" repeatcount="1" repeatto="0" sid="316882767917486" speed="5">
+                    <frame duration="1" hotspotX="0.500412" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\monitor window (1213 x 808).png">
+                        <collision-poly>
+                            <point x="0.943116" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.089109" />
+                            <point x="0.944765" y="0.0717822" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="a3" pingpong="0" repeatcount="1" repeatto="0" sid="702767644428725" speed="5">
+                    <frame duration="1" hotspotX="0.500412" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\monitor window (1213 x 808).png">
+                        <collision-poly>
+                            <point x="0.939819" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.0965348" />
+                            <point x="0.940643" y="0.101485" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="a0" pingpong="0" repeatcount="1" repeatto="0" sid="214560087231825" speed="5">
+                    <frame duration="1" hotspotX="0.500412" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\monitor window (1213 x 808).png">
+                        <collision-poly>
+                            <point x="0.939819" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.0965348" />
+                            <point x="0.940643" y="0.101485" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -913,18 +1003,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="275716063281352" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\power plug in socket .png">
-                        <collision-poly>
-                            <point x="0.175" y="0.175" />
-                            <point x="0.5" y="0" />
-                            <point x="0.825" y="0.175" />
-                            <point x="1" y="0.5" />
-                            <point x="0.9" y="0.9" />
-                            <point x="0.5" y="1" />
-                            <point x="0.1" y="0.9" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\power plug in socket .png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -945,18 +1024,226 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="736031863059821" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\power plug in socket .png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\power plug in socket .png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_fanWire" sid="768152777046181">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="455384961265994" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\wires.png">
                         <collision-poly>
-                            <point x="0.175" y="0.175" />
-                            <point x="0.5" y="0" />
-                            <point x="0.825" y="0.175" />
-                            <point x="1" y="0.5" />
-                            <point x="0.9" y="0.9" />
-                            <point x="0.5" y="1" />
-                            <point x="0.1" y="0.9" />
-                            <point x="0" y="0.5" />
+                            <point x="0.312" y="0.312" />
+                            <point x="0.688" y="0.312" />
+                            <point x="0.888" y="0.5" />
+                            <point x="0.688" y="0.688" />
+                            <point x="0.312" y="0.688" />
+                            <point x="0.112" y="0.5" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_towerWire" sid="290845418506178">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708453192354065" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\wires.png">
+                        <collision-poly>
+                            <point x="0.312" y="0.312" />
+                            <point x="0.688" y="0.312" />
+                            <point x="0.888" y="0.5" />
+                            <point x="0.688" y="0.688" />
+                            <point x="0.312" y="0.688" />
+                            <point x="0.112" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_towerPlug" sid="783740860884024">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="749391702382457">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="779364600530249" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\power plug side (40 x 40).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_monitorPlug" sid="446218270608415">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="956322993826693">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="573759778109995" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\power plug side (40 x 40).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_modemPlug" sid="131879550942281">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="198157683755689">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="559572517878928" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\power plug side (40 x 40).png">
+                        <image-point name="Imagepoint 1" x="0.5" y="0.833333" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_floor" sid="190773087562514">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="639865306833329">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="775169196422424" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_cupbored" sid="600051072361953">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="684976701980204" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\office\box opened (680 x 470).png">
+                        <collision-poly>
+                            <point x="0.00882353" y="0.012766" />
+                            <point x="0.991176" y="0.012766" />
+                            <point x="0.991176" y="0.987234" />
+                            <point x="0.00882353" y="0.987234" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_monitorWire" sid="503540606100733">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="717561771051304" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\wires.png">
+                        <collision-poly>
+                            <point x="0.312" y="0.312" />
+                            <point x="0.688" y="0.312" />
+                            <point x="0.888" y="0.5" />
+                            <point x="0.688" y="0.688" />
+                            <point x="0.312" y="0.688" />
+                            <point x="0.112" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_zoomPcExit" sid="962893860100661">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="688957487410752" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Exit1.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="758430347593932" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Exit2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_zoomPassword" sid="204729602005012">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="m2_3_monitorProg" sid="587004811332573">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="904978318470889" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_monitorProgress" sid="155782771825944">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="m2_3_bookDisplay" sid="642074909453832">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="m2_3_modemWire" sid="548497671422194">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="986763140534473" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\wires.png">
+                        <collision-poly>
+                            <point x="0.312" y="0.312" />
+                            <point x="0.688" y="0.312" />
+                            <point x="0.888" y="0.5" />
+                            <point x="0.688" y="0.688" />
+                            <point x="0.312" y="0.688" />
+                            <point x="0.112" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_modemLight" sid="976844817581515">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="394880163631553" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\power light (32 x 32).png">
+                        <collision-poly>
+                            <point x="0.3125" y="0.3125" />
+                            <point x="0.5" y="0.21875" />
+                            <point x="0.6875" y="0.3125" />
+                            <point x="0.8125" y="0.5" />
+                            <point x="0.71875" y="0.71875" />
+                            <point x="0.5" y="0.8125" />
+                            <point x="0.28125" y="0.71875" />
+                            <point x="0.1875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_monitorLight" sid="420757094665560">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="280278801412817" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\power light (32 x 32).png">
+                        <collision-poly>
+                            <point x="0.3125" y="0.3125" />
+                            <point x="0.5" y="0.21875" />
+                            <point x="0.6875" y="0.3125" />
+                            <point x="0.8125" y="0.5" />
+                            <point x="0.71875" y="0.71875" />
+                            <point x="0.5" y="0.8125" />
+                            <point x="0.28125" y="0.71875" />
+                            <point x="0.1875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_NiteLite2" sid="776615780642765">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="191114758479494" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_3_monitorLite" sid="275793951254749">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="316996730481427" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -971,6 +1258,58 @@
             </instance-variables>
             <behaviors>
                 <behavior-type name="Physics" sid="841532605895742">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="m2_3_fanWires" plugin-id="Sprite" sid="155431435312312">
+            <members>
+                <member>m2_3_fanWire</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="number" sid="480915398468897" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Physics" sid="988373787957648">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="m2_3_towerWires" plugin-id="Sprite" sid="419527280649478">
+            <members>
+                <member>m2_3_towerWire</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="number" sid="393089314203282" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Physics" sid="460815713858769">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="m2_3_monitorWires" plugin-id="Sprite" sid="776229627297722">
+            <members>
+                <member>m2_3_monitorWire</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="number" sid="852245491827735" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Physics" sid="337236596263850">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="m2_3_modemWires" plugin-id="Sprite" sid="341899598235259">
+            <members>
+                <member>m2_3_modemWire</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="number" sid="707899619276585" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Physics" sid="618698464455047">
                     <behavior id="Physics" />
                 </behavior-type>
             </behaviors>

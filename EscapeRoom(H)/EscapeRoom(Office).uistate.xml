@@ -21,6 +21,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1">
         <family expanded="0" name="m2_3_nightLightWires" />
+        <family expanded="0" name="m2_3_fanWires" />
+        <family expanded="0" name="m2_3_towerWires" />
+        <family expanded="0" name="m2_3_monitorWires" />
+        <family expanded="0" name="m2_3_modemWires" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
@@ -79,5 +83,20 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/m2_3_nightLightPlug/" />
         <folder expanded="1" path="animation-folder/m2_3_nightLightWire/" />
         <folder expanded="1" path="animation-folder/m2_3_fanPlug/" />
+        <folder expanded="1" path="animation-folder/m2_3_fanWire/" />
+        <folder expanded="1" path="animation-folder/m2_3_towerWire/" />
+        <folder expanded="1" path="animation-folder/m2_3_towerPlug/" />
+        <folder expanded="1" path="animation-folder/m2_3_monitorPlug/" />
+        <folder expanded="1" path="animation-folder/m2_3_modemPlug/" />
+        <folder expanded="1" path="animation-folder/m2_3_floor/" />
+        <folder expanded="1" path="animation-folder/m2_3_cupbored/" />
+        <folder expanded="1" path="animation-folder/m2_3_monitorWire/" />
+        <folder expanded="1" path="animation-folder/m2_3_zoomPcExit/" />
+        <folder expanded="1" path="animation-folder/m2_3_monitorProg/" />
+        <folder expanded="1" path="animation-folder/m2_3_modemWire/" />
+        <folder expanded="1" path="animation-folder/m2_3_modemLight/" />
+        <folder expanded="1" path="animation-folder/m2_3_monitorLight/" />
+        <folder expanded="1" path="animation-folder/m2_3_NiteLite2/" />
+        <folder expanded="1" path="animation-folder/m2_3_monitorLite/" />
     </folders-expanded>
 </c2uistate>

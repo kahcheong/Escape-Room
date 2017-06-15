@@ -17,23 +17,23 @@
                     </conditions>
                     <actions>
                         <action id="-21" name="Reset global variables" sid="195037564618546" type="System" />
-                        <action id="-16" name="Set opacity" sid="897524134922389" type="hint">
+                        <action id="-16" name="Set opacity" sid="897524134922389" type="m2_1_hint">
                             <param id="0" name="Opacity">0</param>
                         </action>
-                        <action id="-16" name="Set opacity" sid="521486223820706" type="hint2">
+                        <action id="-16" name="Set opacity" sid="521486223820706" type="m2_1_hint2">
                             <param id="0" name="Opacity">0</param>
                         </action>
-                        <action id="-16" name="Set opacity" sid="317727814672040" type="hint3">
+                        <action id="-16" name="Set opacity" sid="317727814672040" type="m2_1_hint3">
                             <param id="0" name="Opacity">0</param>
                         </action>
-                        <action id="-16" name="Set opacity" sid="723720244127554" type="hint4">
+                        <action id="-16" name="Set opacity" sid="723720244127554" type="m2_1_hint4">
                             <param id="0" name="Opacity">0</param>
                         </action>
                         <action id="-18" name="Set layer opacity" sid="117297202979021" type="System">
                             <param id="0" name="Layer">1</param>
                             <param id="1" name="Opacity">0</param>
                         </action>
-                        <action id="-3" name="Set position" sid="524732485230886" type="endBlur">
+                        <action id="-3" name="Set position" sid="524732485230886" type="m2_1_endBlur">
                             <param id="0" name="X">960</param>
                             <param id="1" name="Y">600</param>
                         </action>
@@ -72,7 +72,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-5" name="Set width" sid="949314745979384" type="timer">
+                        <action id="-5" name="Set width" sid="949314745979384" type="m2_1_timer">
                             <param id="0" name="Width">128*timer</param>
                         </action>
                     </actions>
@@ -80,7 +80,7 @@
                 <event-block sid="121445158978532">
                     <conditions>
                         <condition id="17" name="On tap object" sid="932656195614269" type="Touch">
-                            <param id="0" name="Object">door</param>
+                            <param id="0" name="Object">m2_1_door</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="929213438979764" type="System">
                             <param id="0" name="Variable">playing</param>
@@ -141,96 +141,96 @@
                     <sub-events>
                         <event-block sid="222183088452548">
                             <conditions>
-                                <condition id="-8" name="Is boolean instance variable set" sid="762676509445348" type="lightSwitch">
+                                <condition id="-8" name="Is boolean instance variable set" sid="762676509445348" type="m2_1_lightSwitch">
                                     <param id="0" name="Instance variable">power</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-16" name="Set opacity" sid="959093028558680" type="hint">
+                                <action id="-16" name="Set opacity" sid="959093028558680" type="m2_1_hint">
                                     <param id="0" name="Opacity">100</param>
                                 </action>
                             </actions>
                         </event-block>
                         <event-block sid="642198002999675">
                             <conditions>
-                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="620191405262005" type="lightSwitch">
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="620191405262005" type="m2_1_lightSwitch">
                                     <param id="0" name="Instance variable">power</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-16" name="Set opacity" sid="250229400723112" type="hint">
+                                <action id="-16" name="Set opacity" sid="250229400723112" type="m2_1_hint">
                                     <param id="0" name="Opacity">0</param>
                                 </action>
                             </actions>
                         </event-block>
                         <event-block sid="929554890139795">
                             <conditions>
-                                <condition id="-8" name="Is boolean instance variable set" sid="795367023044254" type="themostat">
+                                <condition id="-8" name="Is boolean instance variable set" sid="795367023044254" type="m2_1_themostat">
                                     <param id="0" name="Instance variable">power</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-16" name="Set opacity" sid="943610406677257" type="hint2">
+                                <action id="-16" name="Set opacity" sid="943610406677257" type="m2_1_hint2">
                                     <param id="0" name="Opacity">100</param>
                                 </action>
                             </actions>
                         </event-block>
                         <event-block sid="262117838561026">
                             <conditions>
-                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="366623089784365" type="themostat">
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="366623089784365" type="m2_1_themostat">
                                     <param id="0" name="Instance variable">power</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-16" name="Set opacity" sid="810355496342515" type="hint2">
+                                <action id="-16" name="Set opacity" sid="810355496342515" type="m2_1_hint2">
                                     <param id="0" name="Opacity">0</param>
                                 </action>
                             </actions>
                         </event-block>
                         <event-block sid="695064395521841">
                             <conditions>
-                                <condition id="-8" name="Is boolean instance variable set" sid="771116664215556" type="Tv">
+                                <condition id="-8" name="Is boolean instance variable set" sid="771116664215556" type="m2_1_Tv">
                                     <param id="0" name="Instance variable">power</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-16" name="Set opacity" sid="591096385823942" type="hint3">
+                                <action id="-16" name="Set opacity" sid="591096385823942" type="m2_1_hint3">
                                     <param id="0" name="Opacity">100</param>
                                 </action>
                             </actions>
                         </event-block>
                         <event-block sid="480690058788472">
                             <conditions>
-                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="738218496710480" type="Tv">
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="738218496710480" type="m2_1_Tv">
                                     <param id="0" name="Instance variable">power</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-16" name="Set opacity" sid="752378540254121" type="hint3">
+                                <action id="-16" name="Set opacity" sid="752378540254121" type="m2_1_hint3">
                                     <param id="0" name="Opacity">0</param>
                                 </action>
                             </actions>
                         </event-block>
                         <event-block sid="240983065623488">
                             <conditions>
-                                <condition id="-8" name="Is boolean instance variable set" sid="702788202147711" type="waterHeater">
+                                <condition id="-8" name="Is boolean instance variable set" sid="702788202147711" type="m2_1_waterHeater">
                                     <param id="0" name="Instance variable">power</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-16" name="Set opacity" sid="483666453604300" type="hint4">
+                                <action id="-16" name="Set opacity" sid="483666453604300" type="m2_1_hint4">
                                     <param id="0" name="Opacity">100</param>
                                 </action>
                             </actions>
                         </event-block>
                         <event-block sid="567012554346812">
                             <conditions>
-                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="155435654587415" type="waterHeater">
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="155435654587415" type="m2_1_waterHeater">
                                     <param id="0" name="Instance variable">power</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-16" name="Set opacity" sid="247475226036493" type="hint4">
+                                <action id="-16" name="Set opacity" sid="247475226036493" type="m2_1_hint4">
                                     <param id="0" name="Opacity">0</param>
                                 </action>
                             </actions>
@@ -273,57 +273,57 @@
                         <event-block sid="792969538240909">
                             <conditions>
                                 <condition id="17" name="On tap object" sid="818272037003645" type="Touch">
-                                    <param id="0" name="Object">closetDoor</param>
+                                    <param id="0" name="Object">m2_1_closetDoor</param>
                                 </condition>
-                                <condition id="-8" name="Is boolean instance variable set" sid="472689575029716" type="closetDoor">
+                                <condition id="-8" name="Is boolean instance variable set" sid="472689575029716" type="m2_1_closetDoor">
                                     <param id="0" name="Instance variable">open</param>
                                 </condition>
                                 <condition id="4" inverted="1" name="Is touching object" sid="475730816428955" type="Touch">
-                                    <param id="0" name="Object">waterHeater</param>
+                                    <param id="0" name="Object">m2_1_waterHeater</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-13" name="Set boolean" sid="375188718191481" type="closetDoor">
+                                <action id="-13" name="Set boolean" sid="375188718191481" type="m2_1_closetDoor">
                                     <param id="0" name="Instance variable">open</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
-                                <action id="-29" name="Move to object" sid="250440236647029" type="closetDoor">
+                                <action id="-29" name="Move to object" sid="250440236647029" type="m2_1_closetDoor">
                                     <param id="0" name="Where">0</param>
-                                    <param id="1" name="Object">waterHeater</param>
+                                    <param id="1" name="Object">m2_1_waterHeater</param>
                                 </action>
-                                <action id="4" name="Set animation" sid="237466787596930" type="closetDoor">
+                                <action id="4" name="Set animation" sid="237466787596930" type="m2_1_closetDoor">
                                     <param id="0" name="Animation">&quot;Default&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
-                                <action id="-29" name="Move to object" sid="683611453704194" type="boilerLight">
+                                <action id="-29" name="Move to object" sid="683611453704194" type="m2_1_boilerLight">
                                     <param id="0" name="Where">1</param>
-                                    <param id="1" name="Object">closetDoor</param>
+                                    <param id="1" name="Object">m2_1_closetDoor</param>
                                 </action>
                             </actions>
                         </event-block>
                         <event-block sid="126682690461622">
                             <conditions>
                                 <condition id="17" name="On tap object" sid="207031041826220" type="Touch">
-                                    <param id="0" name="Object">closetDoor</param>
+                                    <param id="0" name="Object">m2_1_closetDoor</param>
                                 </condition>
-                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="819703074989120" type="closetDoor">
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="819703074989120" type="m2_1_closetDoor">
                                     <param id="0" name="Instance variable">open</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-29" name="Move to object" sid="445277447876938" type="closetDoor">
+                                <action id="-29" name="Move to object" sid="445277447876938" type="m2_1_closetDoor">
                                     <param id="0" name="Where">1</param>
-                                    <param id="1" name="Object">waterHeater</param>
+                                    <param id="1" name="Object">m2_1_waterHeater</param>
                                 </action>
-                                <action id="4" name="Set animation" sid="575812344799681" type="closetDoor">
+                                <action id="4" name="Set animation" sid="575812344799681" type="m2_1_closetDoor">
                                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
-                                <action id="-24" name="Move to top" sid="876283687359520" type="boilerLight" />
+                                <action id="-24" name="Move to top" sid="876283687359520" type="m2_1_boilerLight" />
                                 <action id="-16" name="Wait" sid="342080269534588" type="System">
                                     <param id="0" name="Seconds">0.01</param>
                                 </action>
-                                <action id="-13" name="Set boolean" sid="877003911433146" type="closetDoor">
+                                <action id="-13" name="Set boolean" sid="877003911433146" type="m2_1_closetDoor">
                                     <param id="0" name="Instance variable">open</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
@@ -342,14 +342,14 @@
                         <event-block sid="605504766249656">
                             <conditions>
                                 <condition id="17" name="On tap object" sid="170131635216768" type="Touch">
-                                    <param id="0" name="Object">waterHeater</param>
+                                    <param id="0" name="Object">m2_1_waterHeater</param>
                                 </condition>
-                                <condition id="-8" name="Is boolean instance variable set" sid="665421924848289" type="closetDoor">
+                                <condition id="-8" name="Is boolean instance variable set" sid="665421924848289" type="m2_1_closetDoor">
                                     <param id="0" name="Instance variable">open</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-14" name="Toggle boolean" sid="131214842482331" type="waterHeater">
+                                <action id="-14" name="Toggle boolean" sid="131214842482331" type="m2_1_waterHeater">
                                     <param id="0" name="Instance variable">power</param>
                                 </action>
                                 <action id="0" name="Play" sid="593191622453453" type="Audio">
@@ -362,12 +362,12 @@
                             <sub-events>
                                 <event-block sid="539052244953406">
                                     <conditions>
-                                        <condition id="-8" name="Is boolean instance variable set" sid="143984229341145" type="waterHeater">
+                                        <condition id="-8" name="Is boolean instance variable set" sid="143984229341145" type="m2_1_waterHeater">
                                             <param id="0" name="Instance variable">power</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-16" name="Set opacity" sid="804507331750102" type="boilerLight">
+                                        <action id="-16" name="Set opacity" sid="804507331750102" type="m2_1_boilerLight">
                                             <param id="0" name="Opacity">100</param>
                                         </action>
                                         <action id="-11" name="Subtract from" sid="171269516607328" type="System">
@@ -382,12 +382,12 @@
                                 </event-block>
                                 <event-block sid="384200360422947">
                                     <conditions>
-                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="528964613262206" type="waterHeater">
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="528964613262206" type="m2_1_waterHeater">
                                             <param id="0" name="Instance variable">power</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-16" name="Set opacity" sid="472682508747534" type="boilerLight">
+                                        <action id="-16" name="Set opacity" sid="472682508747534" type="m2_1_boilerLight">
                                             <param id="0" name="Opacity">0</param>
                                         </action>
                                         <action id="-10" name="Add to" sid="824559086797223" type="System">
@@ -409,14 +409,14 @@
                         <event-block sid="816519912609953">
                             <conditions>
                                 <condition id="17" name="On tap object" sid="840430763205787" type="Touch">
-                                    <param id="0" name="Object">TVPlug</param>
+                                    <param id="0" name="Object">m2_1_TVPlug</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action behavior="Physics" id="21" name="Set immovable" sid="148275535119530" type="plugHole">
+                                <action behavior="Physics" id="21" name="Set immovable" sid="148275535119530" type="m2_1_plugHole">
                                     <param id="0" name="Setting">0</param>
                                 </action>
-                                <action id="-13" name="Set boolean" sid="464709298145672" type="Tv">
+                                <action id="-13" name="Set boolean" sid="464709298145672" type="m2_1_Tv">
                                     <param id="0" name="Instance variable">power</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
@@ -424,12 +424,12 @@
                             <sub-events>
                                 <event-block sid="787211880072869">
                                     <conditions>
-                                        <condition id="-8" name="Is boolean instance variable set" sid="787938284884313" type="Tv">
+                                        <condition id="-8" name="Is boolean instance variable set" sid="787938284884313" type="m2_1_Tv">
                                             <param id="0" name="Instance variable">power</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-16" name="Set opacity" sid="933374133692309" type="TvLight">
+                                        <action id="-16" name="Set opacity" sid="933374133692309" type="m2_1_TvLight">
                                             <param id="0" name="Opacity">100</param>
                                         </action>
                                         <action id="-11" name="Subtract from" sid="931897324184423" type="System">
@@ -440,12 +440,12 @@
                                 </event-block>
                                 <event-block sid="966521844943054">
                                     <conditions>
-                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="426871841293782" type="Tv">
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="426871841293782" type="m2_1_Tv">
                                             <param id="0" name="Instance variable">power</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-16" name="Set opacity" sid="227259581352670" type="TvLight">
+                                        <action id="-16" name="Set opacity" sid="227259581352670" type="m2_1_TvLight">
                                             <param id="0" name="Opacity">0</param>
                                         </action>
                                         <action id="-10" name="Add to" sid="652707014256994" type="System">
@@ -468,18 +468,18 @@
                     <sub-events>
                         <event-block sid="144619784216949">
                             <conditions>
-                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="466310743428111" type="lightSwitch">
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="466310743428111" type="m2_1_lightSwitch">
                                     <param id="0" name="Instance variable">power</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-16" name="Set opacity" sid="147399083274621" type="theLight">
+                                <action id="-16" name="Set opacity" sid="147399083274621" type="m2_1theLight">
                                     <param id="0" name="Opacity">95</param>
                                 </action>
-                                <action id="-16" name="Set opacity" sid="164923995302810" type="dpprCrack">
+                                <action id="-16" name="Set opacity" sid="164923995302810" type="m2_1_dpprCrack">
                                     <param id="0" name="Opacity">100</param>
                                 </action>
-                                <action id="4" name="Set animation" sid="183879161197153" type="lightSwitch">
+                                <action id="4" name="Set animation" sid="183879161197153" type="m2_1_lightSwitch">
                                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
@@ -487,22 +487,22 @@
                         </event-block>
                         <event-block sid="544788746155317">
                             <conditions>
-                                <condition id="-8" name="Is boolean instance variable set" sid="891505436120582" type="lightSwitch">
+                                <condition id="-8" name="Is boolean instance variable set" sid="891505436120582" type="m2_1_lightSwitch">
                                     <param id="0" name="Instance variable">power</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-16" name="Set opacity" sid="671179079815630" type="theLight">
+                                <action id="-16" name="Set opacity" sid="671179079815630" type="m2_1theLight">
                                     <param id="0" name="Opacity">0</param>
                                 </action>
-                                <action id="-16" name="Set opacity" sid="903087592355373" type="dpprCrack">
+                                <action id="-16" name="Set opacity" sid="903087592355373" type="m2_1_dpprCrack">
                                     <param id="0" name="Opacity">10</param>
                                 </action>
-                                <action id="-3" name="Set position" sid="150130493472954" type="theLight">
+                                <action id="-3" name="Set position" sid="150130493472954" type="m2_1theLight">
                                     <param id="0" name="X">960</param>
                                     <param id="1" name="Y">600</param>
                                 </action>
-                                <action id="4" name="Set animation" sid="337257719133193" type="lightSwitch">
+                                <action id="4" name="Set animation" sid="337257719133193" type="m2_1_lightSwitch">
                                     <param id="0" name="Animation">&quot;Default&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
@@ -511,11 +511,11 @@
                         <event-block sid="619421919526461">
                             <conditions>
                                 <condition id="17" name="On tap object" sid="928599476849581" type="Touch">
-                                    <param id="0" name="Object">lightSwitch</param>
+                                    <param id="0" name="Object">m2_1_lightSwitch</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-14" name="Toggle boolean" sid="939047530404118" type="lightSwitch">
+                                <action id="-14" name="Toggle boolean" sid="939047530404118" type="m2_1_lightSwitch">
                                     <param id="0" name="Instance variable">power</param>
                                 </action>
                                 <action id="0" name="Play" sid="789014246374086" type="Audio">
@@ -528,15 +528,15 @@
                             <sub-events>
                                 <event-block sid="737403493213870">
                                     <conditions>
-                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="832355747460712" type="lightSwitch">
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="832355747460712" type="m2_1_lightSwitch">
                                             <param id="0" name="Instance variable">power</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-16" name="Set opacity" sid="783018824530127" type="theLight">
+                                        <action id="-16" name="Set opacity" sid="783018824530127" type="m2_1theLight">
                                             <param id="0" name="Opacity">95</param>
                                         </action>
-                                        <action id="-16" name="Set opacity" sid="932349313661125" type="dpprCrack">
+                                        <action id="-16" name="Set opacity" sid="932349313661125" type="m2_1_dpprCrack">
                                             <param id="0" name="Opacity">70</param>
                                         </action>
                                         <action id="-10" name="Add to" sid="524654077486648" type="System">
@@ -547,18 +547,18 @@
                                 </event-block>
                                 <event-block sid="809582835185592">
                                     <conditions>
-                                        <condition id="-8" name="Is boolean instance variable set" sid="948444986531129" type="lightSwitch">
+                                        <condition id="-8" name="Is boolean instance variable set" sid="948444986531129" type="m2_1_lightSwitch">
                                             <param id="0" name="Instance variable">power</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-16" name="Set opacity" sid="950135182123243" type="theLight">
+                                        <action id="-16" name="Set opacity" sid="950135182123243" type="m2_1theLight">
                                             <param id="0" name="Opacity">0</param>
                                         </action>
-                                        <action id="-16" name="Set opacity" sid="996294856776295" type="dpprCrack">
+                                        <action id="-16" name="Set opacity" sid="996294856776295" type="m2_1_dpprCrack">
                                             <param id="0" name="Opacity">10</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="466939412581640" type="theLight">
+                                        <action id="-3" name="Set position" sid="466939412581640" type="m2_1theLight">
                                             <param id="0" name="X">960</param>
                                             <param id="1" name="Y">600</param>
                                         </action>
@@ -577,18 +577,18 @@
                         <event-block sid="458285984963304">
                             <conditions>
                                 <condition id="17" name="On tap object" sid="106226912105115" type="Touch">
-                                    <param id="0" name="Object">themostat</param>
+                                    <param id="0" name="Object">m2_1_themostat</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-14" name="Toggle boolean" sid="582460311821209" type="themostat">
+                                <action id="-14" name="Toggle boolean" sid="582460311821209" type="m2_1_themostat">
                                     <param id="0" name="Instance variable">power</param>
                                 </action>
                             </actions>
                             <sub-events>
                                 <event-block sid="125094835340731">
                                     <conditions>
-                                        <condition id="-8" name="Is boolean instance variable set" sid="745159949182780" type="themostat">
+                                        <condition id="-8" name="Is boolean instance variable set" sid="745159949182780" type="m2_1_themostat">
                                             <param id="0" name="Instance variable">power</param>
                                         </condition>
                                     </conditions>
@@ -597,10 +597,10 @@
                                             <param id="0" name="Variable">score</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="-16" name="Set opacity" sid="542684664390139" type="ACLight">
+                                        <action id="-16" name="Set opacity" sid="542684664390139" type="m2_1_ACLight">
                                             <param id="0" name="Opacity">100</param>
                                         </action>
-                                        <action id="4" name="Set animation" sid="380150700010779" type="AC">
+                                        <action id="4" name="Set animation" sid="380150700010779" type="m2_1_AC">
                                             <param id="0" name="Animation">&quot;Default&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
@@ -618,7 +618,7 @@
                                 </event-block>
                                 <event-block sid="685316451465709">
                                     <conditions>
-                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="888682708397058" type="themostat">
+                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="888682708397058" type="m2_1_themostat">
                                             <param id="0" name="Instance variable">power</param>
                                         </condition>
                                     </conditions>
@@ -627,10 +627,10 @@
                                             <param id="0" name="Variable">score</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="-16" name="Set opacity" sid="918915231073057" type="ACLight">
+                                        <action id="-16" name="Set opacity" sid="918915231073057" type="m2_1_ACLight">
                                             <param id="0" name="Opacity">0</param>
                                         </action>
-                                        <action id="4" name="Set animation" sid="600564389818449" type="AC">
+                                        <action id="4" name="Set animation" sid="600564389818449" type="m2_1_AC">
                                             <param id="0" name="Animation">&quot;Animation2&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
@@ -663,9 +663,9 @@
                         <condition id="-1" name="Every tick" sid="998634924176982" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-3" name="Set position" sid="236632378803423" type="anchor">
-                            <param id="0" name="X">Tv.X-195</param>
-                            <param id="1" name="Y">Tv.Y+25</param>
+                        <action id="-3" name="Set position" sid="236632378803423" type="m2_1_anchor">
+                            <param id="0" name="X">m2_1_Tv.X-195</param>
+                            <param id="1" name="Y">m2_1_Tv.Y+25</param>
                         </action>
                     </actions>
                 </event-block>
@@ -674,9 +674,9 @@
                         <condition id="-1" name="Every tick" sid="336765524278250" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-3" name="Set position" sid="941249787790057" type="TvLight">
-                            <param id="0" name="X">Tv.X+187</param>
-                            <param id="1" name="Y">Tv.Y+85</param>
+                        <action id="-3" name="Set position" sid="941249787790057" type="m2_1_TvLight">
+                            <param id="0" name="X">m2_1_Tv.X+187</param>
+                            <param id="1" name="Y">m2_1_Tv.Y+85</param>
                         </action>
                     </actions>
                 </event-block>
@@ -685,110 +685,110 @@
                         <condition id="-2" name="On start of layout" sid="204570203139252" type="System" />
                     </conditions>
                     <actions>
-                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="870840827697697" type="wires">
-                            <param id="0" name="Object">wires</param>
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="870840827697697" type="m2_1_wires">
+                            <param id="0" name="Object">m2_1_wires</param>
                             <param id="1" name="State">0</param>
                         </action>
-                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="503320712459449" type="plugHole">
-                            <param id="0" name="Object">wires</param>
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="503320712459449" type="m2_1_plugHole">
+                            <param id="0" name="Object">m2_1_wires</param>
                             <param id="1" name="State">0</param>
                         </action>
-                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="827857113851386" type="plugHole">
-                            <param id="0" name="Object">anchor</param>
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="827857113851386" type="m2_1_plugHole">
+                            <param id="0" name="Object">m2_1_anchor</param>
                             <param id="1" name="State">0</param>
                         </action>
-                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="579999334611425" type="anchor">
-                            <param id="0" name="Object">wires</param>
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="579999334611425" type="m2_1_anchor">
+                            <param id="0" name="Object">m2_1_wires</param>
                             <param id="1" name="State">0</param>
                         </action>
-                        <action behavior="Physics" id="10" name="Create distance joint" sid="663187143698394" type="wire1">
+                        <action behavior="Physics" id="10" name="Create distance joint" sid="663187143698394" type="m2_1_wire1">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">plugHole</param>
+                            <param id="1" name="Object">m2_1_plugHole</param>
                             <param id="2" name="That image point">0</param>
                             <param id="3" name="Damping ratio">0</param>
                             <param id="4" name="Spring frequency">0</param>
                         </action>
-                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="544065302538266" type="wire2">
+                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="544065302538266" type="m2_1_wire2">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">wire1</param>
+                            <param id="1" name="Object">m2_1_wire1</param>
                             <param id="2" name="Lower angle">0</param>
                             <param id="3" name="Upper angle">0</param>
                         </action>
-                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="729252319903889" type="wire3">
+                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="729252319903889" type="m2_1_wire3">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">wire2</param>
+                            <param id="1" name="Object">m2_1_wire2</param>
                             <param id="2" name="Lower angle">0</param>
                             <param id="3" name="Upper angle">0</param>
                         </action>
-                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="728682392437775" type="wire4">
+                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="728682392437775" type="m2_1_wire4">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">wire3</param>
+                            <param id="1" name="Object">m2_1_wire3</param>
                             <param id="2" name="Lower angle">0</param>
                             <param id="3" name="Upper angle">0</param>
                         </action>
-                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="996573975071128" type="wire5">
+                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="996573975071128" type="m2_1_wire5">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">wire4</param>
+                            <param id="1" name="Object">m2_1_wire4</param>
                             <param id="2" name="Lower angle">0</param>
                             <param id="3" name="Upper angle">0</param>
                         </action>
-                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="435592700033010" type="wire6">
+                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="435592700033010" type="m2_1_wire6">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">wire5</param>
+                            <param id="1" name="Object">m2_1_wire5</param>
                             <param id="2" name="Lower angle">0</param>
                             <param id="3" name="Upper angle">0</param>
                         </action>
-                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="423492216892515" type="wire7">
+                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="423492216892515" type="m2_1_wire7">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">wire6</param>
+                            <param id="1" name="Object">m2_1_wire6</param>
                             <param id="2" name="Lower angle">0</param>
                             <param id="3" name="Upper angle">0</param>
                         </action>
-                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="455576489429584" type="wire8">
+                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="455576489429584" type="m2_1_wire8">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">wire7</param>
+                            <param id="1" name="Object">m2_1_wire7</param>
                             <param id="2" name="Lower angle">0</param>
                             <param id="3" name="Upper angle">0</param>
                         </action>
-                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="912974082127166" type="wire9">
+                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="912974082127166" type="m2_1_wire9">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">wire8</param>
+                            <param id="1" name="Object">m2_1_wire8</param>
                             <param id="2" name="Lower angle">0</param>
                             <param id="3" name="Upper angle">0</param>
                         </action>
-                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="736565095478154" type="wire10">
+                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="736565095478154" type="m2_1_wire10">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">wire9</param>
+                            <param id="1" name="Object">m2_1_wire9</param>
                             <param id="2" name="Lower angle">0</param>
                             <param id="3" name="Upper angle">0</param>
                         </action>
-                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="579558315942636" type="wire11">
+                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="579558315942636" type="m2_1_wire11">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">wire10</param>
+                            <param id="1" name="Object">m2_1_wire10</param>
                             <param id="2" name="Lower angle">0</param>
                             <param id="3" name="Upper angle">0</param>
                         </action>
-                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="819747378834617" type="wire12">
+                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="819747378834617" type="m2_1_wire12">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">wire11</param>
+                            <param id="1" name="Object">m2_1_wire11</param>
                             <param id="2" name="Lower angle">0</param>
                             <param id="3" name="Upper angle">0</param>
                         </action>
-                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="954290401492899" type="wire13">
+                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="954290401492899" type="m2_1_wire13">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">wire12</param>
+                            <param id="1" name="Object">m2_1_wire12</param>
                             <param id="2" name="Lower angle">0</param>
                             <param id="3" name="Upper angle">0</param>
                         </action>
-                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="421571954801556" type="wire14">
+                        <action behavior="Physics" id="22" name="Create limited revolute joint" sid="421571954801556" type="m2_1_wire14">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">wire13</param>
+                            <param id="1" name="Object">m2_1_wire13</param>
                             <param id="2" name="Lower angle">0</param>
                             <param id="3" name="Upper angle">0</param>
                         </action>
-                        <action behavior="Physics" id="10" name="Create distance joint" sid="550980964466084" type="wire14">
+                        <action behavior="Physics" id="10" name="Create distance joint" sid="550980964466084" type="m2_1_wire14">
                             <param id="0" name="This image point">0</param>
-                            <param id="1" name="Object">anchor</param>
+                            <param id="1" name="Object">m2_1_anchor</param>
                             <param id="2" name="That image point">0</param>
                             <param id="3" name="Damping ratio">0</param>
                             <param id="4" name="Spring frequency">0</param>
@@ -798,14 +798,14 @@
                 <event-block sid="631415636031832">
                     <conditions>
                         <condition id="4" name="Is touching object" sid="103522607985534" type="Touch">
-                            <param id="0" name="Object">Tv</param>
+                            <param id="0" name="Object">m2_1_Tv</param>
                         </condition>
                         <condition id="2" name="Is in touch" sid="488868663716996" type="Touch" />
-                        <condition id="-1" name="Compare X" sid="571933831993645" type="Tv">
+                        <condition id="-1" name="Compare X" sid="571933831993645" type="m2_1_Tv">
                             <param id="0" name="Comparison">5</param>
                             <param id="1" name="X co-ordinate">1000</param>
                         </condition>
-                        <condition id="-1" name="Compare X" sid="736497345090455" type="Tv">
+                        <condition id="-1" name="Compare X" sid="736497345090455" type="m2_1_Tv">
                             <param id="0" name="Comparison">3</param>
                             <param id="1" name="X co-ordinate">1080</param>
                         </condition>
@@ -833,11 +833,11 @@
                 <event-block sid="296073295962660">
                     <conditions>
                         <condition id="0" name="On any touch start" sid="340217032075270" type="Touch" />
-                        <condition id="-1" name="Compare X" sid="971904310260009" type="Tv">
+                        <condition id="-1" name="Compare X" sid="971904310260009" type="m2_1_Tv">
                             <param id="0" name="Comparison">5</param>
                             <param id="1" name="X co-ordinate">1000</param>
                         </condition>
-                        <condition id="-1" name="Compare X" sid="142717572287356" type="Tv">
+                        <condition id="-1" name="Compare X" sid="142717572287356" type="m2_1_Tv">
                             <param id="0" name="Comparison">3</param>
                             <param id="1" name="X co-ordinate">1080</param>
                         </condition>
@@ -873,8 +873,8 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-1" name="Set X" sid="643146969799442" type="Tv">
-                                    <param id="0" name="X">lerp(Tv.X,Tv.X+DiffX,0.75)</param>
+                                <action id="-1" name="Set X" sid="643146969799442" type="m2_1_Tv">
+                                    <param id="0" name="X">lerp(m2_1_Tv.X,m2_1_Tv.X+DiffX,0.75)</param>
                                 </action>
                                 <action id="-11" name="Subtract from" sid="637570715261226" type="System">
                                     <param id="0" name="Variable">DiffX</param>
@@ -884,26 +884,26 @@
                         </event-block>
                         <event-block sid="959691009308544">
                             <conditions>
-                                <condition id="-1" name="Compare X" sid="125206133656364" type="Tv">
+                                <condition id="-1" name="Compare X" sid="125206133656364" type="m2_1_Tv">
                                     <param id="0" name="Comparison">3</param>
                                     <param id="1" name="X co-ordinate">1000</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-1" name="Set X" sid="435658755180151" type="Tv">
+                                <action id="-1" name="Set X" sid="435658755180151" type="m2_1_Tv">
                                     <param id="0" name="X">1000</param>
                                 </action>
                             </actions>
                         </event-block>
                         <event-block sid="775897739331169">
                             <conditions>
-                                <condition id="-1" name="Compare X" sid="851672360088268" type="Tv">
+                                <condition id="-1" name="Compare X" sid="851672360088268" type="m2_1_Tv">
                                     <param id="0" name="Comparison">5</param>
                                     <param id="1" name="X co-ordinate">1080</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-1" name="Set X" sid="174188944465222" type="Tv">
+                                <action id="-1" name="Set X" sid="174188944465222" type="m2_1_Tv">
                                     <param id="0" name="X">1080</param>
                                 </action>
                             </actions>
@@ -942,28 +942,28 @@
                 <event-block sid="644066851819940">
                     <conditions>
                         <condition id="17" name="On tap object" sid="284952446573162" type="Touch">
-                            <param id="0" name="Object">BG</param>
+                            <param id="0" name="Object">m2_1_BG</param>
                         </condition>
                         <condition id="4" inverted="1" name="Is touching object" sid="782611116414959" type="Touch">
-                            <param id="0" name="Object">plugHole</param>
+                            <param id="0" name="Object">m2_1_plugHole</param>
                         </condition>
                         <condition id="4" inverted="1" name="Is touching object" sid="747828886372388" type="Touch">
-                            <param id="0" name="Object">door</param>
+                            <param id="0" name="Object">m2_1_door</param>
                         </condition>
                         <condition id="4" inverted="1" name="Is touching object" sid="105075413169997" type="Touch">
-                            <param id="0" name="Object">closetDoor</param>
+                            <param id="0" name="Object">m2_1_closetDoor</param>
                         </condition>
                         <condition id="4" inverted="1" name="Is touching object" sid="614147324715258" type="Touch">
-                            <param id="0" name="Object">waterHeater</param>
+                            <param id="0" name="Object">m2_1_waterHeater</param>
                         </condition>
                         <condition id="4" inverted="1" name="Is touching object" sid="340130520822574" type="Touch">
-                            <param id="0" name="Object">Tv</param>
+                            <param id="0" name="Object">m2_1_Tv</param>
                         </condition>
                         <condition id="4" inverted="1" name="Is touching object" sid="156107663881454" type="Touch">
-                            <param id="0" name="Object">lightSwitch</param>
+                            <param id="0" name="Object">m2_1_lightSwitch</param>
                         </condition>
                         <condition id="4" inverted="1" name="Is touching object" sid="467715346352420" type="Touch">
-                            <param id="0" name="Object">themostat</param>
+                            <param id="0" name="Object">m2_1_themostat</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -1000,32 +1000,32 @@
                         <condition id="-2" name="On start of layout" sid="535452231600759" type="System" />
                     </conditions>
                     <actions>
-                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="117101803343800" type="endMenu">
-                            <param id="0" name="Object">plugHole</param>
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="117101803343800" type="m2_1_endMenu">
+                            <param id="0" name="Object">m2_1_plugHole</param>
                             <param id="1" name="State">0</param>
                         </action>
-                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="950181480719214" type="endMenu">
-                            <param id="0" name="Object">Tv</param>
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="950181480719214" type="m2_1_endMenu">
+                            <param id="0" name="Object">m2_1_Tv</param>
                             <param id="1" name="State">0</param>
                         </action>
-                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="853744176109659" type="endMenu">
-                            <param id="0" name="Object">TVPlug</param>
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="853744176109659" type="m2_1_endMenu">
+                            <param id="0" name="Object">m2_1_TVPlug</param>
                             <param id="1" name="State">0</param>
                         </action>
-                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="341851728621912" type="endMenu">
-                            <param id="0" name="Object">TvWire</param>
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="341851728621912" type="m2_1_endMenu">
+                            <param id="0" name="Object">m2_1_TvWire</param>
                             <param id="1" name="State">0</param>
                         </action>
-                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="265523853918638" type="endMenu">
-                            <param id="0" name="Object">TvWires</param>
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="265523853918638" type="m2_1_endMenu">
+                            <param id="0" name="Object">m2_1_TvWires</param>
                             <param id="1" name="State">0</param>
                         </action>
-                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="808905546009983" type="endMenu">
-                            <param id="0" name="Object">anchor</param>
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="808905546009983" type="m2_1_endMenu">
+                            <param id="0" name="Object">m2_1_anchor</param>
                             <param id="1" name="State">0</param>
                         </action>
-                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="983130187378719" type="endMenu">
-                            <param id="0" name="Object">wires</param>
+                        <action behavior="Physics" id="23" name="Enable/disable collisions" sid="983130187378719" type="m2_1_endMenu">
+                            <param id="0" name="Object">m2_1_wires</param>
                             <param id="1" name="State">0</param>
                         </action>
                     </actions>
@@ -1043,20 +1043,20 @@
                             <param id="0" name="Layer">1</param>
                             <param id="1" name="Opacity">100</param>
                         </action>
-                        <action id="-9" name="Destroy" sid="762178897659493" type="endHolder" />
-                        <action id="-9" name="Destroy" sid="936110296917489" type="dpprCrack" />
-                        <action id="-9" name="Destroy" sid="410493311846764" type="theLight" />
-                        <action id="-16" name="Set opacity" sid="176401808408956" type="gameover">
+                        <action id="-9" name="Destroy" sid="762178897659493" type="m2_1_endHolder" />
+                        <action id="-9" name="Destroy" sid="936110296917489" type="m2_1_dpprCrack" />
+                        <action id="-9" name="Destroy" sid="410493311846764" type="m2_1theLight" />
+                        <action id="-16" name="Set opacity" sid="176401808408956" type="m2_1_gameover">
                             <param id="0" name="Opacity">100</param>
                         </action>
-                        <action behavior="Physics" id="21" name="Set immovable" sid="637021856748032" type="endMenu">
+                        <action behavior="Physics" id="21" name="Set immovable" sid="637021856748032" type="m2_1_endMenu">
                             <param id="0" name="Setting">0</param>
                         </action>
-                        <action id="-9" name="Destroy" sid="279930389037423" type="timer" />
-                        <action id="-9" name="Destroy" sid="118477211015528" type="hint" />
-                        <action id="-9" name="Destroy" sid="322728832771108" type="hint2" />
-                        <action id="-9" name="Destroy" sid="994652917694084" type="hint3" />
-                        <action id="-9" name="Destroy" sid="709436844687186" type="hint4" />
+                        <action id="-9" name="Destroy" sid="279930389037423" type="m2_1_timer" />
+                        <action id="-9" name="Destroy" sid="118477211015528" type="m2_1_hint" />
+                        <action id="-9" name="Destroy" sid="322728832771108" type="m2_1_hint2" />
+                        <action id="-9" name="Destroy" sid="994652917694084" type="m2_1_hint3" />
+                        <action id="-9" name="Destroy" sid="709436844687186" type="m2_1_hint4" />
                     </actions>
                     <sub-events>
                         <event-block sid="664708439815335">
@@ -1068,15 +1068,15 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="4" name="Set animation" sid="243016624975797" type="star">
+                                <action id="4" name="Set animation" sid="243016624975797" type="m2_1_star">
                                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
-                                <action id="4" name="Set animation" sid="948358035966059" type="star2">
+                                <action id="4" name="Set animation" sid="948358035966059" type="m2_1_star2">
                                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
-                                <action id="4" name="Set animation" sid="312426953761154" type="star3">
+                                <action id="4" name="Set animation" sid="312426953761154" type="m2_1_star3">
                                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
@@ -1091,11 +1091,11 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="4" name="Set animation" sid="682254667374462" type="star">
+                                <action id="4" name="Set animation" sid="682254667374462" type="m2_1_star">
                                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
-                                <action id="4" name="Set animation" sid="342043063641255" type="star2">
+                                <action id="4" name="Set animation" sid="342043063641255" type="m2_1_star2">
                                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
@@ -1110,7 +1110,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="4" name="Set animation" sid="538887352615225" type="star">
+                                <action id="4" name="Set animation" sid="538887352615225" type="m2_1_star">
                                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
@@ -1125,7 +1125,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="0" name="Set text" sid="847708263632576" type="endDescription">
+                                <action id="0" name="Set text" sid="847708263632576" type="m2_1_endDescription">
                                     <param id="0" name="Text">&quot;&quot;</param>
                                 </action>
                             </actions>
@@ -1139,7 +1139,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="0" name="Set text" sid="584799841000124" type="endDescription">
+                                <action id="0" name="Set text" sid="584799841000124" type="m2_1_endDescription">
                                     <param id="0" name="Text">&quot;Time&apos;s Up&quot;</param>
                                 </action>
                             </actions>
@@ -1149,7 +1149,7 @@
                                 <event-block sid="895160826979804">
                                     <conditions>
                                         <condition id="17" name="On tap object" sid="477823185701868" type="Touch">
-                                            <param id="0" name="Object">retry</param>
+                                            <param id="0" name="Object">m2_1_retry</param>
                                         </condition>
                                     </conditions>
                                     <actions>
@@ -1159,11 +1159,11 @@
                                 <event-block sid="157132830646483">
                                     <conditions>
                                         <condition id="4" name="Is touching object" sid="768323131475468" type="Touch">
-                                            <param id="0" name="Object">retry</param>
+                                            <param id="0" name="Object">m2_1_retry</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="4" name="Set animation" sid="645161656681908" type="retry">
+                                        <action id="4" name="Set animation" sid="645161656681908" type="m2_1_retry">
                                             <param id="0" name="Animation">&quot;Animation2&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
@@ -1174,7 +1174,7 @@
                                         <condition id="-22" name="Else" sid="243218781992415" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="4" name="Set animation" sid="468945258656379" type="retry">
+                                        <action id="4" name="Set animation" sid="468945258656379" type="m2_1_retry">
                                             <param id="0" name="Animation">&quot;Default&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
@@ -1183,11 +1183,11 @@
                                 <event-block sid="180453146022201">
                                     <conditions>
                                         <condition id="4" name="Is touching object" sid="957568973614032" type="Touch">
-                                            <param id="0" name="Object">exit</param>
+                                            <param id="0" name="Object">m2_1_exit</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="4" name="Set animation" sid="924182366826071" type="exit">
+                                        <action id="4" name="Set animation" sid="924182366826071" type="m2_1_exit">
                                             <param id="0" name="Animation">&quot;Animation2&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
@@ -1198,7 +1198,7 @@
                                         <condition id="-22" name="Else" sid="639845025725414" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="4" name="Set animation" sid="506648579749951" type="exit">
+                                        <action id="4" name="Set animation" sid="506648579749951" type="m2_1_exit">
                                             <param id="0" name="Animation">&quot;Default&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
@@ -1213,29 +1213,29 @@
                         <condition id="-1" name="Every tick" sid="916650308996458" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-3" name="Set position" sid="670656163775833" type="star">
-                            <param id="0" name="X">endMenu.X-300</param>
-                            <param id="1" name="Y">endMenu.Y-240</param>
+                        <action id="-3" name="Set position" sid="670656163775833" type="m2_1_star">
+                            <param id="0" name="X">m2_1_endMenu.X-300</param>
+                            <param id="1" name="Y">m2_1_endMenu.Y-240</param>
                         </action>
-                        <action id="-3" name="Set position" sid="935915678974865" type="star2">
-                            <param id="0" name="X">endMenu.X</param>
-                            <param id="1" name="Y">endMenu.Y-240</param>
+                        <action id="-3" name="Set position" sid="935915678974865" type="m2_1_star2">
+                            <param id="0" name="X">m2_1_endMenu.X</param>
+                            <param id="1" name="Y">m2_1_endMenu.Y-240</param>
                         </action>
-                        <action id="-3" name="Set position" sid="251624736579082" type="star3">
-                            <param id="0" name="X">endMenu.X+300</param>
-                            <param id="1" name="Y">endMenu.Y-240</param>
+                        <action id="-3" name="Set position" sid="251624736579082" type="m2_1_star3">
+                            <param id="0" name="X">m2_1_endMenu.X+300</param>
+                            <param id="1" name="Y">m2_1_endMenu.Y-240</param>
                         </action>
-                        <action id="-3" name="Set position" sid="862005456629413" type="endDescription">
-                            <param id="0" name="X">endMenu.X</param>
-                            <param id="1" name="Y">endMenu.Y</param>
+                        <action id="-3" name="Set position" sid="862005456629413" type="m2_1_endDescription">
+                            <param id="0" name="X">m2_1_endMenu.X</param>
+                            <param id="1" name="Y">m2_1_endMenu.Y</param>
                         </action>
-                        <action id="-3" name="Set position" sid="412440144429004" type="exit">
-                            <param id="0" name="X">endMenu.X-300</param>
-                            <param id="1" name="Y">endMenu.Y+200</param>
+                        <action id="-3" name="Set position" sid="412440144429004" type="m2_1_exit">
+                            <param id="0" name="X">m2_1_endMenu.X-300</param>
+                            <param id="1" name="Y">m2_1_endMenu.Y+200</param>
                         </action>
-                        <action id="-3" name="Set position" sid="878237329337973" type="retry">
-                            <param id="0" name="X">endMenu.X+300</param>
-                            <param id="1" name="Y">endMenu.Y+200</param>
+                        <action id="-3" name="Set position" sid="878237329337973" type="m2_1_retry">
+                            <param id="0" name="X">m2_1_endMenu.X+300</param>
+                            <param id="1" name="Y">m2_1_endMenu.Y+200</param>
                         </action>
                     </actions>
                 </event-block>

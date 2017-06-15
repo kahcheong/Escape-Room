@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="BG" uid="40">
+                <instance type="m2_1_BG" uid="40">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lightSwitch" uid="8">
+                <instance type="m2_1_lightSwitch" uid="8">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -76,7 +76,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TVPlug" uid="10">
+                <instance type="m2_1_TVPlug" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -98,7 +98,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="anchor" uid="17">
+                <instance type="m2_1_anchor" uid="17">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -139,7 +139,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="wire1" uid="16">
+                <instance type="m2_1_wire1" uid="16">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -181,7 +181,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="wire2" uid="18">
+                <instance type="m2_1_wire2" uid="18">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -222,7 +222,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="wire3" uid="19">
+                <instance type="m2_1_wire3" uid="19">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -263,7 +263,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="wire4" uid="20">
+                <instance type="m2_1_wire4" uid="20">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -304,7 +304,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="wire5" uid="21">
+                <instance type="m2_1_wire5" uid="21">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -345,7 +345,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="wire6" uid="22">
+                <instance type="m2_1_wire6" uid="22">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -386,7 +386,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="wire7" uid="23">
+                <instance type="m2_1_wire7" uid="23">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -427,7 +427,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="wire8" uid="24">
+                <instance type="m2_1_wire8" uid="24">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -468,7 +468,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="wire9" uid="25">
+                <instance type="m2_1_wire9" uid="25">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -509,7 +509,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="wire10" uid="26">
+                <instance type="m2_1_wire10" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -550,7 +550,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="wire11" uid="27">
+                <instance type="m2_1_wire11" uid="27">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -591,7 +591,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="wire12" uid="28">
+                <instance type="m2_1_wire12" uid="28">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -632,7 +632,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="wire13" uid="29">
+                <instance type="m2_1_wire13" uid="29">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -673,7 +673,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="wire14" uid="30">
+                <instance type="m2_1_wire14" uid="30">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -714,7 +714,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="plugHole" uid="31">
+                <instance type="m2_1_plugHole" uid="31">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -755,7 +755,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="door" uid="0">
+                <instance type="m2_1_door" uid="0">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -777,7 +777,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="waterHeater" uid="9">
+                <instance type="m2_1_waterHeater" uid="9">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -802,7 +802,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="boilerLight" uid="3">
+                <instance type="m2_1_boilerLight" uid="3">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -824,7 +824,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="closetDoor" uid="2">
+                <instance type="m2_1_closetDoor" uid="2">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -849,7 +849,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="themostat" uid="4">
+                <instance type="m2_1_themostat" uid="4">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -874,7 +874,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AC" uid="6">
+                <instance type="m2_1_AC" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -896,7 +896,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="carpet" uid="7">
+                <instance type="m2_1_carpet" uid="7">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -918,7 +918,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tv" uid="5">
+                <instance type="m2_1_Tv" uid="5">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -944,7 +944,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="theLight" uid="12">
+                <instance type="m2_1theLight" uid="12">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -966,7 +966,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="dpprCrack" uid="13">
+                <instance type="m2_1_dpprCrack" uid="13">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -988,7 +988,7 @@
                         <opacity>0.150000006</opacity>
                     </world>
                 </instance>
-                <instance type="ACLight" uid="11">
+                <instance type="m2_1_ACLight" uid="11">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1010,7 +1010,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TvLight" uid="14">
+                <instance type="m2_1_TvLight" uid="14">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1032,7 +1032,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="timer" uid="15">
+                <instance type="m2_1_timer" uid="15">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1054,7 +1054,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="hint" uid="36">
+                <instance type="m2_1_hint" uid="36">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1076,7 +1076,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="hint2" uid="37">
+                <instance type="m2_1_hint2" uid="37">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1098,7 +1098,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="hint3" uid="38">
+                <instance type="m2_1_hint3" uid="38">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1120,7 +1120,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="hint4" uid="39">
+                <instance type="m2_1_hint4" uid="39">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1142,7 +1142,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="timerHolder" uid="35">
+                <instance type="m2_1_timerHolder" uid="35">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1164,7 +1164,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="timerX2" uid="140">
+                <instance type="m2_1_timerX2" uid="140">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1205,7 +1205,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="endBlur" uid="135">
+                <instance type="m2_1_endBlur" uid="135">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1227,7 +1227,7 @@
                         <opacity>0.75</opacity>
                     </world>
                 </instance>
-                <instance type="endMenu" uid="53">
+                <instance type="m2_1_endMenu" uid="53">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1265,7 +1265,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="star" uid="32">
+                <instance type="m2_1_star" uid="32">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1287,7 +1287,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="star2" uid="33">
+                <instance type="m2_1_star2" uid="33">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1309,7 +1309,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="star3" uid="34">
+                <instance type="m2_1_star3" uid="34">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1331,7 +1331,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="endDescription" uid="136">
+                <instance type="m2_1_endDescription" uid="136">
                     <properties>
                         <text>Stuff about the level</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1358,7 +1358,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="retry" uid="137">
+                <instance type="m2_1_retry" uid="137">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1380,7 +1380,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="exit" uid="138">
+                <instance type="m2_1_exit" uid="138">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1402,7 +1402,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="menuHolder" uid="141">
+                <instance type="m2_1_menuHolder" uid="141">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1440,7 +1440,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="endHolder" uid="139">
+                <instance type="m2_1_endHolder" uid="139">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

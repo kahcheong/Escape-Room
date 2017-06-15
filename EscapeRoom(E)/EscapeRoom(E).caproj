@@ -14,6 +14,7 @@
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
@@ -47,7 +48,7 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="door" sid="991472928832309">
+        <object-type name="m2_1_door" sid="991472928832309">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="578863559497243" speed="5">
@@ -58,7 +59,7 @@
         <object-type name="Touch" sid="528201893250587">
             <plugin id="Touch" />
         </object-type>
-        <object-type name="closetDoor" sid="796824352956778">
+        <object-type name="m2_1_closetDoor" sid="796824352956778">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="open" sid="558348216661340" type="boolean" />
@@ -72,7 +73,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="themostat" sid="366597206844122">
+        <object-type name="m2_1_themostat" sid="366597206844122">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="power" sid="990637395308785" type="boolean" />
@@ -94,7 +95,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Tv" sid="524782459883767">
+        <object-type name="m2_1_Tv" sid="524782459883767">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="power" sid="600212888706353" type="boolean" />
@@ -105,11 +106,11 @@
                     <frame duration="1" hotspotX="0.501235" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\Escape Room\TV (405 x 320).png" />
                 </animation>
                 <animation framecount="1" loop="0" name="Animation3" pingpong="0" repeatcount="1" repeatto="0" sid="786438383323119" speed="5">
-                    <frame duration="1" hotspotX="0.501235" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501235" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\TV (405 x 320).png" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="AC" sid="609202586194130">
+        <object-type name="m2_1_AC" sid="609202586194130">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="539217744595356" speed="5">
@@ -140,7 +141,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="carpet" sid="517256264688317">
+        <object-type name="m2_1_carpet" sid="517256264688317">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="758383515871375" speed="5">
@@ -148,7 +149,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="lightSwitch" sid="368916391714722">
+        <object-type name="m2_1_lightSwitch" sid="368916391714722">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="power" sid="434065201935935" type="boolean" />
@@ -180,7 +181,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="waterHeater" sid="542285343726565">
+        <object-type name="m2_1_waterHeater" sid="542285343726565">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="power" sid="168308051670266" type="boolean" />
@@ -194,7 +195,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TVPlug" sid="142851338513374">
+        <object-type name="m2_1_TVPlug" sid="142851338513374">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="782643646673210" speed="5">
@@ -211,7 +212,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="ACLight" sid="710644523837427">
+        <object-type name="m2_1_ACLight" sid="710644523837427">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="353665889860127" speed="5">
@@ -230,7 +231,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="theLight" sid="281527392550060">
+        <object-type name="m2_1theLight" sid="281527392550060">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="267532489715047" speed="5">
@@ -238,7 +239,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="dpprCrack" sid="625913089810387">
+        <object-type name="m2_1_dpprCrack" sid="625913089810387">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="872985681498014" speed="5">
@@ -246,7 +247,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TvLight" sid="931044624528725">
+        <object-type name="m2_1_TvLight" sid="931044624528725">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="637130753080654" speed="5">
@@ -265,7 +266,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="timer" sid="489831126689661">
+        <object-type name="m2_1_timer" sid="489831126689661">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="284295710669100" speed="5">
@@ -273,7 +274,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="anchor" sid="346313271022171">
+        <object-type name="m2_1_anchor" sid="346313271022171">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="ropeCount" sid="352618972055835" type="number" />
@@ -289,11 +290,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Particles" sid="163931330398959">
+        <object-type name="m2_1_Particles" sid="163931330398959">
             <plugin id="Particles" />
             <texture />
         </object-type>
-        <object-type name="wire1" sid="827808121210369">
+        <object-type name="m2_1_wire1" sid="827808121210369">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="numbers" sid="842762742504147" type="number" />
@@ -304,7 +305,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="wire2" sid="601849826305117">
+        <object-type name="m2_1_wire2" sid="601849826305117">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="740923036483604" speed="5">
@@ -312,7 +313,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="wire3" sid="715253998805749">
+        <object-type name="m2_1_wire3" sid="715253998805749">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="509060364676882" speed="5">
@@ -320,7 +321,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="wire4" sid="810236973879737">
+        <object-type name="m2_1_wire4" sid="810236973879737">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="593648849118656" speed="5">
@@ -328,7 +329,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="wire5" sid="856778956016782">
+        <object-type name="m2_1_wire5" sid="856778956016782">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="703613303186291" speed="5">
@@ -336,7 +337,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="wire6" sid="754583226335140">
+        <object-type name="m2_1_wire6" sid="754583226335140">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="272969325930728" speed="5">
@@ -344,7 +345,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="wire7" sid="599841896897474">
+        <object-type name="m2_1_wire7" sid="599841896897474">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="569127413912104" speed="5">
@@ -352,7 +353,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="wire8" sid="952842129994328">
+        <object-type name="m2_1_wire8" sid="952842129994328">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="421021690496691" speed="5">
@@ -360,7 +361,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="wire9" sid="950019578170369">
+        <object-type name="m2_1_wire9" sid="950019578170369">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="302432458458270" speed="5">
@@ -368,7 +369,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="wire10" sid="948967559913658">
+        <object-type name="m2_1_wire10" sid="948967559913658">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424967433948480" speed="5">
@@ -376,7 +377,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="wire11" sid="385333827162598">
+        <object-type name="m2_1_wire11" sid="385333827162598">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="600948931044445" speed="5">
@@ -384,7 +385,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="wire12" sid="320352111181005">
+        <object-type name="m2_1_wire12" sid="320352111181005">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="231283779535386" speed="5">
@@ -392,7 +393,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="wire13" sid="455227139571653">
+        <object-type name="m2_1_wire13" sid="455227139571653">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="629798539380658" speed="5">
@@ -400,7 +401,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="wire14" sid="294644695138888">
+        <object-type name="m2_1_wire14" sid="294644695138888">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="387739889015074" speed="5">
@@ -408,7 +409,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="plugHole" sid="961413063499052">
+        <object-type name="m2_1_plugHole" sid="961413063499052">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="ancho" sid="504975715214602" type="number" />
@@ -431,7 +432,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="star" sid="585805207428925">
+        <object-type name="m2_1_star" sid="585805207428925">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="190581505173029" speed="5">
@@ -463,7 +464,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="star2" sid="481730065799659">
+        <object-type name="m2_1_star2" sid="481730065799659">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="706873693725402" speed="5">
@@ -495,7 +496,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="star3" sid="235814677387277">
+        <object-type name="m2_1_star3" sid="235814677387277">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="612671291844888" speed="5">
@@ -527,10 +528,10 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="gameover" sid="895379236184776">
+        <object-type name="m2_1_gameover" sid="895379236184776">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Sprite" sid="942981036058136">
+        <object-type name="m2_1_Sprite" sid="942981036058136">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="102504821315326" speed="5">
@@ -538,7 +539,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="hint" sid="427085470208447">
+        <object-type name="m2_1_hint" sid="427085470208447">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="211078213317013" speed="5">
@@ -546,7 +547,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="hint2" sid="985923724934347">
+        <object-type name="m2_1_hint2" sid="985923724934347">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="526602134204534" speed="5">
@@ -554,7 +555,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="hint3" sid="652270876279413">
+        <object-type name="m2_1_hint3" sid="652270876279413">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="196039456889058" speed="5">
@@ -562,7 +563,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="hint4" sid="197021143184425">
+        <object-type name="m2_1_hint4" sid="197021143184425">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708346636474318" speed="5">
@@ -570,7 +571,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="BG" sid="163941857351160">
+        <object-type name="m2_1_BG" sid="163941857351160">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="501967803024136" speed="5">
@@ -578,7 +579,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="boilerLight" sid="534234427592059">
+        <object-type name="m2_1_boilerLight" sid="534234427592059">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="913439988523157" speed="5">
@@ -597,13 +598,13 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Tutorial" sid="718932201945458">
+        <object-type name="m2_1_Tutorial" sid="718932201945458">
             <plugin id="Text" />
         </object-type>
-        <object-type name="startt" sid="542198773839925">
+        <object-type name="m2_1_startt" sid="542198773839925">
             <plugin id="Button" />
         </object-type>
-        <object-type name="TvWire" sid="433159822280581">
+        <object-type name="m2_1_TvWire" sid="433159822280581">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="572694193562463" speed="5">
@@ -621,18 +622,39 @@
         <object-type name="Audio" sid="146344297787928">
             <plugin id="Audio" />
         </object-type>
-        <object-type name="CLICKER" sid="355006477204342">
+        <object-type name="m2_1_CLICKER" sid="355006477204342">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="723924630337412" speed="5">
-                    <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\8bit_pixelated_hand_shaped_fridge_magnets_set_1.jpg" />
+                    <frame duration="1" hotspotX="0.505" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\standard.png">
+                        <collision-poly>
+                            <point x="0.3025" y="0.3025" />
+                            <point x="0.5" y="0.2425" />
+                            <point x="0.73" y="0.27" />
+                            <point x="0.925" y="0.5" />
+                            <point x="0.8575" y="0.8575" />
+                            <point x="0.5" y="1" />
+                            <point x="0.3025" y="0.6975" />
+                            <point x="0.0725" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
                 <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="666436352894372" speed="5">
-                    <frame duration="1" hotspotX="0.505882" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\8bit_pixelated_hand_shaped_fridge_magnets_set_1.jpg" />
+                    <frame duration="1" hotspotX="0.505" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\selected.png">
+                        <collision-poly>
+                            <point x="0.285" y="0.285" />
+                            <point x="0.5" y="0.02" />
+                            <point x="0.925" y="0.5" />
+                            <point x="0.8575" y="0.8575" />
+                            <point x="0.5" y="1" />
+                            <point x="0.3025" y="0.6975" />
+                            <point x="0.0725" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="flashy" sid="534425250137241">
+        <object-type name="m2_1_flashy" sid="534425250137241">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="473533097873473" speed="5">
@@ -640,7 +662,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="flashy2" sid="789770773599542">
+        <object-type name="m2_1_flashy2" sid="789770773599542">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="247240864957158" speed="5">
@@ -648,7 +670,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="endMenu" sid="182344279611706">
+        <object-type name="m2_1_endMenu" sid="182344279611706">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Physics" sid="891593356486801">
@@ -670,7 +692,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="endBlur" sid="402645651063084">
+        <object-type name="m2_1_endBlur" sid="402645651063084">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="461270697670242" speed="5">
@@ -678,10 +700,10 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="endDescription" sid="866052392663947">
+        <object-type name="m2_1_endDescription" sid="866052392663947">
             <plugin id="Text" />
         </object-type>
-        <object-type name="retry" sid="176340151047429">
+        <object-type name="m2_1_retry" sid="176340151047429">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="328352371719672" speed="5">
@@ -714,7 +736,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="exit" sid="419817504541576">
+        <object-type name="m2_1_exit" sid="419817504541576">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="446638547326968" speed="5">
@@ -747,7 +769,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="endHolder" sid="797245910248428">
+        <object-type name="m2_1_endHolder" sid="797245910248428">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Physics" sid="205522995045166">
@@ -763,7 +785,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="menuHolder" sid="649875520043954">
+        <object-type name="m2_1_menuHolder" sid="649875520043954">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Physics" sid="418000513414004">
@@ -776,7 +798,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="timerHolder" sid="897836776044482">
+        <object-type name="m2_1_timerHolder" sid="897836776044482">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="360873838004177" speed="5">
@@ -784,7 +806,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="timerX2" sid="144332223076106">
+        <object-type name="m2_1_timerX2" sid="144332223076106">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="218012033778220" speed="5">
@@ -792,46 +814,39 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="key" sid="873793781358523">
+        <object-type name="m2_1_key" sid="873793781358523">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="pickup" sid="685910374491091" type="boolean" />
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="751398550045195" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\key01 (60 x 30).png">
-                        <collision-poly>
-                            <point x="0.166667" y="0.0833333" />
-                            <point x="0.5" y="0.0166667" />
-                            <point x="0.833333" y="0.0833333" />
-                            <point x="0.6" y="0.5" />
-                            <point x="0.833333" y="0.916667" />
-                            <point x="0.5" y="1" />
-                            <point x="0.4" y="0.8" />
-                            <point x="0.4" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.488889" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\key01 (60 x 30).png" />
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="m2_1_ecit" sid="991537986111309">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
     </object-folder>
     <families>
-        <family name="wires" plugin-id="Sprite" sid="644140661896544">
+        <family name="m2_1_wires" plugin-id="Sprite" sid="644140661896544">
             <members>
-                <member>wire1</member>
-                <member>wire10</member>
-                <member>wire11</member>
-                <member>wire12</member>
-                <member>wire13</member>
-                <member>wire14</member>
-                <member>wire2</member>
-                <member>wire3</member>
-                <member>wire4</member>
-                <member>wire5</member>
-                <member>wire6</member>
-                <member>wire7</member>
-                <member>wire8</member>
-                <member>wire9</member>
+                <member>m2_1_wire1</member>
+                <member>m2_1_wire10</member>
+                <member>m2_1_wire11</member>
+                <member>m2_1_wire12</member>
+                <member>m2_1_wire13</member>
+                <member>m2_1_wire14</member>
+                <member>m2_1_wire2</member>
+                <member>m2_1_wire3</member>
+                <member>m2_1_wire4</member>
+                <member>m2_1_wire5</member>
+                <member>m2_1_wire6</member>
+                <member>m2_1_wire7</member>
+                <member>m2_1_wire8</member>
+                <member>m2_1_wire9</member>
             </members>
             <instance-variables>
                 <instance-variable name="number" sid="747947886143482" type="number" />
@@ -842,9 +857,9 @@
                 </behavior-type>
             </behaviors>
         </family>
-        <family name="TvWires" plugin-id="Sprite" sid="723228820898907">
+        <family name="m2_1_TvWires" plugin-id="Sprite" sid="723228820898907">
             <members>
-                <member>TvWire</member>
+                <member>m2_1_TvWire</member>
             </members>
             <instance-variables>
                 <instance-variable name="number" sid="968615706278313" type="number" />
@@ -858,17 +873,17 @@
     </families>
     <layout-folder>
         <layout>Layout 1(useless).xml</layout>
-        <layout>tutorial1.xml</layout>
-        <layout>tutorial2.xml</layout>
-        <layout>tutorial3.xml</layout>
-        <layout>main(e).xml</layout>
+        <layout>m2_1_tutorial1.xml</layout>
+        <layout>m2_1_tutorial2.xml</layout>
+        <layout>m2_1_tutorial3.xml</layout>
+        <layout>m2_1_main(e).xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>main(useless).xml</event-sheet>
-        <event-sheet>tut1.xml</event-sheet>
-        <event-sheet>tut2.xml</event-sheet>
-        <event-sheet>tut3.xml</event-sheet>
-        <event-sheet>main(e).xml</event-sheet>
+        <event-sheet>m2_1_tut1.xml</event-sheet>
+        <event-sheet>m2_1_tut2.xml</event-sheet>
+        <event-sheet>m2_1_tut3.xml</event-sheet>
+        <event-sheet>m2_1_main(e).xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="1">

@@ -560,7 +560,7 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\kitchen\a011.png" />
                 </animation>
                 <animation framecount="1" loop="0" name="a101" pingpong="0" repeatcount="1" repeatto="0" sid="324668360715544" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\kitchen\a101.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\kitchen\a101 (1).png" />
                 </animation>
                 <animation framecount="1" loop="0" name="a111" pingpong="0" repeatcount="1" repeatto="0" sid="899145451523790" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\kitchen\a111.png" />
@@ -932,6 +932,65 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="618621246364548" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_2_shd" sid="829185880319986">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="729207472742848" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_2_microwaveLite" sid="954900255321883">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="349152223308708" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\kitchen\a100.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.0683333" />
+                            <point x="0.5" y="0.348333" />
+                            <point x="0.433333" y="0.306667" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_2_stoveLite" sid="862644704107256">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="165224637281244" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\kitchen\a010.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.255833" />
+                            <point x="0.591146" y="0.345833" />
+                            <point x="0.5" y="0.350833" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_2_fridgeLite" sid="496214270894327">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="307476833694560" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\kitchen\[new]a001.png">
+                        <collision-poly>
+                            <point x="0.907292" y="0.148333" />
+                            <point x="0.953646" y="0.5" />
+                            <point x="0.820833" y="0.713333" />
+                            <point x="0.730208" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m2_2_doorLite" sid="526942915626033">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="432074662417527" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\kitchen\[new]a001.png" />
                 </animation>
             </animation-folder>
         </object-type>
