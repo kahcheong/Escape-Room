@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>food(E)</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2xe0vgsim0xge</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1920</width>
+        <height>1200</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="RecipeDisplay" sid="263869031169236">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="873203678938948" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pot" sid="967283427594648">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="806751571228097">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="511077396235283" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.0566667" y="0" />
+                            <point x="0.0539587" y="0.946875" />
+                            <point x="0.94625" y="0.94625" />
+                            <point x="0.945833" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.998333" y="0.9975" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fridge" sid="445771653179401">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="188162310870308" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="Recipe" sid="304331659478624">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="timer" sid="113396961630533">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="657277021130651" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RecipeList" sid="300210822421691">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="counter" sid="447280201021555">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="ingredientType" sid="108577162862935" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type global="1" name="Recipe1" sid="898156507748131">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="fud" sid="991515961765471">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="hint" sid="835328962878353" type="boolean" />
+                <instance-variable name="fud1" sid="803297724203998" type="string" />
+                <instance-variable name="fud2" sid="631604729511639" type="string" />
+                <instance-variable name="fud3" sid="761265471029372" type="string" />
+                <instance-variable name="inPot" sid="298507605496995" type="boolean" />
+                <instance-variable name="name" sid="617094620719609" type="string" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="448607477973351">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="211914007005964">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <container>
+                <type>fud</type>
+                <type>fudIng</type>
+                <type>lulImABG</type>
+            </container>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="275326445347932" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fudIng" sid="445239415673374">
+            <plugin id="Text" />
+            <container>
+                <type>fud</type>
+                <type>fudIng</type>
+                <type>lulImABG</type>
+            </container>
+        </object-type>
+        <object-type name="lulImABG" sid="326656579784057">
+            <plugin id="Sprite" />
+            <container>
+                <type>fud</type>
+                <type>fudIng</type>
+                <type>lulImABG</type>
+            </container>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="715396634306081" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="650449546605668">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="kek" sid="226917945691424">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="13">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
