@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>Layout 1</name>
+    <name>m6_1_main(e)</name>
     <sid>787810280785665</sid>
-    <event-sheet>Event sheet 1</event-sheet>
+    <event-sheet>m6_1_main(e)</event-sheet>
     <size>
         <width>2500</width>
         <height>1500</height>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="RecipeDisplay" uid="0">
+                <instance type="m6_1_RecipeDisplay" uid="0">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -40,7 +40,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1440</x>
-                        <y>330</y>
+                        <y>350</y>
                         <z>0</z>
                         <width>960</width>
                         <height>600</height>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="pot" uid="1">
+                <instance type="m6_1_pot" uid="1">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -78,7 +78,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1440</x>
-                        <y>920</y>
+                        <y>860</y>
                         <z>0</z>
                         <width>600</width>
                         <height>400</height>
@@ -89,7 +89,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fridge" uid="2">
+                <instance type="m6_1_fridge" uid="2">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -100,7 +100,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>460</x>
-                        <y>600</y>
+                        <y>620</y>
                         <z>0</z>
                         <width>800</width>
                         <height>1100</height>
@@ -111,7 +111,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="10">
+                <instance type="m6_1_fud" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -152,7 +152,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>170</x>
-                        <y>158</y>
+                        <y>178</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -163,7 +163,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="14">
+                <instance type="m6_1_fud" uid="14">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -204,7 +204,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>170</x>
-                        <y>383</y>
+                        <y>403</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -215,7 +215,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="17">
+                <instance type="m6_1_fud" uid="17">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -256,7 +256,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>150</x>
-                        <y>598</y>
+                        <y>618</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -267,7 +267,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="20">
+                <instance type="m6_1_fud" uid="20">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -308,7 +308,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>158</x>
-                        <y>818</y>
+                        <y>838</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -319,7 +319,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="23">
+                <instance type="m6_1_fud" uid="23">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -360,7 +360,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>151</x>
-                        <y>1037</y>
+                        <y>1057</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -371,7 +371,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="26">
+                <instance type="m6_1_fud" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -412,7 +412,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>419</x>
-                        <y>161</y>
+                        <y>181</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -423,7 +423,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="29">
+                <instance type="m6_1_fud" uid="29">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -464,7 +464,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>418</x>
-                        <y>399</y>
+                        <y>419</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -475,7 +475,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="32">
+                <instance type="m6_1_fud" uid="32">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -516,7 +516,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>417</x>
-                        <y>621</y>
+                        <y>641</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -527,7 +527,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="35">
+                <instance type="m6_1_fud" uid="35">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -568,7 +568,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>412</x>
-                        <y>830</y>
+                        <y>850</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -579,7 +579,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="38">
+                <instance type="m6_1_fud" uid="38">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -620,7 +620,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>406</x>
-                        <y>1050</y>
+                        <y>1070</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -631,7 +631,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="41">
+                <instance type="m6_1_fud" uid="41">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -672,7 +672,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>731</x>
-                        <y>165</y>
+                        <y>185</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -683,7 +683,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="44">
+                <instance type="m6_1_fud" uid="44">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -724,7 +724,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>768</x>
-                        <y>395</y>
+                        <y>415</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -735,7 +735,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="47">
+                <instance type="m6_1_fud" uid="47">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -776,7 +776,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>739</x>
-                        <y>612</y>
+                        <y>632</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -787,7 +787,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="50">
+                <instance type="m6_1_fud" uid="50">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -828,7 +828,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>751</x>
-                        <y>824</y>
+                        <y>844</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -839,7 +839,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fud" uid="53">
+                <instance type="m6_1_fud" uid="53">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -880,7 +880,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>747</x>
-                        <y>1031</y>
+                        <y>1051</y>
                         <z>0</z>
                         <width>100</width>
                         <height>100</height>
@@ -891,7 +891,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="timer" uid="4">
+                <instance type="m6_1_timer" uid="4">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -902,10 +902,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>960</x>
-                        <y>9</y>
+                        <y>20</y>
                         <z>0</z>
                         <width>1920</width>
-                        <height>20</height>
+                        <height>40</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -913,7 +913,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="RecipeList" uid="5">
+                <instance type="m6_1_RecipeList" uid="5">
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
@@ -929,7 +929,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>970</x>
-                        <y>35</y>
+                        <y>55</y>
                         <z>0</z>
                         <width>200</width>
                         <height>600</height>
@@ -940,7 +940,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="counter" uid="6">
+                <instance type="m6_1_counter" uid="6">
                     <properties>
                         <text>1</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -959,7 +959,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1173</x>
-                        <y>107</y>
+                        <y>127</y>
                         <z>0</z>
                         <width>321</width>
                         <height>116</height>
@@ -970,7 +970,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="counter" uid="7">
+                <instance type="m6_1_counter" uid="7">
                     <properties>
                         <text>1</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -989,7 +989,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1173</x>
-                        <y>257</y>
+                        <y>277</y>
                         <z>0</z>
                         <width>321</width>
                         <height>116</height>
@@ -1000,7 +1000,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="counter" uid="8">
+                <instance type="m6_1_counter" uid="8">
                     <properties>
                         <text>1</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1019,7 +1019,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1173</x>
-                        <y>179</y>
+                        <y>199</y>
                         <z>0</z>
                         <width>321</width>
                         <height>116</height>
@@ -1030,7 +1030,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="12">
+                <instance type="m6_1_lulImABG" uid="12">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1041,7 +1041,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>203</x>
-                        <y>152</y>
+                        <y>172</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1052,7 +1052,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="11">
+                <instance type="m6_1_fudIng" uid="11">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1068,7 +1068,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>203</x>
-                        <y>137</y>
+                        <y>157</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1079,7 +1079,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="16">
+                <instance type="m6_1_lulImABG" uid="16">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1090,7 +1090,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>187</x>
-                        <y>397</y>
+                        <y>417</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1101,7 +1101,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="15">
+                <instance type="m6_1_fudIng" uid="15">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1117,7 +1117,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>193</x>
-                        <y>374</y>
+                        <y>394</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1128,7 +1128,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="18">
+                <instance type="m6_1_lulImABG" uid="18">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1139,7 +1139,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>167</x>
-                        <y>612</y>
+                        <y>632</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1150,7 +1150,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="19">
+                <instance type="m6_1_fudIng" uid="19">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1166,7 +1166,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>173</x>
-                        <y>589</y>
+                        <y>609</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1177,7 +1177,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="21">
+                <instance type="m6_1_lulImABG" uid="21">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1188,7 +1188,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>175</x>
-                        <y>832</y>
+                        <y>852</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1199,7 +1199,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="22">
+                <instance type="m6_1_fudIng" uid="22">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1215,7 +1215,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>181</x>
-                        <y>809</y>
+                        <y>829</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1226,7 +1226,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="24">
+                <instance type="m6_1_lulImABG" uid="24">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1237,7 +1237,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>168</x>
-                        <y>1051</y>
+                        <y>1071</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1248,7 +1248,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="25">
+                <instance type="m6_1_fudIng" uid="25">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1264,7 +1264,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>174</x>
-                        <y>1028</y>
+                        <y>1048</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1275,7 +1275,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="27">
+                <instance type="m6_1_lulImABG" uid="27">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1286,7 +1286,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>436</x>
-                        <y>175</y>
+                        <y>195</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1297,7 +1297,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="28">
+                <instance type="m6_1_fudIng" uid="28">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1313,7 +1313,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>442</x>
-                        <y>152</y>
+                        <y>172</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1324,7 +1324,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="30">
+                <instance type="m6_1_lulImABG" uid="30">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1335,7 +1335,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>435</x>
-                        <y>413</y>
+                        <y>433</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1346,7 +1346,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="31">
+                <instance type="m6_1_fudIng" uid="31">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1362,7 +1362,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>441</x>
-                        <y>390</y>
+                        <y>410</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1373,7 +1373,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="33">
+                <instance type="m6_1_lulImABG" uid="33">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1384,7 +1384,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>434</x>
-                        <y>635</y>
+                        <y>655</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1395,7 +1395,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="34">
+                <instance type="m6_1_fudIng" uid="34">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1411,7 +1411,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>440</x>
-                        <y>612</y>
+                        <y>632</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1422,7 +1422,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="36">
+                <instance type="m6_1_lulImABG" uid="36">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1433,7 +1433,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>429</x>
-                        <y>844</y>
+                        <y>864</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1444,7 +1444,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="37">
+                <instance type="m6_1_fudIng" uid="37">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1460,7 +1460,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>435</x>
-                        <y>821</y>
+                        <y>841</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1471,7 +1471,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="39">
+                <instance type="m6_1_lulImABG" uid="39">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1482,7 +1482,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>423</x>
-                        <y>1064</y>
+                        <y>1084</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1493,7 +1493,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="40">
+                <instance type="m6_1_fudIng" uid="40">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1509,7 +1509,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>429</x>
-                        <y>1041</y>
+                        <y>1061</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1520,7 +1520,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="42">
+                <instance type="m6_1_lulImABG" uid="42">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1531,7 +1531,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>748</x>
-                        <y>179</y>
+                        <y>199</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1542,7 +1542,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="43">
+                <instance type="m6_1_fudIng" uid="43">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1558,7 +1558,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>754</x>
-                        <y>156</y>
+                        <y>176</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1569,7 +1569,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="45">
+                <instance type="m6_1_lulImABG" uid="45">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1580,7 +1580,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>785</x>
-                        <y>409</y>
+                        <y>429</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1591,7 +1591,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="46">
+                <instance type="m6_1_fudIng" uid="46">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1607,7 +1607,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>791</x>
-                        <y>386</y>
+                        <y>406</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1618,7 +1618,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="48">
+                <instance type="m6_1_lulImABG" uid="48">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1629,7 +1629,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>756</x>
-                        <y>626</y>
+                        <y>646</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1640,7 +1640,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="49">
+                <instance type="m6_1_fudIng" uid="49">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1656,7 +1656,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>762</x>
-                        <y>603</y>
+                        <y>623</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1667,7 +1667,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="51">
+                <instance type="m6_1_lulImABG" uid="51">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1678,7 +1678,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>762</x>
-                        <y>854</y>
+                        <y>874</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1689,7 +1689,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="52">
+                <instance type="m6_1_fudIng" uid="52">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1705,7 +1705,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>768</x>
-                        <y>831</y>
+                        <y>851</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1716,7 +1716,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="lulImABG" uid="54">
+                <instance type="m6_1_lulImABG" uid="54">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1727,7 +1727,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>764</x>
-                        <y>1045</y>
+                        <y>1065</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1738,7 +1738,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="fudIng" uid="55">
+                <instance type="m6_1_fudIng" uid="55">
                     <properties>
                         <text></text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1754,7 +1754,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>770</x>
-                        <y>1022</y>
+                        <y>1042</y>
                         <z>0</z>
                         <width>160</width>
                         <height>100</height>
@@ -1765,7 +1765,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="kek" uid="56">
+                <instance type="m6_1_kek" uid="56">
                     <properties>
                         <text>You Lose!</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1781,7 +1781,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1001</x>
-                        <y>1408</y>
+                        <y>1428</y>
                         <z>0</z>
                         <width>931</width>
                         <height>363</height>
@@ -1792,19 +1792,100 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
+                <instance type="m6_1_buy" uid="57">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1440</x>
+                        <y>1138</y>
+                        <z>0</z>
+                        <width>480</width>
+                        <height>100</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="m6_1_bought" uid="58">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <fud1>Starch</fud1>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>0.5</density>
+                                <friction>0.5</friction>
+                                <elasticity>1</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2017</x>
+                        <y>656</y>
+                        <z>0</z>
+                        <width>80</width>
+                        <height>80</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
+            <effects />
+        </layer>
+        <layer name="end" sid="426900044229651">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
             <effects />
         </layer>
     </layers>
     <nonworld-instances>
-        <instance type="Recipe" uid="3">
+        <instance type="m6_1_Recipe" uid="3">
             <properties>
                 <width>3</width>
                 <height>9</height>
                 <depth>2</depth>
             </properties>
         </instance>
-        <instance type="Recipe1" uid="9">
+        <instance type="m6_1_Recipe1" uid="9">
             <properties>
                 <width>4</width>
                 <height>2</height>
