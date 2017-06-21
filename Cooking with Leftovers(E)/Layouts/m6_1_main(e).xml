@@ -1822,7 +1822,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <fud1>Starch</fud1>
+                        <fud1></fud1>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Physics">

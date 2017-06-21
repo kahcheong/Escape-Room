@@ -253,6 +253,7 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <comment>hint thingy</comment>
         <event-block sid="656348362356217">
             <conditions>
                 <condition id="-14" name="Compare variable" sid="142135851221236" type="System">

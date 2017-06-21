@@ -85,6 +85,14 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="m8_1_factory" sid="262436516210161">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="645832644208921" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
