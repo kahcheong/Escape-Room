@@ -15,7 +15,9 @@
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -54,17 +56,23 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="175022701022205" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <image-point name="Imagepoint 1" x="0.008" y="0.292" />
-                        <image-point name="Imagepoint 2" x="0.008" y="0.688" />
+                        <image-point name="Imagepoint 1" x="0" y="0.292" />
+                        <image-point name="Imagepoint 2" x="0" y="0.684" />
+                        <image-point name="Imagepoint 3" x="0" y="0.992" />
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="m6_1_theDude" sid="519936480558558">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="712179534763768">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="707040206352313" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0" hotspotY="0.352439" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -78,7 +86,13 @@
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="item" sid="535122617236179" type="string" />
+                <instance-variable name="scrollSpeed" sid="659195284221520" type="number" />
             </instance-variables>
+            <behaviors>
+                <behavior-type name="Physics" sid="116998547956730">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="415312516365985" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="1" />
@@ -89,6 +103,57 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="645832644208921" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m8_1_theArm1" sid="750196476568852">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="897532307779903">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="572915035500019" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="0.153846" y="0.5" />
+                        <image-point name="Imagepoint 2" x="0.846154" y="0.5" />
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.0559999" y="0" />
+                            <point x="0.0520002" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m8_1_theArm2" sid="800873810405412">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="318660223390589">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="947399483120102" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <image-point name="Imagepoint 1" x="0.153846" y="0.5" />
+                        <image-point name="Imagepoint 2" x="0.846154" y="0.6" />
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m8_1_theHand" sid="847293357754674">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="921127121597840">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="740816181569512" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>

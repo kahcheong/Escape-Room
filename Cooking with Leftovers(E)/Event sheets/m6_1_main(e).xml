@@ -251,6 +251,21 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="867738557780426">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="999875164384001" type="m6_1_bought">
+                            <param id="0" name="Instance variable">fud1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Red Meat&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="663045189633899" type="m6_1_bought">
+                            <param id="0" name="Animation">&quot;RedMeat&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-block>
         <comment>hint thingy</comment>

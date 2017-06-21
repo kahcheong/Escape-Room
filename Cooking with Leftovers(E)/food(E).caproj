@@ -188,6 +188,20 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="317078157847181" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
+                <animation framecount="1" loop="0" name="RedMeat" pingpong="0" repeatcount="1" repeatto="0" sid="355484365569216" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Downloads\Red Meat.png">
+                        <collision-poly>
+                            <point x="0.25" y="0.25" />
+                            <point x="0.5" y="0.125" />
+                            <point x="0.875" y="0.125" />
+                            <point x="0.9375" y="0.5" />
+                            <point x="0.7625" y="0.7625" />
+                            <point x="0.5" y="0.925" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0.05" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="Audio" sid="102605762356125">
