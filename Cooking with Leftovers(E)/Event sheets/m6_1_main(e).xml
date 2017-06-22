@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>m6_1_main(e)</name>
     <events>
+        <variable constant="0" name="m6_1_recipe" sid="499942595774607" static="0" type="number">0</variable>
         <variable constant="0" name="m6_1_buy" sid="868122023909889" static="0" type="number">0</variable>
         <variable constant="0" name="m6_1_score" sid="634529646240451" static="0" type="number">10</variable>
         <variable constant="0" name="m6_1_playing" sid="761589290442847" static="0" type="number">1</variable>
@@ -57,35 +58,9 @@
                             <param id="1" name="Y">8</param>
                             <param id="2" name="Value">&quot;Fruit&quot;</param>
                         </action>
-                        <action id="4" name="Set at XYZ" sid="745659762712668" type="m6_1_Recipe">
-                            <param id="0" name="X">0</param>
-                            <param id="1" name="Y">0</param>
-                            <param id="2" name="Z">0</param>
-                            <param id="3" name="Value">&quot;Recipe Name&quot;</param>
-                        </action>
-                        <action id="4" name="Set at XYZ" sid="206236813753749" type="m6_1_Recipe">
-                            <param id="0" name="X">0</param>
-                            <param id="1" name="Y">0</param>
-                            <param id="2" name="Z">1</param>
-                            <param id="3" name="Value">1</param>
-                        </action>
-                        <action id="4" name="Set at XYZ" sid="945550693705019" type="m6_1_Recipe">
-                            <param id="0" name="X">0</param>
-                            <param id="1" name="Y">1</param>
-                            <param id="2" name="Z">1</param>
-                            <param id="3" name="Value">3</param>
-                        </action>
-                        <action id="4" name="Set at XYZ" sid="936914598114004" type="m6_1_Recipe">
-                            <param id="0" name="X">0</param>
-                            <param id="1" name="Y">5</param>
-                            <param id="2" name="Z">1</param>
-                            <param id="3" name="Value">4</param>
-                        </action>
-                        <action id="4" name="Set at XYZ" sid="629226802182364" type="m6_1_Recipe">
-                            <param id="0" name="X">0</param>
-                            <param id="1" name="Y">6</param>
-                            <param id="2" name="Z">1</param>
-                            <param id="3" name="Value">4</param>
+                        <action id="-9" name="Set value" sid="220921992994769" type="System">
+                            <param id="0" name="Variable">m6_1_recipe</param>
+                            <param id="1" name="Value">choose(1,2,3,4,5)</param>
                         </action>
                         <action id="-3" name="Set position" sid="696693283596531" type="m6_1_kek">
                             <param id="0" name="X">960</param>
@@ -101,6 +76,219 @@
                         </action>
                     </actions>
                     <sub-events>
+                        <event-block sid="298896632056627">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="939743806116946" type="System">
+                                    <param id="0" name="Variable">m6_1_recipe</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set at XYZ" sid="745659762712668" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Z">0</param>
+                                    <param id="3" name="Value">&quot;Veggie Pasta Bake&quot;</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="206236813753749" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="945550693705019" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">5</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="936914598114004" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">4</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="629226802182364" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">6</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="322251017518016">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="173851735407501" type="System">
+                                    <param id="0" name="Variable">m6_1_recipe</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set at XYZ" sid="531519359308618" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Z">0</param>
+                                    <param id="3" name="Value">&quot;Sweet potatoe stir fry and Steaks&quot;</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="803024664096392" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="944737129118138" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="947971408754409" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">5</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">3</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="164213282107435" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">6</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="718491142730037">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="982046981070313" type="System">
+                                    <param id="0" name="Variable">m6_1_recipe</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set at XYZ" sid="960594363569336" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Z">0</param>
+                                    <param id="3" name="Value">&quot;MeatLoaf&quot;</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="605205369170609" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="131760255523501" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">2</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="190763349678012" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">5</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="770512326769022" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">6</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="597540568035304">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="617765887667154" type="System">
+                                    <param id="0" name="Variable">m6_1_recipe</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set at XYZ" sid="705336751336375" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Z">0</param>
+                                    <param id="3" name="Value">&quot;Hash Browns&quot;</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="431453419885725" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="475942555503824" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">5</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">2</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="350851414527310" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">6</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">3</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="576936374757221">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="910500282520419" type="m6_1_counter">
+                                            <param id="0" name="Instance variable">ingredientType</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">3</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Destroy" sid="636490654835007" type="m6_1_counter" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="780322092341226">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="505464778660659" type="System">
+                                    <param id="0" name="Variable">m6_1_recipe</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">5</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set at XYZ" sid="923345076593290" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Z">0</param>
+                                    <param id="3" name="Value">&quot;Cornsih Pastry&quot;</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="787005054167999" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">0</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="931825639231506" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="934221069055021" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">5</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">2</param>
+                                </action>
+                                <action id="4" name="Set at XYZ" sid="385290040719238" type="m6_1_Recipe">
+                                    <param id="0" name="X">0</param>
+                                    <param id="1" name="Y">6</param>
+                                    <param id="2" name="Z">1</param>
+                                    <param id="3" name="Value">2</param>
+                                </action>
+                            </actions>
+                        </event-block>
                         <event-block sid="740144380387618">
                             <conditions>
                                 <condition id="3" name="For each element" sid="801563219062914" type="m6_1_Recipe">
@@ -262,6 +450,96 @@
                     <actions>
                         <action id="4" name="Set animation" sid="663045189633899" type="m6_1_bought">
                             <param id="0" name="Animation">&quot;RedMeat&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="992845109264528">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="968229564196607" type="m6_1_bought">
+                            <param id="0" name="Instance variable">fud1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Dairy&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="306288119915156" type="m6_1_bought">
+                            <param id="0" name="Animation">&quot;Dairy&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="505599185780420">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="120933103309858" type="m6_1_bought">
+                            <param id="0" name="Instance variable">fud1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;SeaFood&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="706754350672859" type="m6_1_bought">
+                            <param id="0" name="Animation">&quot;fish&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="358093058020224">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="117228117926354" type="m6_1_bought">
+                            <param id="0" name="Instance variable">fud1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Leaf Veggie&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="745191771007156" type="m6_1_bought">
+                            <param id="0" name="Animation">&quot;Leaf&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="550991966531832">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="515690089866550" type="m6_1_bought">
+                            <param id="0" name="Instance variable">fud1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Poultry&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="603417398522985" type="m6_1_bought">
+                            <param id="0" name="Animation">&quot;poultry&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="427212871867955">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="770572695766684" type="m6_1_bought">
+                            <param id="0" name="Instance variable">fud1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Root Veggie&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="524702725541767" type="m6_1_bought">
+                            <param id="0" name="Animation">&quot;root&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="739019771666283">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="681138977211828" type="m6_1_bought">
+                            <param id="0" name="Instance variable">fud1</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;Starch&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="702039884966729" type="m6_1_bought">
+                            <param id="0" name="Animation">&quot;starch&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
                     </actions>

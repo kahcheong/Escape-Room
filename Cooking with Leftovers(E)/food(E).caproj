@@ -202,6 +202,98 @@
                         </collision-poly>
                     </frame>
                 </animation>
+                <animation framecount="1" loop="0" name="Dairy" pingpong="0" repeatcount="1" repeatto="0" sid="642064417148110" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Dairy.png">
+                        <collision-poly>
+                            <point x="0.275" y="0.275" />
+                            <point x="0.5" y="0.025" />
+                            <point x="0.75" y="0.25" />
+                            <point x="0.75625" y="0.828125" />
+                            <point x="0.63125" y="0.984375" />
+                            <point x="0.2375" y="1" />
+                            <point x="0.2375" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Leaf" pingpong="0" repeatcount="1" repeatto="0" sid="497232246952526" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Leaf Veggie.png">
+                        <collision-poly>
+                            <point x="0.1375" y="0.096875" />
+                            <point x="0.5125" y="0" />
+                            <point x="0.896875" y="0.175" />
+                            <point x="0.875" y="0.503125" />
+                            <point x="0.765625" y="0.671875" />
+                            <point x="0.521875" y="0.996875" />
+                            <point x="0.415625" y="0.96875" />
+                            <point x="0.16875" y="0.645312" />
+                            <point x="0.04375" y="0.359375" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="poultry" pingpong="0" repeatcount="1" repeatto="0" sid="645590910092894" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Poultry.png">
+                        <collision-poly>
+                            <point x="0.053125" y="0.071875" />
+                            <point x="0.2625" y="0.021875" />
+                            <point x="0.49375" y="0.146875" />
+                            <point x="0.60625" y="0.396875" />
+                            <point x="0.815625" y="0.573437" />
+                            <point x="0.778125" y="0.66875" />
+                            <point x="0.95625" y="0.859766" />
+                            <point x="0.859375" y="0.953907" />
+                            <point x="0.689062" y="0.774609" />
+                            <point x="0.5625" y="0.789063" />
+                            <point x="0.40625" y="0.634375" />
+                            <point x="0.153125" y="0.521875" />
+                            <point x="0.025" y="0.359375" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="root" pingpong="0" repeatcount="1" repeatto="0" sid="850648496877003" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Root Vegetable.png">
+                        <collision-poly>
+                            <point x="0.375" y="0.375" />
+                            <point x="0.784375" y="0.0562501" />
+                            <point x="0.976563" y="0.378125" />
+                            <point x="0.734375" y="0.559375" />
+                            <point x="0.65" y="0.65" />
+                            <point x="0.2375" y="0.915625" />
+                            <point x="0.0625" y="0.9375" />
+                            <point x="0.109375" y="0.671875" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="fish" pingpong="0" repeatcount="1" repeatto="0" sid="219218262412498" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Seafood.png">
+                        <collision-poly>
+                            <point x="0.2375" y="0.2375" />
+                            <point x="0.5" y="0.0875" />
+                            <point x="0.76875" y="0.00625" />
+                            <point x="0.928125" y="0.125" />
+                            <point x="0.99375" y="0.31875" />
+                            <point x="0.8875" y="0.5" />
+                            <point x="0.725" y="0.725" />
+                            <point x="0.5" y="0.7" />
+                            <point x="0.275" y="0.759375" />
+                            <point x="0.223438" y="0.925" />
+                            <point x="0" y="0.584375" />
+                            <point x="0.146875" y="0.589063" />
+                            <point x="0.1875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="starch" pingpong="0" repeatcount="1" repeatto="0" sid="171611012854679" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Starch.png">
+                        <collision-poly>
+                            <point x="0.1625" y="0.1625" />
+                            <point x="0.290625" y="0.05625" />
+                            <point x="0.834375" y="0.034375" />
+                            <point x="0.83125" y="0.95" />
+                            <point x="0.309375" y="0.99375" />
+                            <point x="0.153125" y="0.89375" />
+                        </collision-poly>
+                    </frame>
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="Audio" sid="102605762356125">
