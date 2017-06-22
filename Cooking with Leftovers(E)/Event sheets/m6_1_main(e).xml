@@ -675,7 +675,7 @@
                                                 </action>
                                                 <action id="-11" name="Subtract from" sid="682176167315876" type="System">
                                                     <param id="0" name="Variable">m6_1_score</param>
-                                                    <param id="1" name="Value">1</param>
+                                                    <param id="1" name="Value">2</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -1118,7 +1118,7 @@
                             <param id="0" name="Text">&quot;You Win!&quot;</param>
                         </action>
                         <action id="1" name="Append text" sid="990851128506889" type="m6_1_kek">
-                            <param id="0" name="Text">newline&amp;&quot;You bought &quot; &amp; 10-m6_1_score &amp; &quot; new items.&quot;</param>
+                            <param id="0" name="Text">newline&amp;&quot;You bought &quot; &amp; (10-m6_1_score)/2 &amp; &quot; new items.&quot;</param>
                         </action>
                         <action id="-16" name="Set opacity" sid="299306247414899" type="m6_1_kek">
                             <param id="0" name="Opacity">100</param>
