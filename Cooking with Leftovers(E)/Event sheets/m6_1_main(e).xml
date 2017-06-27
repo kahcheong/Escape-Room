@@ -143,6 +143,10 @@
                             <param id="0" name="Animation">m6_1_fud.name</param>
                             <param id="1" name="From">1</param>
                         </action>
+                        <action id="-4" name="Set position to another object" sid="339376861075072" type="m6_1_lulImABG">
+                            <param id="0" name="Object">m6_1_fud</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
                     </actions>
                     <sub-events>
                         <event-block sid="298896632056627">
@@ -510,7 +514,9 @@
                     </actions>
                 </event-block>
                 <event-block any="1" sid="541508742233327">
-                    <conditions />
+                    <conditions>
+                        <condition id="2" name="Is in touch" sid="170791815368298" type="Touch" />
+                    </conditions>
                     <actions>
                         <action id="-1" name="Set X" sid="181037208296639" type="m6_1_lulImABG">
                             <param id="0" name="X">m6_1_fud.X</param>
@@ -518,29 +524,13 @@
                         <action id="-1" name="Set X" sid="571923693128193" type="m6_1_fudIng">
                             <param id="0" name="X">m6_1_fud.X</param>
                         </action>
+                        <action id="-2" name="Set Y" sid="135966935242932" type="m6_1_lulImABG">
+                            <param id="0" name="Y">m6_1_fud.Y</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="480124949729628" type="m6_1_fudIng">
+                            <param id="0" name="Y">m6_1_fud.Y</param>
+                        </action>
                     </actions>
-                    <sub-events>
-                        <event-block any="1" sid="166740393728481">
-                            <conditions>
-                                <condition id="-1" inverted="1" name="Compare X" sid="148780570377855" type="m6_1_fud">
-                                    <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="X co-ordinate">1740</param>
-                                </condition>
-                                <condition id="-1" inverted="1" name="Compare X" sid="419448299790476" type="m6_1_fud">
-                                    <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="X co-ordinate">1140</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-2" name="Set Y" sid="135966935242932" type="m6_1_lulImABG">
-                                    <param id="0" name="Y">m6_1_fud.Y</param>
-                                </action>
-                                <action id="-2" name="Set Y" sid="480124949729628" type="m6_1_fudIng">
-                                    <param id="0" name="Y">m6_1_fud.Y</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
                 </event-block>
                 <event-block sid="867738557780426">
                     <conditions>
@@ -677,7 +667,7 @@
                 <comment>hint thingy</comment>
                 <event-group description="" sid="997433517972564" title="m6_1_fudInteraction">
                     <sub-events>
-                        <event-block sid="112588556304016">
+                        <event-block bookmark="1" sid="112588556304016">
                             <conditions>
                                 <condition id="-1" name="Compare X" sid="873887287528529" type="m6_1_fud">
                                     <param id="0" name="Comparison">4</param>
@@ -687,10 +677,14 @@
                                     <param id="0" name="Comparison">2</param>
                                     <param id="1" name="X co-ordinate">1740</param>
                                 </condition>
+                                <condition id="2" inverted="1" name="Is in touch" sid="949815149189740" type="Touch" />
                             </conditions>
                             <actions>
                                 <action behavior="Physics" id="27" name="Set enabled" sid="827689134829353" type="m6_1_fud">
                                     <param id="0" name="Mode">1</param>
+                                </action>
+                                <action behavior="DragDrop" id="0" name="Set enabled" sid="569155340575081" type="m6_1_fud">
+                                    <param id="0" name="State">0</param>
                                 </action>
                                 <action id="4" name="Set animation" sid="727799571133364" type="m6_1_lulImABG">
                                     <param id="0" name="Animation">&quot;Animation2&quot;</param>
@@ -720,6 +714,9 @@
                             <actions>
                                 <action behavior="Physics" id="27" name="Set enabled" sid="635535716239835" type="m6_1_fud">
                                     <param id="0" name="Mode">0</param>
+                                </action>
+                                <action behavior="DragDrop" id="0" name="Set enabled" sid="806829140598740" type="m6_1_fud">
+                                    <param id="0" name="State">1</param>
                                 </action>
                             </actions>
                         </event-block>
