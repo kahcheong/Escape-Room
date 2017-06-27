@@ -139,6 +139,10 @@
                             <param id="3" name="Volume">-20</param>
                             <param id="1" name="Tag (optional)">&quot;saang&quot;</param>
                         </action>
+                        <action id="4" name="Set animation" sid="940424127962398" type="m6_1_lulImABG">
+                            <param id="0" name="Animation">m6_1_fud.name</param>
+                            <param id="1" name="From">1</param>
+                        </action>
                     </actions>
                     <sub-events>
                         <event-block sid="298896632056627">
@@ -483,7 +487,11 @@
             <conditions>
                 <condition id="-1" name="Every tick" sid="929537009833651" type="System" />
             </conditions>
-            <actions />
+            <actions>
+                <action id="-15" name="Set visible" sid="475846799394691" type="m6_1_lulImABG">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
             <sub-events>
                 <event-block sid="653842218595703">
                     <conditions>
@@ -495,20 +503,44 @@
                         <action id="0" name="Set text" sid="853197711506732" type="m6_1_counter">
                             <param id="0" name="Text">m6_1_Recipe1.At(m6_1_counter.ingredientType,1)</param>
                         </action>
+                        <action id="-10" name="Set value" sid="285744357252797" type="m6_1_lulImABG">
+                            <param id="0" name="Instance variable">fud</param>
+                            <param id="1" name="Value">m6_1_fud.name</param>
+                        </action>
                     </actions>
                 </event-block>
-                <event-block sid="541508742233327">
+                <event-block any="1" sid="541508742233327">
                     <conditions />
                     <actions>
-                        <action id="-3" name="Set position" sid="181037208296639" type="m6_1_lulImABG">
-                            <param id="0" name="X">m6_1_fud.X-10</param>
-                            <param id="1" name="Y">m6_1_fud.Y -5</param>
-                        </action>
-                        <action id="-3" name="Set position" sid="571923693128193" type="m6_1_fudIng">
+                        <action id="-1" name="Set X" sid="181037208296639" type="m6_1_lulImABG">
                             <param id="0" name="X">m6_1_fud.X</param>
-                            <param id="1" name="Y">m6_1_fud.Y</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="571923693128193" type="m6_1_fudIng">
+                            <param id="0" name="X">m6_1_fud.X</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block any="1" sid="166740393728481">
+                            <conditions>
+                                <condition id="-1" inverted="1" name="Compare X" sid="148780570377855" type="m6_1_fud">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">1740</param>
+                                </condition>
+                                <condition id="-1" inverted="1" name="Compare X" sid="419448299790476" type="m6_1_fud">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">1140</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Set Y" sid="135966935242932" type="m6_1_lulImABG">
+                                    <param id="0" name="Y">m6_1_fud.Y</param>
+                                </action>
+                                <action id="-2" name="Set Y" sid="480124949729628" type="m6_1_fudIng">
+                                    <param id="0" name="Y">m6_1_fud.Y</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
                 <event-block sid="867738557780426">
                     <conditions>
@@ -660,6 +692,18 @@
                                 <action behavior="Physics" id="27" name="Set enabled" sid="827689134829353" type="m6_1_fud">
                                     <param id="0" name="Mode">1</param>
                                 </action>
+                                <action id="4" name="Set animation" sid="727799571133364" type="m6_1_lulImABG">
+                                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="421871756742111" type="m6_1_lulImABG">
+                                    <param id="0" name="X">m6_1_lulImABG.X</param>
+                                    <param id="1" name="Y">m6_1_lulImABG.Y</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="875483915936053" type="m6_1_fud">
+                                    <param id="0" name="Animation">m6_1_fud.name</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block any="1" sid="822118977874951">
@@ -706,8 +750,13 @@
                                 <action id="-14" name="Toggle boolean" sid="885927354814779" type="m6_1_fud">
                                     <param id="0" name="Instance variable">hint</param>
                                 </action>
-                                <action id="-15" name="Set visible" sid="823097234610772" type="m6_1_lulImABG">
-                                    <param id="0" name="Visibility">1</param>
+                                <action id="4" name="Set animation" sid="696003386584840" type="m6_1_fud">
+                                    <param id="0" name="Animation">m6_1_fud.name</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="265597169570421" type="m6_1_lulImABG">
+                                    <param id="0" name="Animation">&quot;Animation2&quot;</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="721152499510774" type="m6_1_fudIng">
                                     <param id="0" name="Visibility">1</param>
@@ -715,11 +764,16 @@
                                 <action id="-16" name="Wait" sid="195306572121006" type="System">
                                     <param id="0" name="Seconds">3</param>
                                 </action>
-                                <action id="-15" name="Set visible" sid="184733867879217" type="m6_1_lulImABG">
-                                    <param id="0" name="Visibility">0</param>
-                                </action>
                                 <action id="-15" name="Set visible" sid="107574035098016" type="m6_1_fudIng">
                                     <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="498724270153054" type="m6_1_lulImABG">
+                                    <param id="0" name="Animation">m6_1_lulImABG.fud</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="843985529030786" type="m6_1_fud">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                                 <action id="-14" name="Toggle boolean" sid="525752843238129" type="m6_1_fud">
                                     <param id="0" name="Instance variable">hint</param>
@@ -823,6 +877,10 @@
                                             <param id="0" name="Variable">m6_1_playing</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
+                                        <action id="-10" name="Set value" sid="454832028340770" type="m6_1_lulImABG">
+                                            <param id="0" name="Instance variable">fud</param>
+                                            <param id="1" name="Value">&quot;&quot;</param>
+                                        </action>
                                         <action id="-9" name="Destroy" sid="872897132425360" type="m6_1_fud" />
                                     </actions>
                                 </event-block>
@@ -857,6 +915,10 @@
                                         <action id="-9" name="Set value" sid="713003518272226" type="System">
                                             <param id="0" name="Variable">m6_1_playing</param>
                                             <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="434811604473309" type="m6_1_lulImABG">
+                                            <param id="0" name="Instance variable">fud</param>
+                                            <param id="1" name="Value">&quot;&quot;</param>
                                         </action>
                                         <action id="-9" name="Destroy" sid="889007974066187" type="m6_1_fud" />
                                     </actions>
@@ -893,6 +955,10 @@
                                             <param id="0" name="Variable">m6_1_playing</param>
                                             <param id="1" name="Value">0</param>
                                         </action>
+                                        <action id="-10" name="Set value" sid="607669874970272" type="m6_1_lulImABG">
+                                            <param id="0" name="Instance variable">fud</param>
+                                            <param id="1" name="Value">&quot;&quot;</param>
+                                        </action>
                                         <action id="-9" name="Destroy" sid="245202599311728" type="m6_1_fud" />
                                     </actions>
                                 </event-block>
@@ -909,6 +975,10 @@
                                             <param id="0" name="X">1</param>
                                             <param id="1" name="Y">1</param>
                                             <param id="2" name="Value">m6_1_Recipe1.At(1,1)-1</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="688494212463654" type="m6_1_lulImABG">
+                                            <param id="0" name="Instance variable">fud</param>
+                                            <param id="1" name="Value">&quot;default&quot;</param>
                                         </action>
                                         <action id="-9" name="Destroy" sid="371086027454539" type="m6_1_fud" />
                                     </actions>
@@ -928,6 +998,10 @@
                                             <param id="2" name="Value">m6_1_Recipe1.At(2,1)-1</param>
                                         </action>
                                         <action id="-9" name="Destroy" sid="739919875104620" type="m6_1_fud" />
+                                        <action id="-10" name="Set value" sid="557311455097313" type="m6_1_lulImABG">
+                                            <param id="0" name="Instance variable">fud</param>
+                                            <param id="1" name="Value">&quot;default&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="990036748074802">
@@ -945,6 +1019,10 @@
                                             <param id="2" name="Value">m6_1_Recipe1.At(3,1)-1</param>
                                         </action>
                                         <action id="-9" name="Destroy" sid="891708402238635" type="m6_1_fud" />
+                                        <action id="-10" name="Set value" sid="274197638085811" type="m6_1_lulImABG">
+                                            <param id="0" name="Instance variable">fud</param>
+                                            <param id="1" name="Value">&quot;default&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="863645710108866">
@@ -962,6 +1040,10 @@
                                             <param id="2" name="Value">m6_1_Recipe1.At(1,1)-1</param>
                                         </action>
                                         <action id="-9" name="Destroy" sid="665294662624722" type="m6_1_fud" />
+                                        <action id="-10" name="Set value" sid="911595311536060" type="m6_1_lulImABG">
+                                            <param id="0" name="Instance variable">fud</param>
+                                            <param id="1" name="Value">&quot;default&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="417862796484153">
@@ -979,6 +1061,10 @@
                                             <param id="2" name="Value">m6_1_Recipe1.At(2,1)-1</param>
                                         </action>
                                         <action id="-9" name="Destroy" sid="400414008392618" type="m6_1_fud" />
+                                        <action id="-10" name="Set value" sid="343697820946409" type="m6_1_lulImABG">
+                                            <param id="0" name="Instance variable">fud</param>
+                                            <param id="1" name="Value">&quot;default&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="115664819567934">
@@ -996,6 +1082,10 @@
                                             <param id="2" name="Value">m6_1_Recipe1.At(3,1)-1</param>
                                         </action>
                                         <action id="-9" name="Destroy" sid="161950066321854" type="m6_1_fud" />
+                                        <action id="-10" name="Set value" sid="301485097977203" type="m6_1_lulImABG">
+                                            <param id="0" name="Instance variable">fud</param>
+                                            <param id="1" name="Value">&quot;default&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="238733386380164">
@@ -1013,6 +1103,10 @@
                                             <param id="2" name="Value">m6_1_Recipe1.At(1,1)-1</param>
                                         </action>
                                         <action id="-9" name="Destroy" sid="156960347693455" type="m6_1_fud" />
+                                        <action id="-10" name="Set value" sid="754185199953575" type="m6_1_lulImABG">
+                                            <param id="0" name="Instance variable">fud</param>
+                                            <param id="1" name="Value">&quot;default&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="564484751144118">
@@ -1030,6 +1124,10 @@
                                             <param id="2" name="Value">m6_1_Recipe1.At(2,1)-1</param>
                                         </action>
                                         <action id="-9" name="Destroy" sid="224268213450718" type="m6_1_fud" />
+                                        <action id="-10" name="Set value" sid="131600733963556" type="m6_1_lulImABG">
+                                            <param id="0" name="Instance variable">fud</param>
+                                            <param id="1" name="Value">&quot;default&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="900250822577068">
@@ -1047,6 +1145,10 @@
                                             <param id="2" name="Value">m6_1_Recipe1.At(3,1)-1</param>
                                         </action>
                                         <action id="-9" name="Destroy" sid="666764878127679" type="m6_1_fud" />
+                                        <action id="-10" name="Set value" sid="330392604316091" type="m6_1_lulImABG">
+                                            <param id="0" name="Instance variable">fud</param>
+                                            <param id="1" name="Value">&quot;default&quot;</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                             </sub-events>

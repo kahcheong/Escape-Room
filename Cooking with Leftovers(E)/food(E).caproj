@@ -135,12 +135,39 @@
             </container>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="275326445347932" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Tupperware.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="703611055328037" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Open Tupperware.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.99" y="0.5" />
+                            <point x="0.99" y="0.995" />
+                            <point x="0.01" y="0.995" />
+                            <point x="0.01" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Gumbo" pingpong="0" repeatcount="1" repeatto="0" sid="665074801246896" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\gumpo falling test.png">
+                        <collision-poly>
+                            <point x="0" y="0.505" />
+                            <point x="1" y="0.52" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="m6_1_fudIng" sid="445239415673374">
             <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Physics" sid="312612174360831">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
             <container>
                 <type>m6_1_fud</type>
                 <type>m6_1_lulImABG</type>
@@ -149,6 +176,9 @@
         </object-type>
         <object-type name="m6_1_lulImABG" sid="326656579784057">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="fud" sid="410459227509918" type="string" />
+            </instance-variables>
             <container>
                 <type>m6_1_fud</type>
                 <type>m6_1_lulImABG</type>
@@ -156,7 +186,35 @@
             </container>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="715396634306081" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="1" />
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Tupperware.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.55" />
+                            <point x="0.96" y="0.98" />
+                            <point x="0.5" y="1" />
+                            <point x="0.03" y="0.985" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Gumbo" pingpong="0" repeatcount="1" repeatto="0" sid="747053076355126" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Gumbo leftover.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.555" />
+                            <point x="0.93" y="0.965" />
+                            <point x="0.06" y="0.97" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="888088792930431" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Open Tupperware.png">
+                        <collision-poly>
+                            <point x="0.18" y="0.09" />
+                            <point x="0.82" y="0.09" />
+                            <point x="0.99" y="0.5" />
+                            <point x="0.99" y="0.995" />
+                            <point x="0.01" y="0.995" />
+                            <point x="0.01" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
