@@ -294,6 +294,21 @@
                         </collision-poly>
                     </frame>
                 </animation>
+                <animation framecount="1" loop="0" name="fruit" pingpong="0" repeatcount="1" repeatto="0" sid="252251291935719" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Fruit.png">
+                        <collision-poly>
+                            <point x="0.178125" y="0.25" />
+                            <point x="0.478125" y="0.025" />
+                            <point x="0.66875" y="0.059375" />
+                            <point x="0.871875" y="0.3" />
+                            <point x="0.975" y="0.521875" />
+                            <point x="0.8875" y="0.903125" />
+                            <point x="0.5375" y="1" />
+                            <point x="0.15625" y="0.91875" />
+                            <point x="0.025" y="0.50625" />
+                        </collision-poly>
+                    </frame>
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="Audio" sid="102605762356125">
