@@ -62,6 +62,10 @@
                             <param id="0" name="Variable">m6_1_recipe</param>
                             <param id="1" name="Value">choose(1,2,3,4,5)</param>
                         </action>
+                        <action id="-18" name="Set layer opacity" sid="894643458749664" type="System">
+                            <param id="0" name="Layer">&quot;end&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
                         <action id="-3" name="Set position" sid="696693283596531" type="m6_1_kek">
                             <param id="0" name="X">960</param>
                             <param id="1" name="Y">600</param>
@@ -261,7 +265,7 @@
                                     <param id="0" name="X">0</param>
                                     <param id="1" name="Y">0</param>
                                     <param id="2" name="Z">0</param>
-                                    <param id="3" name="Value">&quot;Cornsih Pastry&quot;</param>
+                                    <param id="3" name="Value">&quot;Cornish Pastry&quot;</param>
                                 </action>
                                 <action id="4" name="Set at XYZ" sid="787005054167999" type="m6_1_Recipe">
                                     <param id="0" name="X">0</param>
@@ -1100,8 +1104,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-16" name="Set opacity" sid="115413353151909" type="m6_1_kek">
-                            <param id="0" name="Opacity">100</param>
+                        <action id="-18" name="Set layer opacity" sid="115413353151909" type="System">
+                            <param id="0" name="Layer">&quot;You used the wrong ingredients&quot;</param>
+                            <param id="1" name="Opacity">100</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1115,13 +1120,14 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="918320750496645" type="m6_1_kek">
-                            <param id="0" name="Text">&quot;You Win!&quot;</param>
+                            <param id="0" name="Text">&quot;You&apos;ve successfully made &quot; &amp; m6_1_Recipe.At(0,0,0)</param>
                         </action>
                         <action id="1" name="Append text" sid="990851128506889" type="m6_1_kek">
                             <param id="0" name="Text">newline&amp;&quot;You bought &quot; &amp; (10-m6_1_score)/2 &amp; &quot; new items.&quot;</param>
                         </action>
-                        <action id="-16" name="Set opacity" sid="299306247414899" type="m6_1_kek">
-                            <param id="0" name="Opacity">100</param>
+                        <action id="-18" name="Set layer opacity" sid="594295873014059" type="System">
+                            <param id="0" name="Layer">&quot;end&quot;</param>
+                            <param id="1" name="Opacity">100</param>
                         </action>
                     </actions>
                 </event-block>

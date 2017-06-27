@@ -120,11 +120,11 @@
                     </properties>
                     <instance-variables>
                         <hint>false</hint>
-                        <fud1>Red Meat</fud1>
+                        <fud1>Starch</fud1>
                         <fud2>Root Veggie</fud2>
                         <fud3></fud3>
                         <inPot>false</inPot>
-                        <name></name>
+                        <name>MashedPotatoe</name>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -173,10 +173,10 @@
                     <instance-variables>
                         <hint>false</hint>
                         <fud1>Root Veggie</fud1>
-                        <fud2>Starch</fud2>
+                        <fud2>Leaf Veggie</fud2>
                         <fud3></fud3>
                         <inPot>false</inPot>
-                        <name></name>
+                        <name>VeggieSalad</name>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -224,11 +224,11 @@
                     </properties>
                     <instance-variables>
                         <hint>false</hint>
-                        <fud1>Root Veggie</fud1>
+                        <fud1>Leaf Veggie</fud1>
                         <fud2>Starch</fud2>
                         <fud3></fud3>
                         <inPot>false</inPot>
-                        <name></name>
+                        <name>Spring Rolls</name>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -276,11 +276,11 @@
                     </properties>
                     <instance-variables>
                         <hint>false</hint>
-                        <fud1>Root Veggie</fud1>
-                        <fud2>Leaf Veggie</fud2>
+                        <fud1>Red Meat</fud1>
+                        <fud2>Starch</fud2>
                         <fud3></fud3>
                         <inPot>false</inPot>
-                        <name></name>
+                        <name>Pierogies</name>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -328,11 +328,11 @@
                     </properties>
                     <instance-variables>
                         <hint>false</hint>
-                        <fud1>SeaFood</fud1>
-                        <fud2>Fruit</fud2>
+                        <fud1>Leaf Veggie</fud1>
+                        <fud2>Poultry</fud2>
                         <fud3></fud3>
                         <inPot>false</inPot>
-                        <name></name>
+                        <name>Chicken Salad</name>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -371,266 +371,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="m6_1_fud" uid="26">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <hint>false</hint>
-                        <fud1>Red Meat</fud1>
-                        <fud2>Starch</fud2>
-                        <fud3>Fruit</fud3>
-                        <inPot>false</inPot>
-                        <name></name>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="DragDrop">
-                            <properties>
-                                <axes>Both</axes>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>No</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>419</x>
-                        <y>181</y>
-                        <z>0</z>
-                        <width>100</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="m6_1_fud" uid="29">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <hint>false</hint>
-                        <fud1>Root Veggie</fud1>
-                        <fud2>SeaFood</fud2>
-                        <fud3></fud3>
-                        <inPot>false</inPot>
-                        <name></name>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="DragDrop">
-                            <properties>
-                                <axes>Both</axes>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>No</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>418</x>
-                        <y>419</y>
-                        <z>0</z>
-                        <width>100</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="m6_1_fud" uid="32">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <hint>false</hint>
-                        <fud1>Starch</fud1>
-                        <fud2>Dairy</fud2>
-                        <fud3>Fruit</fud3>
-                        <inPot>false</inPot>
-                        <name></name>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="DragDrop">
-                            <properties>
-                                <axes>Both</axes>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>No</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>417</x>
-                        <y>641</y>
-                        <z>0</z>
-                        <width>100</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="m6_1_fud" uid="35">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <hint>false</hint>
-                        <fud1>Red Meat</fud1>
-                        <fud2>Starch</fud2>
-                        <fud3></fud3>
-                        <inPot>false</inPot>
-                        <name></name>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="DragDrop">
-                            <properties>
-                                <axes>Both</axes>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>No</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>412</x>
-                        <y>850</y>
-                        <z>0</z>
-                        <width>100</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="m6_1_fud" uid="38">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <hint>false</hint>
-                        <fud1>Red Meat</fud1>
-                        <fud2>Leaf Veggie</fud2>
-                        <fud3></fud3>
-                        <inPot>false</inPot>
-                        <name></name>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="DragDrop">
-                            <properties>
-                                <axes>Both</axes>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>No</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>406</x>
-                        <y>1070</y>
-                        <z>0</z>
-                        <width>100</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="m6_1_fud" uid="41">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -641,10 +381,10 @@
                     <instance-variables>
                         <hint>false</hint>
                         <fud1>Poultry</fud1>
-                        <fud2>Root Veggie</fud2>
+                        <fud2>Fruit</fud2>
                         <fud3></fud3>
                         <inPot>false</inPot>
-                        <name></name>
+                        <name>Turkey Kebab</name>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -692,11 +432,11 @@
                     </properties>
                     <instance-variables>
                         <hint>false</hint>
-                        <fud1>Red Meat</fud1>
-                        <fud2>Root Veggie</fud2>
-                        <fud3>Starch</fud3>
+                        <fud1>Poultry</fud1>
+                        <fud2></fud2>
+                        <fud3></fud3>
                         <inPot>false</inPot>
-                        <name></name>
+                        <name>Duck</name>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -745,10 +485,10 @@
                     <instance-variables>
                         <hint>false</hint>
                         <fud1>Leaf Veggie</fud1>
-                        <fud2>Dairy</fud2>
-                        <fud3>Fruit</fud3>
+                        <fud2>Starch</fud2>
+                        <fud3>Poultry</fud3>
                         <inPot>false</inPot>
-                        <name></name>
+                        <name>StuffedGoose</name>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -797,10 +537,10 @@
                     <instance-variables>
                         <hint>false</hint>
                         <fud1>Red Meat</fud1>
-                        <fud2>Root Veggie</fud2>
+                        <fud2>Fruit</fud2>
                         <fud3>Poultry</fud3>
                         <inPot>false</inPot>
-                        <name></name>
+                        <name>Gumbo</name>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -850,9 +590,9 @@
                         <hint>false</hint>
                         <fud1>Red Meat</fud1>
                         <fud2>Root Veggie</fud2>
-                        <fud3>Leaf Veggie</fud3>
+                        <fud3></fud3>
                         <inPot>false</inPot>
-                        <name></name>
+                        <name>Porkchops</name>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -1275,251 +1015,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="m6_1_lulImABG" uid="27">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>436</x>
-                        <y>195</y>
-                        <z>0</z>
-                        <width>160</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="m6_1_fudIng" uid="28">
-                    <properties>
-                        <text></text>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-27,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Bottom-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>442</x>
-                        <y>172</y>
-                        <z>0</z>
-                        <width>160</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="m6_1_lulImABG" uid="30">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>435</x>
-                        <y>433</y>
-                        <z>0</z>
-                        <width>160</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="m6_1_fudIng" uid="31">
-                    <properties>
-                        <text></text>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-27,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Bottom-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>441</x>
-                        <y>410</y>
-                        <z>0</z>
-                        <width>160</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="m6_1_lulImABG" uid="33">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>434</x>
-                        <y>655</y>
-                        <z>0</z>
-                        <width>160</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="m6_1_fudIng" uid="34">
-                    <properties>
-                        <text></text>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-27,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Bottom-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>440</x>
-                        <y>632</y>
-                        <z>0</z>
-                        <width>160</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="m6_1_lulImABG" uid="36">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>429</x>
-                        <y>864</y>
-                        <z>0</z>
-                        <width>160</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="m6_1_fudIng" uid="37">
-                    <properties>
-                        <text></text>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-27,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Bottom-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>435</x>
-                        <y>841</y>
-                        <z>0</z>
-                        <width>160</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="m6_1_lulImABG" uid="39">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>423</x>
-                        <y>1084</y>
-                        <z>0</z>
-                        <width>160</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="m6_1_fudIng" uid="40">
-                    <properties>
-                        <text></text>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-27,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Bottom-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>429</x>
-                        <y>1061</y>
-                        <z>0</z>
-                        <width>160</width>
-                        <height>100</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="m6_1_lulImABG" uid="42">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
@@ -1765,33 +1260,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="m6_1_kek" uid="56">
-                    <properties>
-                        <text>You Lose!</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-96,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1001</x>
-                        <y>1428</y>
-                        <z>0</z>
-                        <width>931</width>
-                        <height>363</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>0</opacity>
-                    </world>
-                </instance>
                 <instance type="m6_1_buy" uid="57">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -1873,7 +1341,167 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="m6_1_endMenu" uid="26">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>960</x>
+                        <y>600</y>
+                        <z>0</z>
+                        <width>1200</width>
+                        <height>840</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="m6_1_Star1" uid="27">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>660</x>
+                        <y>360</y>
+                        <z>0</z>
+                        <width>250</width>
+                        <height>250</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="m6_1_Star2" uid="28">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>960</x>
+                        <y>360</y>
+                        <z>0</z>
+                        <width>250</width>
+                        <height>250</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="m6_1_Star3" uid="29">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1260</x>
+                        <y>360</y>
+                        <z>0</z>
+                        <width>250</width>
+                        <height>250</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="m6_1_kek" uid="56">
+                    <properties>
+                        <text>You Lose!</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-64,400,0</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Center</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>960</x>
+                        <y>600</y>
+                        <z>0</z>
+                        <width>931</width>
+                        <height>363</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="m6_1_ecit" uid="30">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>660</x>
+                        <y>800</y>
+                        <z>0</z>
+                        <width>240</width>
+                        <height>240</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="m6_1_retry" uid="31">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1260</x>
+                        <y>800</y>
+                        <z>0</z>
+                        <width>240</width>
+                        <height>240</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
     </layers>
