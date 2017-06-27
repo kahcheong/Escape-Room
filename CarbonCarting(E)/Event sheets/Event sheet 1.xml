@@ -3,63 +3,20 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="m8_1_itemsBought" sid="273416057850631" static="0" type="number">0</variable>
+        <variable constant="0" name="m8_1_playing" sid="423544466114529" static="0" type="number">1</variable>
+        <variable constant="0" name="m8_1_win" sid="857715902887639" static="0" type="number">-1</variable>
         <variable constant="0" name="m8_1_ARMSSSS" sid="848657716299418" static="0" type="number">0</variable>
         <variable constant="0" name="m8_1_scrollSpeed" sid="581686646174832" static="0" type="number">1500</variable>
-        <event-block sid="746827866145289">
-            <conditions>
-                <condition id="-1" name="Every tick" sid="802154050943568" type="System" />
-            </conditions>
-            <actions>
-                <action id="-1" name="Set X" sid="668223535641601" type="m8_1_items">
-                    <param id="0" name="X">m8_1_items.X+(dt*m8_1_items.scrollSpeed)</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="167981669144425">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="798738294564676" type="System">
-                    <param id="0" name="Interval (seconds)">0.1</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Spawn another object" sid="146725923397988" type="m8_1_shelves">
-                    <param id="0" name="Object">m8_1_items</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="Image point">choose(1,2,3)</param>
-                </action>
-                <action id="-29" name="Move to object" sid="593319487864484" type="m8_1_items">
-                    <param id="0" name="Where">1</param>
-                    <param id="1" name="Object">m6_1_theDude</param>
-                </action>
-                <action id="-10" name="Set value" sid="451839164480005" type="m8_1_items">
-                    <param id="0" name="Instance variable">scrollSpeed</param>
-                    <param id="1" name="Value">m8_1_scrollSpeed</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="951208293843356">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="282990009040991" type="m8_1_items">
-                    <param id="0" name="Object">m8_1_theHand</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-10" name="Set value" sid="628409802438403" type="m8_1_items">
-                    <param id="0" name="Instance variable">scrollSpeed</param>
-                    <param id="1" name="Value">0</param>
-                </action>
-                <action behavior="Physics" id="21" name="Set immovable" sid="587252204072763" type="m8_1_items">
-                    <param id="0" name="Setting">0</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="182337997413103">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="848229653785092" type="System" />
             </conditions>
-            <actions />
+            <actions>
+                <action id="-21" name="Reset global variables" sid="586009920468702" type="System" />
+            </actions>
             <sub-events>
-                <event-group description="" sid="297075271082085" title="m8_1_buildingTheDure">
+                <event-group description="" sid="297075271082085" title="m8_1_buildingTheDude">
                     <sub-events>
                         <event-block sid="764622762952332">
                             <conditions />
@@ -120,95 +77,208 @@
                 </event-group>
             </sub-events>
         </event-block>
-        <event-block sid="892215219395231">
+        <event-block sid="280819017165229">
             <conditions>
-                <condition id="-1" name="Every tick" sid="862462930623666" type="System" />
-            </conditions>
-            <actions>
-                <action id="-9" name="Set value" sid="472952179529894" type="System">
-                    <param id="0" name="Variable">m8_1_ARMSSSS</param>
-                    <param id="1" name="Value">abs(m8_1_theHand.Y-668)</param>
-                </action>
-                <action id="-1" name="Set X" sid="753916126100507" type="m8_1_theHand">
-                    <param id="0" name="X">1200+sqrt(1200*2-m8_1_ARMSSSS*2)</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="517896631162564">
-                    <conditions />
-                    <actions />
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="157245796274578">
-            <conditions>
-                <condition id="-2" name="Compare Y" sid="449784867179015" type="m8_1_theHand">
-                    <param id="0" name="Comparison">2</param>
-                    <param id="1" name="Y co-ordinate">930</param>
+                <condition id="-14" name="Compare variable" sid="679758200532573" type="System">
+                    <param id="0" name="Variable">m8_1_playing</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
                 </condition>
             </conditions>
             <actions />
             <sub-events>
-                <event-block sid="860346298446253">
-                    <conditions>
-                        <condition id="-2" name="Compare Y" sid="330480418484719" type="m8_1_theHand">
-                            <param id="0" name="Comparison">4</param>
-                            <param id="1" name="Y co-ordinate">430</param>
-                        </condition>
-                    </conditions>
-                    <actions />
+                <event-group description="" sid="643518330614216" title="m8_1_itemsInteraction">
                     <sub-events>
-                        <event-block sid="370386031227986">
+                        <event-block sid="746827866145289">
                             <conditions>
-                                <condition id="2" name="Is in touch" sid="611033038754383" type="Touch" />
+                                <condition id="-1" name="Every tick" sid="802154050943568" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-2" name="Set Y" sid="710543132300485" type="m8_1_theHand">
-                                    <param id="0" name="Y">m8_1_theHand.Y-8</param>
+                                <action id="-1" name="Set X" sid="668223535641601" type="m8_1_items">
+                                    <param id="0" name="X">m8_1_items.X+(dt*m8_1_items.scrollSpeed)</param>
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="371125177866597">
+                        <event-block sid="167981669144425">
                             <conditions>
-                                <condition id="-22" name="Else" sid="729504334875273" type="System" />
+                                <condition id="-6" name="Every X seconds" sid="798738294564676" type="System">
+                                    <param id="0" name="Interval (seconds)">0.1</param>
+                                </condition>
                             </conditions>
                             <actions>
-                                <action id="-2" name="Set Y" sid="770809713832094" type="m8_1_theHand">
-                                    <param id="0" name="Y">m8_1_theHand.Y+6</param>
+                                <action id="0" name="Spawn another object" sid="146725923397988" type="m8_1_shelves">
+                                    <param id="0" name="Object">m8_1_items</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">choose(1,2,3)</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="593319487864484" type="m8_1_items">
+                                    <param id="0" name="Where">1</param>
+                                    <param id="1" name="Object">m6_1_theDude</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="451839164480005" type="m8_1_items">
+                                    <param id="0" name="Instance variable">scrollSpeed</param>
+                                    <param id="1" name="Value">m8_1_scrollSpeed</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="951208293843356">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="282990009040991" type="m8_1_items">
+                                    <param id="0" name="Object">m8_1_theHand</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="628409802438403" type="m8_1_items">
+                                    <param id="0" name="Instance variable">scrollSpeed</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action behavior="Physics" id="21" name="Set immovable" sid="587252204072763" type="m8_1_items">
+                                    <param id="0" name="Setting">0</param>
                                 </action>
                             </actions>
                         </event-block>
                     </sub-events>
-                </event-block>
-                <event-block sid="638534115534465">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="465716629997789" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Set Y" sid="480600284193785" type="m8_1_theHand">
-                            <param id="0" name="Y">m8_1_theHand.Y+6</param>
-                        </action>
-                    </actions>
-                </event-block>
+                </event-group>
+                <event-group description="" sid="431705995049375" title="m8_1_armMovement">
+                    <sub-events>
+                        <event-block sid="892215219395231">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="862462930623666" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="472952179529894" type="System">
+                                    <param id="0" name="Variable">m8_1_ARMSSSS</param>
+                                    <param id="1" name="Value">abs(m8_1_theHand.Y-668)</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="753916126100507" type="m8_1_theHand">
+                                    <param id="0" name="X">1200+sqrt(1200*2-m8_1_ARMSSSS*2)</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="517896631162564">
+                                    <conditions />
+                                    <actions />
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="157245796274578">
+                            <conditions>
+                                <condition id="-2" name="Compare Y" sid="449784867179015" type="m8_1_theHand">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Y co-ordinate">930</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="860346298446253">
+                                    <conditions>
+                                        <condition id="-2" name="Compare Y" sid="330480418484719" type="m8_1_theHand">
+                                            <param id="0" name="Comparison">5</param>
+                                            <param id="1" name="Y co-ordinate">430</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="370386031227986">
+                                            <conditions>
+                                                <condition id="2" name="Is in touch" sid="611033038754383" type="Touch" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="-2" name="Set Y" sid="710543132300485" type="m8_1_theHand">
+                                                    <param id="0" name="Y">m8_1_theHand.Y-8</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="371125177866597">
+                                            <conditions>
+                                                <condition id="-22" name="Else" sid="729504334875273" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="-2" name="Set Y" sid="770809713832094" type="m8_1_theHand">
+                                                    <param id="0" name="Y">m8_1_theHand.Y+6</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                                <event-block sid="699356416435699">
+                                    <conditions>
+                                        <condition id="-2" name="Compare Y" sid="278759536675211" type="m8_1_theHand">
+                                            <param id="0" name="Comparison">2</param>
+                                            <param id="1" name="Y co-ordinate">430</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="449248325306648">
+                                            <conditions>
+                                                <condition id="2" name="Is in touch" sid="483227449518425" type="Touch" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="-2" name="Set Y" sid="939306371633154" type="m8_1_theHand">
+                                                    <param id="0" name="Y">430</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="584087863345526">
+                                            <conditions>
+                                                <condition id="-22" name="Else" sid="224178614942161" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="-2" name="Set Y" sid="456575792971202" type="m8_1_theHand">
+                                                    <param id="0" name="Y">m8_1_theHand.Y+6</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="599148136408054">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="930376725885659" type="System" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="232967334543352">
+                                    <conditions>
+                                        <condition id="2" name="Is in touch" sid="673153836854417" type="Touch" />
+                                    </conditions>
+                                    <actions>
+                                        <action id="-2" name="Set Y" sid="982779445044541" type="m8_1_theHand">
+                                            <param id="0" name="Y">m8_1_theHand.Y-8</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
             </sub-events>
         </event-block>
-        <event-block sid="599148136408054">
+        <event-block sid="795353692640828">
             <conditions>
-                <condition id="-22" name="Else" sid="930376725885659" type="System" />
+                <condition id="-1" name="Every tick" sid="855086215492274" type="System" />
             </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="232967334543352">
-                    <conditions>
-                        <condition id="2" name="Is in touch" sid="673153836854417" type="Touch" />
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Set Y" sid="982779445044541" type="m8_1_theHand">
-                            <param id="0" name="Y">m8_1_theHand.Y-8</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
+            <actions>
+                <action id="0" name="Set text" sid="563021221840396" type="m8_1_itemsBoughtCounter">
+                    <param id="0" name="Text">&quot;Items Bought:&quot; &amp; m8_1_itemsBought</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="320199112945544">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="218505857919361" type="m8_1_items">
+                    <param id="0" name="Object">m8_1_Cart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="957603314688078" type="m8_1_items" />
+                <action id="-10" name="Add to" sid="133994797857191" type="System">
+                    <param id="0" name="Variable">m8_1_itemsBought</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

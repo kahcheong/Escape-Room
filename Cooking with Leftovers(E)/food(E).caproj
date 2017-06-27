@@ -130,8 +130,8 @@
             </behaviors>
             <container>
                 <type>m6_1_fud</type>
-                <type>m6_1_fudIng</type>
                 <type>m6_1_lulImABG</type>
+                <type>m6_1_fudIng</type>
             </container>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="275326445347932" speed="5">
@@ -143,16 +143,16 @@
             <plugin id="Text" />
             <container>
                 <type>m6_1_fud</type>
-                <type>m6_1_fudIng</type>
                 <type>m6_1_lulImABG</type>
+                <type>m6_1_fudIng</type>
             </container>
         </object-type>
         <object-type name="m6_1_lulImABG" sid="326656579784057">
             <plugin id="Sprite" />
             <container>
                 <type>m6_1_fud</type>
-                <type>m6_1_fudIng</type>
                 <type>m6_1_lulImABG</type>
+                <type>m6_1_fudIng</type>
             </container>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="715396634306081" speed="5">

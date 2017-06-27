@@ -632,7 +632,6 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <comment>hint thingy</comment>
         <event-block sid="656348362356217">
             <conditions>
                 <condition id="-14" name="Compare variable" sid="142135851221236" type="System">
@@ -643,6 +642,7 @@
             </conditions>
             <actions />
             <sub-events>
+                <comment>hint thingy</comment>
                 <event-group description="" sid="997433517972564" title="m6_1_fudInteraction">
                     <sub-events>
                         <event-block sid="112588556304016">
