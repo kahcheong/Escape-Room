@@ -1456,7 +1456,9 @@
                             <param id="2" name="Value">-1</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="-9" name="Destroy" sid="720968193689283" type="m6_1_timer" />
+                    </actions>
                     <sub-events>
                         <event-block sid="366269324587400">
                             <conditions>
@@ -1579,7 +1581,7 @@
                                 <condition id="-14" name="Compare variable" sid="449648987989602" type="System">
                                     <param id="0" name="Variable">m6_1_score</param>
                                     <param id="1" name="Comparison">5</param>
-                                    <param id="2" name="Value">2</param>
+                                    <param id="2" name="Value">6</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -1594,7 +1596,7 @@
                                 <condition id="-14" name="Compare variable" sid="790691908234460" type="System">
                                     <param id="0" name="Variable">m6_1_score</param>
                                     <param id="1" name="Comparison">5</param>
-                                    <param id="2" name="Value">4</param>
+                                    <param id="2" name="Value">8</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -1609,7 +1611,7 @@
                                 <condition id="-14" name="Compare variable" sid="823449259409677" type="System">
                                     <param id="0" name="Variable">m6_1_score</param>
                                     <param id="1" name="Comparison">5</param>
-                                    <param id="2" name="Value">6</param>
+                                    <param id="2" name="Value">10</param>
                                 </condition>
                             </conditions>
                             <actions>
