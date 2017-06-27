@@ -3,11 +3,16 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <variable constant="0" name="m8_1_prevPrevRando" sid="834099235349347" static="0" type="number">0</variable>
+        <variable constant="0" name="m8_1_Downdoot" sid="183824284437730" static="0" type="number">6</variable>
+        <variable constant="0" name="m8_1_upDoot" sid="388854294057092" static="0" type="number">9</variable>
+        <variable constant="0" name="m8_1_prevRando" sid="369747346236852" static="0" type="number">0</variable>
+        <variable constant="0" name="m8_1_rando" sid="272702121516398" static="0" type="number">0</variable>
         <variable constant="0" name="m8_1_itemsBought" sid="273416057850631" static="0" type="number">0</variable>
         <variable constant="0" name="m8_1_playing" sid="423544466114529" static="0" type="number">1</variable>
         <variable constant="0" name="m8_1_win" sid="857715902887639" static="0" type="number">-1</variable>
         <variable constant="0" name="m8_1_ARMSSSS" sid="848657716299418" static="0" type="number">0</variable>
-        <variable constant="0" name="m8_1_scrollSpeed" sid="581686646174832" static="0" type="number">1500</variable>
+        <variable constant="0" name="m8_1_scrollSpeed" sid="581686646174832" static="0" type="number">300</variable>
         <event-block sid="182337997413103">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="848229653785092" type="System" />
@@ -102,24 +107,64 @@
                         <event-block sid="167981669144425">
                             <conditions>
                                 <condition id="-6" name="Every X seconds" sid="798738294564676" type="System">
-                                    <param id="0" name="Interval (seconds)">0.1</param>
+                                    <param id="0" name="Interval (seconds)">random(0.5,0.7)</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="0" name="Spawn another object" sid="146725923397988" type="m8_1_shelves">
-                                    <param id="0" name="Object">m8_1_items</param>
-                                    <param id="1" name="Layer">0</param>
-                                    <param id="2" name="Image point">choose(1,2,3)</param>
-                                </action>
-                                <action id="-29" name="Move to object" sid="593319487864484" type="m8_1_items">
-                                    <param id="0" name="Where">1</param>
-                                    <param id="1" name="Object">m6_1_theDude</param>
-                                </action>
-                                <action id="-10" name="Set value" sid="451839164480005" type="m8_1_items">
-                                    <param id="0" name="Instance variable">scrollSpeed</param>
-                                    <param id="1" name="Value">m8_1_scrollSpeed</param>
+                                <action id="-9" name="Set value" sid="446212427191384" type="System">
+                                    <param id="0" name="Variable">m8_1_rando</param>
+                                    <param id="1" name="Value">choose(1,2,3)</param>
                                 </action>
                             </actions>
+                            <sub-events>
+                                <event-block sid="521996361133853">
+                                    <conditions>
+                                        <condition id="-23" name="While" sid="467157859968761" type="System" />
+                                        <condition id="-14" name="Compare variable" sid="512256397881507" type="System">
+                                            <param id="0" name="Variable">m8_1_rando</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">m8_1_prevRando</param>
+                                        </condition>
+                                        <condition id="-14" name="Compare variable" sid="858466127123715" type="System">
+                                            <param id="0" name="Variable">m8_1_rando</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">m8_1_prevPrevRando</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Set value" sid="311173290356877" type="System">
+                                            <param id="0" name="Variable">m8_1_rando</param>
+                                            <param id="1" name="Value">choose(1,2,3)</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="863757046644282">
+                                    <conditions />
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="146725923397988" type="m8_1_shelves">
+                                            <param id="0" name="Object">m8_1_items</param>
+                                            <param id="1" name="Layer">0</param>
+                                            <param id="2" name="Image point">m8_1_rando</param>
+                                        </action>
+                                        <action id="-29" name="Move to object" sid="593319487864484" type="m8_1_items">
+                                            <param id="0" name="Where">1</param>
+                                            <param id="1" name="Object">m6_1_theDude</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="451839164480005" type="m8_1_items">
+                                            <param id="0" name="Instance variable">scrollSpeed</param>
+                                            <param id="1" name="Value">m8_1_scrollSpeed</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="121102113514060" type="System">
+                                            <param id="0" name="Variable">m8_1_prevPrevRando</param>
+                                            <param id="1" name="Value">m8_1_prevRando</param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="188705662079789" type="System">
+                                            <param id="0" name="Variable">m8_1_prevRando</param>
+                                            <param id="1" name="Value">m8_1_rando</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                         <event-block sid="951208293843356">
                             <conditions>
@@ -185,7 +230,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="-2" name="Set Y" sid="710543132300485" type="m8_1_theHand">
-                                                    <param id="0" name="Y">m8_1_theHand.Y-8</param>
+                                                    <param id="0" name="Y">m8_1_theHand.Y-m8_1_upDoot</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -195,7 +240,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="-2" name="Set Y" sid="770809713832094" type="m8_1_theHand">
-                                                    <param id="0" name="Y">m8_1_theHand.Y+6</param>
+                                                    <param id="0" name="Y">m8_1_theHand.Y+m8_1_Downdoot</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -226,7 +271,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="-2" name="Set Y" sid="456575792971202" type="m8_1_theHand">
-                                                    <param id="0" name="Y">m8_1_theHand.Y+6</param>
+                                                    <param id="0" name="Y">m8_1_theHand.Y+m8_1_Downdoot</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -246,7 +291,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="-2" name="Set Y" sid="982779445044541" type="m8_1_theHand">
-                                            <param id="0" name="Y">m8_1_theHand.Y-8</param>
+                                            <param id="0" name="Y">m8_1_theHand.Y-m8_1_upDoot</param>
                                         </action>
                                     </actions>
                                 </event-block>
