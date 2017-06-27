@@ -979,9 +979,11 @@
     <families />
     <layout-folder>
         <layout>m6_1_main(e).xml</layout>
+        <layout>m6_1_Tutorial.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>m6_1_main(e).xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="13">
