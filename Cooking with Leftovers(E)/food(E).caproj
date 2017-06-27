@@ -521,7 +521,20 @@
             </properties>
         </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="bgm_food_game.m4a" />
+        <file name="bgm_food_game.ogg" />
+        <file name="sfx_cashsound.m4a" />
+        <file name="sfx_cashsound.ogg" />
+        <file name="sfx_container.m4a" />
+        <file name="sfx_container.ogg" />
+        <file name="sfx_done.m4a" />
+        <file name="sfx_done.ogg" />
+        <file name="sfx_foodplop.m4a" />
+        <file name="sfx_foodplop.ogg" />
+        <file name="sfx_grab.m4a" />
+        <file name="sfx_grab.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">
