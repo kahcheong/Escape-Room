@@ -61,7 +61,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="700437287670766" type="System">
                             <param id="0" name="Variable">m6_3_recipe</param>
-                            <param id="1" name="Value">5</param>
+                            <param id="1" name="Value">2</param>
                         </action>
                         <action id="-9" name="Set value" sid="718500245504072" type="System">
                             <param id="0" name="Variable">m6_3_recipe</param>
@@ -513,7 +513,7 @@
                                     <param id="0" name="X">0</param>
                                     <param id="1" name="Y">5</param>
                                     <param id="2" name="Z">1</param>
-                                    <param id="3" name="Value">2</param>
+                                    <param id="3" name="Value">3</param>
                                 </action>
                                 <action id="4" name="Set at XYZ" sid="329759475440539" type="m6_3_Recipe">
                                     <param id="0" name="X">0</param>
@@ -525,7 +525,7 @@
                                     <param id="0" name="X">0</param>
                                     <param id="1" name="Y">8</param>
                                     <param id="2" name="Z">1</param>
-                                    <param id="3" name="Value">2</param>
+                                    <param id="3" name="Value">1</param>
                                 </action>
                             </actions>
                         </event-block>
