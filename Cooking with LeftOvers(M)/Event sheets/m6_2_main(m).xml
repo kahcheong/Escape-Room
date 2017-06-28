@@ -1444,7 +1444,7 @@
                                 <event-block sid="615675841906838">
                                     <conditions>
                                         <condition id="-7" name="Compare instance variable" sid="324728026272251" type="m6_2_fud">
-                                            <param id="0" name="Instance variable">fud2</param>
+                                            <param id="0" name="Instance variable">fud3</param>
                                             <param id="1" name="Comparison">0</param>
                                             <param id="2" name="Value">m6_2_Recipe1.At(4)</param>
                                         </condition>
