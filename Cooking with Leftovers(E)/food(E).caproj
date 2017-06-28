@@ -66,14 +66,10 @@
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="511077396235283" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Pot.png">
                         <collision-poly>
-                            <point x="0.1125" y="0.015" />
-                            <point x="0.166667" y="0.015" />
-                            <point x="0.166459" y="0.866875" />
-                            <point x="0.82875" y="0.87125" />
-                            <point x="0.835833" y="0.015" />
-                            <point x="0.8925" y="0.01" />
-                            <point x="0.888333" y="1" />
-                            <point x="0.1125" y="1" />
+                            <point x="0.115" y="0.845" />
+                            <point x="0.885" y="0.855" />
+                            <point x="0.895" y="1" />
+                            <point x="0.105" y="1" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -975,6 +971,20 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="m6_TutorialText" sid="315720911837901">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="m6_1_blink1" sid="271127969076904">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="number" sid="737890596131087" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="466232125832371" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -983,7 +993,7 @@
     </layout-folder>
     <event-folder>
         <event-sheet>m6_1_main(e).xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>m6_1_Tutorial.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="13">
