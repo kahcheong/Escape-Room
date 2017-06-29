@@ -538,6 +538,9 @@
                         </collision-poly>
                     </frame>
                 </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="644495898683579" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="m6_1_bought" sid="661567709807141">

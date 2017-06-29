@@ -906,6 +906,11 @@
                                 <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="653003702206443" type="m6_1_fud">
                                     <param id="0" name="Instance variable">hint</param>
                                 </condition>
+                                <condition id="-14" name="Compare variable" sid="231681806826317" type="System">
+                                    <param id="0" name="Variable">m6_tut_stage</param>
+                                    <param id="1" name="Comparison">5</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-9" name="Set value" sid="610996247678482" type="System">
@@ -1712,12 +1717,15 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Set text" sid="231641355236774" type="m6_TutorialText">
+                    <param id="0" name="Text">&quot;Tap leftovers to see their contents.&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="491610614712265" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
                 <action id="-10" name="Add to" sid="571762547886232" type="System">
                     <param id="0" name="Variable">m6_tut_stage</param>
                     <param id="1" name="Value">1</param>
-                </action>
-                <action id="0" name="Set text" sid="231641355236774" type="m6_TutorialText">
-                    <param id="0" name="Text">&quot;Tap leftovers to see their contents.&quot;</param>
                 </action>
             </actions>
         </event-block>
