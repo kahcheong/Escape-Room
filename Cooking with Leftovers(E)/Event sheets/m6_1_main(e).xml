@@ -433,6 +433,19 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="426956728099221">
+                            <conditions>
+                                <condition id="-11" name="For Each" sid="810098569561706" type="System">
+                                    <param id="0" name="Object">m6_1_counter</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="369909286582807" type="m6_1_counter">
+                                    <param id="0" name="Instance variable">max</param>
+                                    <param id="1" name="Value">m6_1_Recipe1.At(m6_1_counter.ingredientType,1)</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-block>
             </sub-events>
@@ -453,7 +466,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="839475075861758">
+                <event-block disabled="1" sid="839475075861758">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="200164158144370" type="System">
                             <param id="0" name="Interval (seconds)">0.01</param>
@@ -545,7 +558,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="853197711506732" type="m6_1_counter">
-                            <param id="0" name="Text">m6_1_Recipe1.At(m6_1_counter.ingredientType,1)</param>
+                            <param id="0" name="Text">m6_1_counter.max - m6_1_Recipe1.At(m6_1_counter.ingredientType,1) &amp;  &quot;/&quot; &amp; m6_1_counter.max</param>
                         </action>
                         <action id="-10" name="Set value" sid="285744357252797" type="m6_1_lulImABG">
                             <param id="0" name="Instance variable">fud</param>
@@ -960,6 +973,12 @@
                                 <action id="-10" name="Add to" sid="569608676337454" type="System">
                                     <param id="0" name="Variable">m6_1_buy</param>
                                     <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="530143564042011" type="Audio">
+                                    <param id="0" name="Audio file">sfx_cashsound</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">500</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                             </actions>
                             <sub-events>
@@ -1413,7 +1432,7 @@
                         </event-block>
                         <event-block sid="178942368533201">
                             <conditions>
-                                <condition id="-14" name="Compare variable" sid="834513218641574" type="System">
+                                <condition disabled="1" id="-14" name="Compare variable" sid="834513218641574" type="System">
                                     <param id="0" name="Variable">m6_1_buy</param>
                                     <param id="1" name="Comparison">4</param>
                                     <param id="2" name="Value">0</param>

@@ -587,6 +587,19 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="960648805438375">
+                            <conditions>
+                                <condition id="-11" name="For Each" sid="814762583691979" type="System">
+                                    <param id="0" name="Object">m6_3_counter</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-10" name="Set value" sid="779803861221224" type="m6_3_counter">
+                                    <param id="0" name="Instance variable">max</param>
+                                    <param id="1" name="Value">m6_3_Recipe1.At(m6_3_counter.ingredientType,1)</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-block>
             </sub-events>
@@ -679,7 +692,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="621605889150923" type="m6_3_counter">
-                            <param id="0" name="Text">m6_3_Recipe1.At(m6_3_counter.ingredientType,1)</param>
+                            <param id="0" name="Text">m6_3_counter.max - m6_3_Recipe1.At(m6_3_counter.ingredientType,1) &amp; &quot;/&quot; &amp; m6_3_counter.max</param>
                         </action>
                         <action id="-10" name="Set value" sid="719034056844660" type="m6_3_lulImABG">
                             <param id="0" name="Instance variable">fud</param>
@@ -1094,6 +1107,12 @@
                                 <action id="-10" name="Add to" sid="785284435238021" type="System">
                                     <param id="0" name="Variable">m6_3_buy</param>
                                     <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Play" sid="430796791544097" type="Audio">
+                                    <param id="0" name="Audio file">sfx_cashsound</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">500</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                             </actions>
                             <sub-events>
@@ -1832,7 +1851,7 @@
                         </event-block>
                         <event-block sid="395582938112644">
                             <conditions>
-                                <condition id="-14" name="Compare variable" sid="697827545875538" type="System">
+                                <condition disabled="1" id="-14" name="Compare variable" sid="697827545875538" type="System">
                                     <param id="0" name="Variable">m6_3_buy</param>
                                     <param id="1" name="Comparison">4</param>
                                     <param id="2" name="Value">0</param>

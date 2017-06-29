@@ -255,6 +255,7 @@
                     </properties>
                     <instance-variables>
                         <ingredientType>1</ingredientType>
+                        <max>0</max>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -285,6 +286,7 @@
                     </properties>
                     <instance-variables>
                         <ingredientType>3</ingredientType>
+                        <max>0</max>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -315,6 +317,7 @@
                     </properties>
                     <instance-variables>
                         <ingredientType>2</ingredientType>
+                        <max>0</max>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1640,7 +1643,7 @@
                 </instance>
                 <instance type="m6_1_fooood" uid="116">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>

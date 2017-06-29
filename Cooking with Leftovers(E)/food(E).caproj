@@ -108,6 +108,7 @@
             <plugin id="Text" />
             <instance-variables>
                 <instance-variable name="ingredientType" sid="108577162862935" type="number" />
+                <instance-variable name="max" sid="911216291936800" type="number" />
             </instance-variables>
         </object-type>
         <object-type global="1" name="m6_1_Recipe1" sid="898156507748131">
@@ -524,7 +525,18 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="258547209973810" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\DoneButton.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\DoneButton.png">
+                        <collision-poly>
+                            <point x="0.02" y="0.04" />
+                            <point x="0.5" y="0" />
+                            <point x="0.98" y="0.04" />
+                            <point x="1" y="0.5" />
+                            <point x="0.98" y="0.96" />
+                            <point x="0.5" y="1" />
+                            <point x="0.02" y="0.96" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -992,6 +1004,14 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\fooood\Chicken Salad Sandwich.png" />
                 </animation>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="483805616750935" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="m6_BG" sid="149921842032686">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="658527894827071" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
