@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">m6_1_main(e)</layout>
-        <layout order="2">m6_1_Tutorial</layout>
+        <layout order="0">m6_1_main(e)</layout>
+        <layout active="1" order="2">m6_1_Tutorial</layout>
         <event-sheet order="1">m6_1_main(e)</event-sheet>
         <event-sheet order="3">m6_1_Tutorial</event-sheet>
     </open-tabs>
