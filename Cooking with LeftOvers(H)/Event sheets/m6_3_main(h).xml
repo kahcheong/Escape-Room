@@ -169,7 +169,7 @@
                                     <param id="0" name="X">0</param>
                                     <param id="1" name="Y">0</param>
                                     <param id="2" name="Z">0</param>
-                                    <param id="3" name="Value">&quot;French Onion Soup&quot;</param>
+                                    <param id="3" name="Value">&quot;Soup&quot;</param>
                                 </action>
                                 <action id="4" name="Set at XYZ" sid="163869512359990" type="m6_3_Recipe">
                                     <param id="0" name="X">0</param>
@@ -228,7 +228,7 @@
                                     <param id="0" name="X">0</param>
                                     <param id="1" name="Y">0</param>
                                     <param id="2" name="Z">0</param>
-                                    <param id="3" name="Value">&quot;Spaghetti Frittata&quot;</param>
+                                    <param id="3" name="Value">&quot;Spaghetti&quot;</param>
                                 </action>
                                 <action id="4" name="Set at XYZ" sid="410921834465576" type="m6_3_Recipe">
                                     <param id="0" name="X">0</param>
@@ -307,7 +307,7 @@
                                     <param id="0" name="X">0</param>
                                     <param id="1" name="Y">0</param>
                                     <param id="2" name="Z">0</param>
-                                    <param id="3" name="Value">&quot;Creamy seafood &amp; veggie pasta&quot;</param>
+                                    <param id="3" name="Value">&quot;Salmon&quot;</param>
                                 </action>
                                 <action id="4" name="Set at XYZ" sid="573653181685880" type="m6_3_Recipe">
                                     <param id="0" name="X">0</param>
@@ -483,7 +483,7 @@
                                     <param id="0" name="X">0</param>
                                     <param id="1" name="Y">0</param>
                                     <param id="2" name="Z">0</param>
-                                    <param id="3" name="Value">&quot;Mixed Meat Fajita&quot;</param>
+                                    <param id="3" name="Value">&quot;Fajita&quot;</param>
                                 </action>
                                 <action id="4" name="Set at XYZ" sid="961358754547868" type="m6_3_Recipe">
                                     <param id="0" name="X">0</param>

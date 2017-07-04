@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Spending(E)</name>
+    <description>prototype</description>
+    <version>1.0.0.1</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.BGNLab.SpendingMultipler</app-id>
+    <unique-id>22wy03wasz11d</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1920</width>
+        <height>1200</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="mx_1_bigShop" sid="184546188004854">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="184123702765820" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_CShop" sid="648703174408949">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="moneys" sid="127606248044302" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="963758445321746" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_MySjop" sid="908630281792643">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="155662473748095" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_moneys" sid="671397953624459">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="moneys" sid="643983661421827" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="940747917649430" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_Resourcess" sid="460044237408095">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="CAmount" sid="765576254680936" type="number" />
+                <instance-variable name="VAmount" sid="903400408714339" type="number" />
+                <instance-variable name="BAmount" sid="465591420878370" type="number" />
+                <instance-variable name="platttter" sid="677362368486790" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299210726032134" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_bigBuy" sid="895038070648237">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="type" sid="581029295599645" type="string" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="aC" pingpong="0" repeatcount="1" repeatto="0" sid="693709816235278" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="aV" pingpong="0" repeatcount="1" repeatto="0" sid="320666621266394" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="aB" pingpong="0" repeatcount="1" repeatto="0" sid="348794331086551" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_VShop" sid="769963605163090">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="moneys" sid="638351507740228" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301627365613291" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_BShop" sid="127321764728242">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="moneys" sid="488606727102669" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="340739350195356" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_Resoucreces" sid="552650244284272">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="mx_1_Cmoneys" sid="769859346300215">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="mx_1_Vmoneys" sid="729280561277807">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="mx_1_Bmoneys" sid="452471591314337">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Touch" sid="312885922260914">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Audio" sid="352900044322491">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="mx_1_myMoneyss" sid="638467184136731">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="mx_1_bigStoreBuys" sid="186164467578806">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="bigbuys" sid="813343485572274" type="number" />
+            </instance-variables>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>mx_1_main(e).xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>mx_1_main(e).xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="14">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="15">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
