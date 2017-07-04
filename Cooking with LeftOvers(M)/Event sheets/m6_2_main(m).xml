@@ -63,7 +63,7 @@
                             <param id="0" name="Variable">m6_2_recipe</param>
                             <param id="1" name="Value">choose(1,2,3,5)</param>
                         </action>
-                        <action id="-9" name="Set value" sid="925614086734042" type="System">
+                        <action disabled="1" id="-9" name="Set value" sid="925614086734042" type="System">
                             <param id="0" name="Variable">m6_2_recipe</param>
                             <param id="1" name="Value">3</param>
                         </action>
