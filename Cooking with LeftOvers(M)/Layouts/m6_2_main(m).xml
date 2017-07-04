@@ -758,7 +758,7 @@
                     <instance-variables>
                         <hint>false</hint>
                         <fud1>Leaf Veggie</fud1>
-                        <fud2>Root Veggie</fud2>
+                        <fud2></fud2>
                         <fud3></fud3>
                         <inPot>false</inPot>
                         <name>CabbageSalad</name>
