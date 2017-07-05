@@ -11,6 +11,7 @@
     <saved-with-version>24400</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
@@ -58,7 +59,16 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="963758445321746" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\Shop containers.png">
+                        <collision-poly>
+                            <point x="0.08" y="0.08" />
+                            <point x="0.92" y="0.08" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -66,7 +76,16 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="155662473748095" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\sandwich shop.png">
+                        <collision-poly>
+                            <point x="0.0225" y="0.0964286" />
+                            <point x="0.5" y="0.0357143" />
+                            <point x="0.975833" y="0.103571" />
+                            <point x="0.989167" y="0.953571" />
+                            <point x="0.5" y="1" />
+                            <point x="0.01" y="0.957143" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -91,7 +110,7 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299210726032134" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\resources box01.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -102,13 +121,13 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="aC" pingpong="0" repeatcount="1" repeatto="0" sid="693709816235278" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\button container.png" />
                 </animation>
                 <animation framecount="1" loop="0" name="aV" pingpong="0" repeatcount="1" repeatto="0" sid="320666621266394" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\button veggie.png" />
                 </animation>
                 <animation framecount="1" loop="0" name="aB" pingpong="0" repeatcount="1" repeatto="0" sid="348794331086551" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\button bread.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -119,7 +138,16 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301627365613291" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\shop veggies.png">
+                        <collision-poly>
+                            <point x="0.06" y="0.06" />
+                            <point x="0.94" y="0.06" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -130,7 +158,16 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="340739350195356" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\shop bread.png">
+                        <collision-poly>
+                            <point x="0.056" y="0.056" />
+                            <point x="0.94" y="0.06" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -161,6 +198,9 @@
                 <instance-variable name="bigbuys" sid="813343485572274" type="number" />
             </instance-variables>
         </object-type>
+        <object-type name="Function" sid="769888079027715">
+            <plugin id="Function" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -189,6 +229,7 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
+        <global-instance type="Function" uid="18" />
     </global-instances>
     <sounds-folder />
     <music-folder />
