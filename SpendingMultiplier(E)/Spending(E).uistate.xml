@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">mx_1_main(e)</layout>
-        <event-sheet active="1" order="1">mx_1_main(e)</event-sheet>
+        <layout active="1" order="0">mx_1_main(e)</layout>
+        <event-sheet order="1">mx_1_main(e)</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -43,5 +43,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/mx_1_no/" />
         <folder expanded="1" path="animation-folder/mx_1_timer/" />
         <folder expanded="1" path="animation-folder/mx_1_BTimer2/" />
+        <folder expanded="1" path="animation-folder/mx_1_CStock/" />
+        <folder expanded="1" path="animation-folder/mx_1_VStock/" />
+        <folder expanded="1" path="animation-folder/mx_1_BStock/" />
+        <folder expanded="1" path="animation-folder/mx_1_PStock/" />
+        <folder expanded="1" path="animation-folder/mx_1_truck/" />
+        <folder expanded="1" path="animation-folder/mx_1_BigButton/" />
+        <folder expanded="1" path="animation-folder/mx_1_buyTogel/" />
     </folders-expanded>
 </c2uistate>
