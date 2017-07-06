@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>food(M)</name>
-    <description></description>
-    <version>1.0.0.0</version>
+    <description>food(M)</description>
+    <version>1.0.0.1</version>
     <author></author>
     <author-email></author-email>
     <author-website>http://</author-website>
-    <app-id>com.mycompany.myapp</app-id>
+    <app-id>com.bgn.food(M)</app-id>
     <unique-id>2xe0vgsim0xge</unique-id>
     <saved-with-version>24400</saved-with-version>
     <used-plugins>
@@ -38,7 +38,7 @@
         <prop name="Fullscreen in browser">Letterbox scale</prop>
         <prop name="Fullscreen scaling">High quality</prop>
         <prop name="Loader style">Construct 2 splash</prop>
-        <prop name="Orientations">Any</prop>
+        <prop name="Orientations">Landscape</prop>
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>

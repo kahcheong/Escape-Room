@@ -22,28 +22,29 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="object-folder/m6_3_food(H)/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
-        <folder expanded="1" path="animation-folder/m6_3_RecipeDisplay/" />
-        <folder expanded="1" path="animation-folder/m6_3_pot/" />
-        <folder expanded="1" path="animation-folder/m6_3_fridge/" />
-        <folder expanded="1" path="animation-folder/m6_3_timer/" />
-        <folder expanded="1" path="animation-folder/m6_3_fud/" />
-        <folder expanded="1" path="animation-folder/m6_3_lulImABG/" />
-        <folder expanded="1" path="animation-folder/m6_3_buy/" />
-        <folder expanded="1" path="animation-folder/m6_3_bought/" />
-        <folder expanded="1" path="animation-folder/m6_3_endMenu/" />
-        <folder expanded="1" path="animation-folder/m6_3_Star1/" />
-        <folder expanded="1" path="animation-folder/m6_3_Star2/" />
-        <folder expanded="1" path="animation-folder/m6_3_Star3/" />
-        <folder expanded="1" path="animation-folder/m6_3_ecit/" />
-        <folder expanded="1" path="animation-folder/m6_3_retry/" />
-        <folder expanded="1" path="animation-folder/m6_3_recipeIngrType/" />
-        <folder expanded="1" path="animation-folder/m6_3_EndBG/" />
         <folder expanded="1" path="animation-folder/m6_3_blink1/" />
+        <folder expanded="1" path="animation-folder/m6_3_bought/" />
+        <folder expanded="1" path="animation-folder/m6_3_buy/" />
+        <folder expanded="1" path="animation-folder/m6_3_ecit/" />
+        <folder expanded="1" path="animation-folder/m6_3_EndBG/" />
+        <folder expanded="1" path="animation-folder/m6_3_endMenu/" />
+        <folder expanded="1" path="animation-folder/m6_3_fridge/" />
+        <folder expanded="1" path="animation-folder/m6_3_lulImABG/" />
+        <folder expanded="1" path="animation-folder/m6_3_pot/" />
+        <folder expanded="1" path="animation-folder/m6_3_RecipeDisplay/" />
+        <folder expanded="1" path="animation-folder/m6_3_fud/" />
+        <folder expanded="1" path="animation-folder/m6_3_recipeIngrType/" />
+        <folder expanded="1" path="animation-folder/m6_3_retry/" />
+        <folder expanded="1" path="animation-folder/m6_3_Star1/" />
+        <folder expanded="1" path="animation-folder/m6_3_Star3/" />
+        <folder expanded="1" path="animation-folder/m6_3_timer/" />
+        <folder expanded="1" path="animation-folder/m6_3_Star2/" />
     </folders-expanded>
 </c2uistate>

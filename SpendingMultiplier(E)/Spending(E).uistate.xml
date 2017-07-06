@@ -36,5 +36,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/mx_1_bigBuy/" />
         <folder expanded="1" path="animation-folder/mx_1_VShop/" />
         <folder expanded="1" path="animation-folder/mx_1_BShop/" />
+        <folder expanded="1" path="animation-folder/mx_1_BG/" />
+        <folder expanded="1" path="animation-folder/mx_1_CTimer/" />
+        <folder expanded="1" path="animation-folder/mx_1_VTimer/" />
+        <folder expanded="1" path="animation-folder/mx_1_BTimer/" />
+        <folder expanded="1" path="animation-folder/mx_1_no/" />
+        <folder expanded="1" path="animation-folder/mx_1_timer/" />
+        <folder expanded="1" path="animation-folder/mx_1_BTimer2/" />
     </folders-expanded>
 </c2uistate>

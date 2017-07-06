@@ -48,7 +48,14 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="184123702765820" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\factory.png">
+                        <collision-poly>
+                            <point x="0.0159011" y="0.06" />
+                            <point x="0.984099" y="0.06" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -173,6 +180,9 @@
         </object-type>
         <object-type name="mx_1_Resoucreces" sid="552650244284272">
             <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="num" sid="878318844747281" type="number" />
+            </instance-variables>
         </object-type>
         <object-type name="mx_1_Cmoneys" sid="769859346300215">
             <plugin id="Text" />
@@ -200,6 +210,62 @@
         </object-type>
         <object-type name="Function" sid="769888079027715">
             <plugin id="Function" />
+        </object-type>
+        <object-type name="mx_1_BG" sid="974902703547809">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="615432865384105" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\background01.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_CTimer" sid="849505666935257">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="289283161034362" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_VTimer" sid="819431546993594">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="818790952459122" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_BTimer" sid="512364276542895">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="831087251902972" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_no" sid="822330599796806">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="975571733259709" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_timer" sid="311138557174726">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="255630870456284" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_BTimer2" sid="869088732863289">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="998771273075195" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
@@ -231,7 +297,42 @@
         </global-instance>
         <global-instance type="Function" uid="18" />
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="sfx_AC.m4a" />
+        <file name="sfx_AC.ogg" />
+        <file name="sfx_bus_horn.m4a" />
+        <file name="sfx_bus_horn.ogg" />
+        <file name="sfx_click_unclickable_obj01.m4a" />
+        <file name="sfx_click_unclickable_obj01.ogg" />
+        <file name="sfx_clicking_clikable_obj.m4a" />
+        <file name="sfx_clicking_clikable_obj.ogg" />
+        <file name="sfx_clicking_unclickable_obj.m4a" />
+        <file name="sfx_clicking_unclickable_obj.ogg" />
+        <file name="sfx_computer_hum.m4a" />
+        <file name="sfx_computer_hum.ogg" />
+        <file name="sfx_door_open.m4a" />
+        <file name="sfx_door_open.ogg" />
+        <file name="sfx_doorlock.m4a" />
+        <file name="sfx_doorlock.ogg" />
+        <file name="sfx_fastfan.m4a" />
+        <file name="sfx_fastfan.ogg" />
+        <file name="sfx_fridge.m4a" />
+        <file name="sfx_fridge.ogg" />
+        <file name="sfx_lever.m4a" />
+        <file name="sfx_lever.ogg" />
+        <file name="sfx_no.m4a" />
+        <file name="sfx_no.ogg" />
+        <file name="sfx_openbook.m4a" />
+        <file name="sfx_openbook.ogg" />
+        <file name="sfx_slowfan.m4a" />
+        <file name="sfx_slowfan.ogg" />
+        <file name="sfx_timer (1).m4a" />
+        <file name="sfx_timer (1).ogg" />
+        <file name="sfx_water_drip.m4a" />
+        <file name="sfx_water_drip.ogg" />
+        <file name="sfx_waterheater.m4a" />
+        <file name="sfx_waterheater.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">
