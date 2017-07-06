@@ -48,983 +48,985 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="m6_1_RecipeDisplay" sid="263869031169236">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="873203678938948" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\RecipeCard2.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_1_pot" sid="967283427594648">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Physics" sid="806751571228097">
-                    <behavior id="Physics" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="511077396235283" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Pot.png">
-                        <collision-poly>
-                            <point x="0.115" y="0.845" />
-                            <point x="0.885" y="0.855" />
-                            <point x="0.895" y="1" />
-                            <point x="0.105" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_1_fridge" sid="445771653179401">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="188162310870308" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Fridge.png">
-                        <collision-poly>
-                            <point x="0.0075" y="0.00545455" />
-                            <point x="0.99375" y="0.00454545" />
-                            <point x="0.99375" y="0.995455" />
-                            <point x="0.0075" y="0.994545" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type global="1" name="m6_1_Recipe" sid="304331659478624">
-            <plugin id="Arr" />
-        </object-type>
-        <object-type name="m6_1_timer" sid="113396961630533">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="657277021130651" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_1_RecipeList" sid="300210822421691">
-            <plugin id="Text" />
-            <instance-variables>
-                <instance-variable name="warning" sid="370599321687230" type="number" />
-            </instance-variables>
-        </object-type>
-        <object-type name="m6_1_counter" sid="447280201021555">
-            <plugin id="Text" />
-            <instance-variables>
-                <instance-variable name="ingredientType" sid="108577162862935" type="number" />
-                <instance-variable name="max" sid="911216291936800" type="number" />
-            </instance-variables>
-        </object-type>
-        <object-type global="1" name="m6_1_Recipe1" sid="898156507748131">
-            <plugin id="Arr" />
-        </object-type>
-        <object-type name="m6_1_fud" sid="991515961765471">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="hint" sid="835328962878353" type="boolean" />
-                <instance-variable name="fud1" sid="803297724203998" type="string" />
-                <instance-variable name="fud2" sid="631604729511639" type="string" />
-                <instance-variable name="fud3" sid="761265471029372" type="string" />
-                <instance-variable name="inPot" sid="298507605496995" type="boolean" />
-                <instance-variable name="name" sid="617094620719609" type="string" />
-            </instance-variables>
-            <behaviors>
-                <behavior-type name="DragDrop" sid="448607477973351">
-                    <behavior id="DragnDrop" />
-                </behavior-type>
-                <behavior-type name="Physics" sid="211914007005964">
-                    <behavior id="Physics" />
-                </behavior-type>
-            </behaviors>
-            <container>
-                <type>m6_1_fud</type>
-                <type>m6_1_lulImABG</type>
-                <type>m6_1_fudIng</type>
-            </container>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="275326445347932" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Tupperware.png">
-                        <collision-poly>
-                            <point x="0" y="0.49" />
-                            <point x="1" y="0.49" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="703611055328037" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Open Tupperware.png">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="0.99" y="0.5" />
-                            <point x="0.99" y="0.995" />
-                            <point x="0.01" y="0.995" />
-                            <point x="0.01" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Gumbo" pingpong="0" repeatcount="1" repeatto="0" sid="665074801246896" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Gumbo Open.png">
-                        <collision-poly>
-                            <point x="0" y="0.505" />
-                            <point x="1" y="0.52" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="MashedPotatoe" pingpong="0" repeatcount="1" repeatto="0" sid="694429603674977" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Mashed Potato Open.png">
-                        <collision-poly>
-                            <point x="7.45058e-009" y="0.545" />
-                            <point x="1" y="0.59" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="VeggieSalad" pingpong="0" repeatcount="1" repeatto="0" sid="927258668662885" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Veggie Salad Open.png">
-                        <collision-poly>
-                            <point x="0" y="0.535" />
-                            <point x="1" y="0.53" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="SpringRolls" pingpong="0" repeatcount="1" repeatto="0" sid="761544904062513" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Spring Roll Open.png">
-                        <collision-poly>
-                            <point x="0.01" y="0.76" />
-                            <point x="0.42" y="0.535" />
-                            <point x="0.61" y="0.625" />
-                            <point x="0.85" y="0.8475" />
-                            <point x="0.87" y="0.97625" />
-                            <point x="0.25" y="0.98" />
-                            <point x="0.245" y="0.88" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Pierogies" pingpong="0" repeatcount="1" repeatto="0" sid="546141862719168" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Pierogies Open.png">
-                        <collision-poly>
-                            <point x="0.4" y="0.57" />
-                            <point x="0.94" y="0.805" />
-                            <point x="0.19" y="0.975" />
-                            <point x="0.14" y="0.665" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="ChickenSalad" pingpong="0" repeatcount="1" repeatto="0" sid="148450094052418" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Chicken Salad Open.png">
-                        <collision-poly>
-                            <point x="0" y="0.51" />
-                            <point x="1" y="0.55" />
-                            <point x="1" y="0.975" />
-                            <point x="0.03" y="0.98" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="TurkeyKebab" pingpong="0" repeatcount="1" repeatto="0" sid="906366077456125" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Turkey Kebab Open.png">
-                        <collision-poly>
-                            <point x="0.36" y="0.57" />
-                            <point x="0.63" y="0.58" />
-                            <point x="0.91" y="0.885" />
-                            <point x="0.41" y="1" />
-                            <point x="0.13" y="0.655" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Duck" pingpong="0" repeatcount="1" repeatto="0" sid="848552330759434" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Duck Open.png">
-                        <collision-poly>
-                            <point x="0.48" y="0.525" />
-                            <point x="0.72" y="0.605" />
-                            <point x="0.8" y="0.9" />
-                            <point x="0.7" y="0.9675" />
-                            <point x="0.5" y="0.965" />
-                            <point x="0.29" y="0.965" />
-                            <point x="0.115" y="0.845" />
-                            <point x="0.28" y="0.575" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="StuffedGoose" pingpong="0" repeatcount="1" repeatto="0" sid="940531512212387" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Stuffed Goose Open.png">
-                        <collision-poly>
-                            <point x="0.2" y="0.66" />
-                            <point x="0.495" y="0.57875" />
-                            <point x="0.76" y="0.6725" />
-                            <point x="0.79" y="0.905" />
-                            <point x="0.51" y="0.99" />
-                            <point x="0.17" y="0.935" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Porkchops" pingpong="0" repeatcount="1" repeatto="0" sid="813692931952061" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Porkchops Open.png">
-                        <collision-poly>
-                            <point x="0.43" y="0.59" />
-                            <point x="1" y="0.83" />
-                            <point x="0.56" y="0.97" />
-                            <point x="0.03" y="0.67" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_1_fudIng" sid="445239415673374">
-            <plugin id="Text" />
-            <container>
-                <type>m6_1_fud</type>
-                <type>m6_1_lulImABG</type>
-                <type>m6_1_fudIng</type>
-            </container>
-        </object-type>
-        <object-type name="m6_1_lulImABG" sid="326656579784057">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="fud" sid="410459227509918" type="string" />
-            </instance-variables>
-            <container>
-                <type>m6_1_fud</type>
-                <type>m6_1_lulImABG</type>
-                <type>m6_1_fudIng</type>
-            </container>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="715396634306081" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Spring Roll Closed.png">
-                        <collision-poly>
-                            <point x="0" y="0.525" />
-                            <point x="1" y="0.535" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Gumbo" pingpong="0" repeatcount="1" repeatto="0" sid="747053076355126" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Gumbo leftover.png">
-                        <collision-poly>
-                            <point x="0" y="0.51" />
-                            <point x="1" y="0.515" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="888088792930431" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Open Tupperware.png">
-                        <collision-poly>
-                            <point x="0.18" y="0.09" />
-                            <point x="0.82" y="0.09" />
-                            <point x="0.99" y="0.5" />
-                            <point x="0.99" y="0.995" />
-                            <point x="0.01" y="0.995" />
-                            <point x="0.01" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="MashedPotatoe" pingpong="0" repeatcount="1" repeatto="0" sid="790453210471530" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Mashed Potato Closed.png">
-                        <collision-poly>
-                            <point x="0" y="0.56" />
-                            <point x="1" y="0.555" />
-                            <point x="1" y="1" />
-                            <point x="0.03" y="0.985" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="VeggieSalad" pingpong="0" repeatcount="1" repeatto="0" sid="426857705992788" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Veggie Salad Closed.png">
-                        <collision-poly>
-                            <point x="0" y="0.545" />
-                            <point x="1" y="0.55" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="SpringRolls" pingpong="0" repeatcount="1" repeatto="0" sid="654913196685285" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Spring Roll Closed.png">
-                        <collision-poly>
-                            <point x="0" y="0.515" />
-                            <point x="1" y="0.515" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Pierogies" pingpong="0" repeatcount="1" repeatto="0" sid="674423552066478" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Pierogies Closed.png">
-                        <collision-poly>
-                            <point x="0" y="0.515" />
-                            <point x="1" y="0.515" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="ChickenSalad" pingpong="0" repeatcount="1" repeatto="0" sid="619001011803965" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Chicken Salad Closed.png">
-                        <collision-poly>
-                            <point x="0" y="0.5" />
-                            <point x="1" y="0.525" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="TurkeyKebab" pingpong="0" repeatcount="1" repeatto="0" sid="162629543760117" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Turkey Kebab Closed.png">
-                        <collision-poly>
-                            <point x="0" y="0.505" />
-                            <point x="1" y="0.515" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Duck" pingpong="0" repeatcount="1" repeatto="0" sid="990736538379861" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Duck Closed.png">
-                        <collision-poly>
-                            <point x="0" y="0.495" />
-                            <point x="1" y="0.525" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="StuffedGoose" pingpong="0" repeatcount="1" repeatto="0" sid="804793388528988" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Stuffed Goose Closed.png">
-                        <collision-poly>
-                            <point x="0" y="0.52" />
-                            <point x="1" y="0.52" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Porkchops" pingpong="0" repeatcount="1" repeatto="0" sid="466139565186519" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Porkchops Closed.png">
-                        <collision-poly>
-                            <point x="0" y="0.53" />
-                            <point x="1" y="0.525" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Gumbo2" pingpong="0" repeatcount="1" repeatto="0" sid="758530208122711" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Gumbo List.png">
-                        <collision-poly>
-                            <point x="0" y="0.06" />
-                            <point x="1" y="0.0600004" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="MashedPotatoe2" pingpong="0" repeatcount="1" repeatto="0" sid="932421070350640" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Mashed Potato List.png">
-                        <collision-poly>
-                            <point x="0" y="0.06" />
-                            <point x="1" y="0.0600004" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="VeggieSalad2" pingpong="0" repeatcount="1" repeatto="0" sid="284951688851652" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Veggie Salad List.png">
-                        <collision-poly>
-                            <point x="0" y="0.06" />
-                            <point x="1" y="0.0600004" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="SpringRolls2" pingpong="0" repeatcount="1" repeatto="0" sid="336887667911373" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Spring Roll List.png">
-                        <collision-poly>
-                            <point x="0" y="0.06" />
-                            <point x="1" y="0.0600004" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Pierogies2" pingpong="0" repeatcount="1" repeatto="0" sid="950227309744327" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Pierogi List.png">
-                        <collision-poly>
-                            <point x="0" y="0.06" />
-                            <point x="1" y="0.0600004" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="ChickenSalad2" pingpong="0" repeatcount="1" repeatto="0" sid="425002340026657" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Chicken Salad List.png">
-                        <collision-poly>
-                            <point x="0" y="0.06" />
-                            <point x="1" y="0.0600004" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="TurkeyKebab2" pingpong="0" repeatcount="1" repeatto="0" sid="815073705237518" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Turkey Kebab List.png">
-                        <collision-poly>
-                            <point x="0" y="0.06" />
-                            <point x="1" y="0.0600004" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Duck2" pingpong="0" repeatcount="1" repeatto="0" sid="919732650994567" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Duck List.png">
-                        <collision-poly>
-                            <point x="0" y="0.06" />
-                            <point x="1" y="0.0600004" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="StuffedGoose2" pingpong="0" repeatcount="1" repeatto="0" sid="445076363073869" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Stuffed Goose List.png">
-                        <collision-poly>
-                            <point x="0" y="0.06" />
-                            <point x="1" y="0.0600004" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="PorkChops2" pingpong="0" repeatcount="1" repeatto="0" sid="467155544823957" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Porkchop List.png">
-                        <collision-poly>
-                            <point x="0" y="0.06" />
-                            <point x="1" y="0.0600004" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
+        <object-folder name="m6_1_Food(E)">
+            <object-type name="m6_1_buy" sid="234889915009683">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="noOpen" sid="285584221864540" type="boolean" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="258547209973810" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\DoneButton.png">
+                            <collision-poly>
+                                <point x="0.02" y="0.04" />
+                                <point x="0.5" y="0" />
+                                <point x="0.98" y="0.04" />
+                                <point x="1" y="0.5" />
+                                <point x="0.98" y="0.96" />
+                                <point x="0.5" y="1" />
+                                <point x="0.02" y="0.96" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="644495898683579" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Closed Supermarket.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_counter" sid="447280201021555">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable name="ingredientType" sid="108577162862935" type="number" />
+                    <instance-variable name="max" sid="911216291936800" type="number" />
+                </instance-variables>
+            </object-type>
+            <object-type name="m6_1_ecit" sid="565016615824330">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="440726779007776" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Exit1.png">
+                            <collision-poly>
+                                <point x="0.155556" y="0.155556" />
+                                <point x="0.5" y="0.127778" />
+                                <point x="0.844444" y="0.155556" />
+                                <point x="0.955556" y="0.5" />
+                                <point x="0.894444" y="0.894444" />
+                                <point x="0.5" y="0.933333" />
+                                <point x="0.111111" y="0.888889" />
+                                <point x="0.05" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="489434963973925" speed="5">
+                        <frame duration="1" hotspotX="0.495833" hotspotY="0.479167" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Exit2.png">
+                            <collision-poly>
+                                <point x="0.121212" y="0.0422535" />
+                                <point x="0.49697" y="0.00704227" />
+                                <point x="0.872727" y="0.0422535" />
+                                <point x="0.993939" y="0.478873" />
+                                <point x="0.90303" y="0.950704" />
+                                <point x="0.49697" y="0.985915" />
+                                <point x="0.0969697" y="0.943662" />
+                                <point x="0.00606061" y="0.478873" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_bought" sid="661567709807141">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="fud1" sid="143733871488739" type="string" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Physics" sid="110755866860172">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="317078157847181" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="RedMeat" pingpong="0" repeatcount="1" repeatto="0" sid="355484365569216" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Downloads\Red Meat.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.25" />
+                                <point x="0.5" y="0.125" />
+                                <point x="0.875" y="0.125" />
+                                <point x="0.9375" y="0.5" />
+                                <point x="0.7625" y="0.7625" />
+                                <point x="0.5" y="0.925" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0.05" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Dairy" pingpong="0" repeatcount="1" repeatto="0" sid="642064417148110" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Dairy.png">
+                            <collision-poly>
+                                <point x="0.275" y="0.275" />
+                                <point x="0.5" y="0.025" />
+                                <point x="0.75" y="0.25" />
+                                <point x="0.75625" y="0.828125" />
+                                <point x="0.63125" y="0.984375" />
+                                <point x="0.2375" y="1" />
+                                <point x="0.2375" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Leaf" pingpong="0" repeatcount="1" repeatto="0" sid="497232246952526" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Leaf Veggie.png">
+                            <collision-poly>
+                                <point x="0.1375" y="0.096875" />
+                                <point x="0.5125" y="0" />
+                                <point x="0.896875" y="0.175" />
+                                <point x="0.875" y="0.503125" />
+                                <point x="0.765625" y="0.671875" />
+                                <point x="0.521875" y="0.996875" />
+                                <point x="0.415625" y="0.96875" />
+                                <point x="0.16875" y="0.645312" />
+                                <point x="0.04375" y="0.359375" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="poultry" pingpong="0" repeatcount="1" repeatto="0" sid="645590910092894" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Poultry.png">
+                            <collision-poly>
+                                <point x="0.053125" y="0.071875" />
+                                <point x="0.2625" y="0.021875" />
+                                <point x="0.49375" y="0.146875" />
+                                <point x="0.60625" y="0.396875" />
+                                <point x="0.815625" y="0.573437" />
+                                <point x="0.778125" y="0.66875" />
+                                <point x="0.95625" y="0.859766" />
+                                <point x="0.859375" y="0.953907" />
+                                <point x="0.689062" y="0.774609" />
+                                <point x="0.5625" y="0.789063" />
+                                <point x="0.40625" y="0.634375" />
+                                <point x="0.153125" y="0.521875" />
+                                <point x="0.025" y="0.359375" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="root" pingpong="0" repeatcount="1" repeatto="0" sid="850648496877003" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Root Vegetable.png">
+                            <collision-poly>
+                                <point x="0.375" y="0.375" />
+                                <point x="0.784375" y="0.0562501" />
+                                <point x="0.976563" y="0.378125" />
+                                <point x="0.734375" y="0.559375" />
+                                <point x="0.65" y="0.65" />
+                                <point x="0.2375" y="0.915625" />
+                                <point x="0.0625" y="0.9375" />
+                                <point x="0.109375" y="0.671875" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="fish" pingpong="0" repeatcount="1" repeatto="0" sid="219218262412498" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Seafood.png">
+                            <collision-poly>
+                                <point x="0.2375" y="0.2375" />
+                                <point x="0.5" y="0.0875" />
+                                <point x="0.76875" y="0.00625" />
+                                <point x="0.928125" y="0.125" />
+                                <point x="0.99375" y="0.31875" />
+                                <point x="0.8875" y="0.5" />
+                                <point x="0.725" y="0.725" />
+                                <point x="0.5" y="0.7" />
+                                <point x="0.275" y="0.759375" />
+                                <point x="0.223438" y="0.925" />
+                                <point x="0" y="0.584375" />
+                                <point x="0.146875" y="0.589063" />
+                                <point x="0.1875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="starch" pingpong="0" repeatcount="1" repeatto="0" sid="171611012854679" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Starch.png">
+                            <collision-poly>
+                                <point x="0.1625" y="0.1625" />
+                                <point x="0.290625" y="0.05625" />
+                                <point x="0.834375" y="0.034375" />
+                                <point x="0.83125" y="0.95" />
+                                <point x="0.309375" y="0.99375" />
+                                <point x="0.153125" y="0.89375" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="fruit" pingpong="0" repeatcount="1" repeatto="0" sid="252251291935719" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Fruit.png">
+                            <collision-poly>
+                                <point x="0.178125" y="0.25" />
+                                <point x="0.478125" y="0.025" />
+                                <point x="0.66875" y="0.059375" />
+                                <point x="0.871875" y="0.3" />
+                                <point x="0.975" y="0.521875" />
+                                <point x="0.8875" y="0.903125" />
+                                <point x="0.5375" y="1" />
+                                <point x="0.15625" y="0.91875" />
+                                <point x="0.025" y="0.50625" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_blink1" sid="271127969076904">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="number" sid="737890596131087" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="466232125832371" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_endMenu" sid="898724351787005">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="846298305701171" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Win Fail State.png">
+                            <collision-poly>
+                                <point x="0.0137383" y="0.132283" />
+                                <point x="0.52133" y="0.0015748" />
+                                <point x="0.999277" y="0.19685" />
+                                <point x="0.999277" y="0.670866" />
+                                <point x="0.916124" y="0.963779" />
+                                <point x="0.52133" y="0.998425" />
+                                <point x="0.117137" y="0.984252" />
+                                <point x="0.000723066" y="0.670866" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_fooood" sid="441841679341999">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="CSS" pingpong="0" repeatcount="1" repeatto="0" sid="276003870510598" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\fooood\Chicken Salad Sandwich.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="483805616750935" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_EndBG" sid="834339557188132">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="585173473583796" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_fud" sid="991515961765471">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="hint" sid="835328962878353" type="boolean" />
+                    <instance-variable name="fud1" sid="803297724203998" type="string" />
+                    <instance-variable name="fud2" sid="631604729511639" type="string" />
+                    <instance-variable name="fud3" sid="761265471029372" type="string" />
+                    <instance-variable name="inPot" sid="298507605496995" type="boolean" />
+                    <instance-variable name="name" sid="617094620719609" type="string" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="448607477973351">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                    <behavior-type name="Physics" sid="211914007005964">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                </behaviors>
+                <container>
+                    <type>m6_1_fud</type>
+                    <type>m6_1_lulImABG</type>
+                    <type>m6_1_fudIng</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="275326445347932" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Tupperware.png">
+                            <collision-poly>
+                                <point x="0" y="0.49" />
+                                <point x="1" y="0.49" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="703611055328037" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Open Tupperware.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.99" y="0.995" />
+                                <point x="0.01" y="0.995" />
+                                <point x="0.01" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Gumbo" pingpong="0" repeatcount="1" repeatto="0" sid="665074801246896" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Gumbo Open.png">
+                            <collision-poly>
+                                <point x="0" y="0.505" />
+                                <point x="1" y="0.52" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="MashedPotatoe" pingpong="0" repeatcount="1" repeatto="0" sid="694429603674977" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Mashed Potato Open.png">
+                            <collision-poly>
+                                <point x="7.45058e-009" y="0.545" />
+                                <point x="1" y="0.59" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="VeggieSalad" pingpong="0" repeatcount="1" repeatto="0" sid="927258668662885" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Veggie Salad Open.png">
+                            <collision-poly>
+                                <point x="0" y="0.535" />
+                                <point x="1" y="0.53" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="SpringRolls" pingpong="0" repeatcount="1" repeatto="0" sid="761544904062513" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Spring Roll Open.png">
+                            <collision-poly>
+                                <point x="0.01" y="0.76" />
+                                <point x="0.42" y="0.535" />
+                                <point x="0.61" y="0.625" />
+                                <point x="0.85" y="0.8475" />
+                                <point x="0.87" y="0.97625" />
+                                <point x="0.25" y="0.98" />
+                                <point x="0.245" y="0.88" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Pierogies" pingpong="0" repeatcount="1" repeatto="0" sid="546141862719168" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Pierogies Open.png">
+                            <collision-poly>
+                                <point x="0.4" y="0.57" />
+                                <point x="0.94" y="0.805" />
+                                <point x="0.19" y="0.975" />
+                                <point x="0.14" y="0.665" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="ChickenSalad" pingpong="0" repeatcount="1" repeatto="0" sid="148450094052418" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Chicken Salad Open.png">
+                            <collision-poly>
+                                <point x="0" y="0.51" />
+                                <point x="1" y="0.55" />
+                                <point x="1" y="0.975" />
+                                <point x="0.03" y="0.98" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TurkeyKebab" pingpong="0" repeatcount="1" repeatto="0" sid="906366077456125" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Turkey Kebab Open.png">
+                            <collision-poly>
+                                <point x="0.36" y="0.57" />
+                                <point x="0.63" y="0.58" />
+                                <point x="0.91" y="0.885" />
+                                <point x="0.41" y="1" />
+                                <point x="0.13" y="0.655" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Duck" pingpong="0" repeatcount="1" repeatto="0" sid="848552330759434" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Duck Open.png">
+                            <collision-poly>
+                                <point x="0.48" y="0.525" />
+                                <point x="0.72" y="0.605" />
+                                <point x="0.8" y="0.9" />
+                                <point x="0.7" y="0.9675" />
+                                <point x="0.5" y="0.965" />
+                                <point x="0.29" y="0.965" />
+                                <point x="0.115" y="0.845" />
+                                <point x="0.28" y="0.575" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="StuffedGoose" pingpong="0" repeatcount="1" repeatto="0" sid="940531512212387" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Stuffed Goose Open.png">
+                            <collision-poly>
+                                <point x="0.2" y="0.66" />
+                                <point x="0.495" y="0.57875" />
+                                <point x="0.76" y="0.6725" />
+                                <point x="0.79" y="0.905" />
+                                <point x="0.51" y="0.99" />
+                                <point x="0.17" y="0.935" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Porkchops" pingpong="0" repeatcount="1" repeatto="0" sid="813692931952061" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Porkchops Open.png">
+                            <collision-poly>
+                                <point x="0.43" y="0.59" />
+                                <point x="1" y="0.83" />
+                                <point x="0.56" y="0.97" />
+                                <point x="0.03" y="0.67" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_fudIng" sid="445239415673374">
+                <plugin id="Text" />
+                <container>
+                    <type>m6_1_fud</type>
+                    <type>m6_1_lulImABG</type>
+                    <type>m6_1_fudIng</type>
+                </container>
+            </object-type>
+            <object-type name="m6_1_kek" sid="226917945691424">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="m6_1_lulImABG" sid="326656579784057">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="fud" sid="410459227509918" type="string" />
+                </instance-variables>
+                <container>
+                    <type>m6_1_fud</type>
+                    <type>m6_1_lulImABG</type>
+                    <type>m6_1_fudIng</type>
+                </container>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="715396634306081" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Spring Roll Closed.png">
+                            <collision-poly>
+                                <point x="0" y="0.525" />
+                                <point x="1" y="0.535" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Gumbo" pingpong="0" repeatcount="1" repeatto="0" sid="747053076355126" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Gumbo leftover.png">
+                            <collision-poly>
+                                <point x="0" y="0.51" />
+                                <point x="1" y="0.515" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="888088792930431" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Open Tupperware.png">
+                            <collision-poly>
+                                <point x="0.18" y="0.09" />
+                                <point x="0.82" y="0.09" />
+                                <point x="0.99" y="0.5" />
+                                <point x="0.99" y="0.995" />
+                                <point x="0.01" y="0.995" />
+                                <point x="0.01" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="MashedPotatoe" pingpong="0" repeatcount="1" repeatto="0" sid="790453210471530" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Mashed Potato Closed.png">
+                            <collision-poly>
+                                <point x="0" y="0.56" />
+                                <point x="1" y="0.555" />
+                                <point x="1" y="1" />
+                                <point x="0.03" y="0.985" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="VeggieSalad" pingpong="0" repeatcount="1" repeatto="0" sid="426857705992788" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Veggie Salad Closed.png">
+                            <collision-poly>
+                                <point x="0" y="0.545" />
+                                <point x="1" y="0.55" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="SpringRolls" pingpong="0" repeatcount="1" repeatto="0" sid="654913196685285" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Spring Roll Closed.png">
+                            <collision-poly>
+                                <point x="0" y="0.515" />
+                                <point x="1" y="0.515" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Pierogies" pingpong="0" repeatcount="1" repeatto="0" sid="674423552066478" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Pierogies Closed.png">
+                            <collision-poly>
+                                <point x="0" y="0.515" />
+                                <point x="1" y="0.515" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="ChickenSalad" pingpong="0" repeatcount="1" repeatto="0" sid="619001011803965" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Chicken Salad Closed.png">
+                            <collision-poly>
+                                <point x="0" y="0.5" />
+                                <point x="1" y="0.525" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TurkeyKebab" pingpong="0" repeatcount="1" repeatto="0" sid="162629543760117" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Turkey Kebab Closed.png">
+                            <collision-poly>
+                                <point x="0" y="0.505" />
+                                <point x="1" y="0.515" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Duck" pingpong="0" repeatcount="1" repeatto="0" sid="990736538379861" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Duck Closed.png">
+                            <collision-poly>
+                                <point x="0" y="0.495" />
+                                <point x="1" y="0.525" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="StuffedGoose" pingpong="0" repeatcount="1" repeatto="0" sid="804793388528988" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Stuffed Goose Closed.png">
+                            <collision-poly>
+                                <point x="0" y="0.52" />
+                                <point x="1" y="0.52" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Porkchops" pingpong="0" repeatcount="1" repeatto="0" sid="466139565186519" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\Porkchops Closed.png">
+                            <collision-poly>
+                                <point x="0" y="0.53" />
+                                <point x="1" y="0.525" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Gumbo2" pingpong="0" repeatcount="1" repeatto="0" sid="758530208122711" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Gumbo List.png">
+                            <collision-poly>
+                                <point x="0" y="0.06" />
+                                <point x="1" y="0.0600004" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="MashedPotatoe2" pingpong="0" repeatcount="1" repeatto="0" sid="932421070350640" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Mashed Potato List.png">
+                            <collision-poly>
+                                <point x="0" y="0.06" />
+                                <point x="1" y="0.0600004" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="VeggieSalad2" pingpong="0" repeatcount="1" repeatto="0" sid="284951688851652" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Veggie Salad List.png">
+                            <collision-poly>
+                                <point x="0" y="0.06" />
+                                <point x="1" y="0.0600004" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="SpringRolls2" pingpong="0" repeatcount="1" repeatto="0" sid="336887667911373" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Spring Roll List.png">
+                            <collision-poly>
+                                <point x="0" y="0.06" />
+                                <point x="1" y="0.0600004" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Pierogies2" pingpong="0" repeatcount="1" repeatto="0" sid="950227309744327" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Pierogi List.png">
+                            <collision-poly>
+                                <point x="0" y="0.06" />
+                                <point x="1" y="0.0600004" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="ChickenSalad2" pingpong="0" repeatcount="1" repeatto="0" sid="425002340026657" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Chicken Salad List.png">
+                            <collision-poly>
+                                <point x="0" y="0.06" />
+                                <point x="1" y="0.0600004" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="TurkeyKebab2" pingpong="0" repeatcount="1" repeatto="0" sid="815073705237518" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Turkey Kebab List.png">
+                            <collision-poly>
+                                <point x="0" y="0.06" />
+                                <point x="1" y="0.0600004" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Duck2" pingpong="0" repeatcount="1" repeatto="0" sid="919732650994567" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Duck List.png">
+                            <collision-poly>
+                                <point x="0" y="0.06" />
+                                <point x="1" y="0.0600004" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="StuffedGoose2" pingpong="0" repeatcount="1" repeatto="0" sid="445076363073869" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Stuffed Goose List.png">
+                            <collision-poly>
+                                <point x="0" y="0.06" />
+                                <point x="1" y="0.0600004" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="PorkChops2" pingpong="0" repeatcount="1" repeatto="0" sid="467155544823957" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\lids\Porkchop List.png">
+                            <collision-poly>
+                                <point x="0" y="0.06" />
+                                <point x="1" y="0.0600004" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_pot" sid="967283427594648">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Physics" sid="806751571228097">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="511077396235283" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Pot.png">
+                            <collision-poly>
+                                <point x="0.115" y="0.845" />
+                                <point x="0.885" y="0.855" />
+                                <point x="0.895" y="1" />
+                                <point x="0.105" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type global="1" name="m6_1_Recipe" sid="304331659478624">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type global="1" name="m6_1_Recipe1" sid="898156507748131">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type name="m6_1_RecipeDisplay" sid="263869031169236">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="873203678938948" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\RecipeCard2.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_recipeIngrType" sid="755063909259741">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="ingrType" sid="101388206245291" type="number" />
+                    <instance-variable name="ingr" sid="276963819780768" type="string" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Fruit" pingpong="0" repeatcount="1" repeatto="0" sid="891485486635089" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Fruit.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.25" />
+                                <point x="0.5" y="0.075" />
+                                <point x="0.7625" y="0.2375" />
+                                <point x="0.95" y="0.5" />
+                                <point x="0.8625" y="0.8625" />
+                                <point x="0.5" y="0.9375" />
+                                <point x="0.1625" y="0.8375" />
+                                <point x="0.0625" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="SeaFood" pingpong="0" repeatcount="1" repeatto="0" sid="276377056175854" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Seafood.png">
+                            <collision-poly>
+                                <point x="0.2375" y="0.2375" />
+                                <point x="0.5" y="0.0875" />
+                                <point x="0.9" y="0.1" />
+                                <point x="0.8875" y="0.5" />
+                                <point x="0.725" y="0.725" />
+                                <point x="0.5" y="0.7" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0.1875" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="leafVeggie" pingpong="0" repeatcount="1" repeatto="0" sid="475673425374309" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Leaf Veggie.png">
+                            <collision-poly>
+                                <point x="0.1375" y="0.1375" />
+                                <point x="0.5" y="0" />
+                                <point x="0.85" y="0.15" />
+                                <point x="0.8625" y="0.5" />
+                                <point x="0.725" y="0.725" />
+                                <point x="0.5" y="1" />
+                                <point x="0.2875" y="0.7125" />
+                                <point x="0.15" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="rootVeggie" pingpong="0" repeatcount="1" repeatto="0" sid="389824905497911" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Root Vegetable.png">
+                            <collision-poly>
+                                <point x="0.375" y="0.375" />
+                                <point x="0.8625" y="0.1375" />
+                                <point x="0.725" y="0.5" />
+                                <point x="0.65" y="0.65" />
+                                <point x="0.5" y="0.7625" />
+                                <point x="0.0625" y="0.9375" />
+                                <point x="0.25" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="poultry" pingpong="0" repeatcount="1" repeatto="0" sid="474021574156915" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Poultry.png">
+                            <collision-poly>
+                                <point x="0.1" y="0.1" />
+                                <point x="0.5" y="0.15" />
+                                <point x="0.6125" y="0.3875" />
+                                <point x="0.725" y="0.5" />
+                                <point x="0.9125" y="0.9125" />
+                                <point x="0.5" y="0.725" />
+                                <point x="0.375" y="0.625" />
+                                <point x="0.125" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="dairy" pingpong="0" repeatcount="1" repeatto="0" sid="475535815009282" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Dairy.png">
+                            <collision-poly>
+                                <point x="0.275" y="0.275" />
+                                <point x="0.5" y="0.025" />
+                                <point x="0.75" y="0.25" />
+                                <point x="0.75" y="0.75" />
+                                <point x="0.5" y="0.975" />
+                                <point x="0.2375" y="0.7625" />
+                                <point x="0.2375" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="starch" pingpong="0" repeatcount="1" repeatto="0" sid="323917113081968" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Starch.png">
+                            <collision-poly>
+                                <point x="0.1625" y="0.1625" />
+                                <point x="0.5" y="0.0375" />
+                                <point x="0.8375" y="0.1625" />
+                                <point x="0.8375" y="0.8375" />
+                                <point x="0.5" y="0.975" />
+                                <point x="0.15" y="0.85" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="redMeat" pingpong="0" repeatcount="1" repeatto="0" sid="682640000220924" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Red Meat.png">
+                            <collision-poly>
+                                <point x="0.25" y="0.25" />
+                                <point x="0.5" y="0.125" />
+                                <point x="0.875" y="0.125" />
+                                <point x="0.9375" y="0.5" />
+                                <point x="0.7625" y="0.7625" />
+                                <point x="0.5" y="0.925" />
+                                <point x="0.15" y="0.85" />
+                                <point x="0.05" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_RecipeList" sid="300210822421691">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable name="warning" sid="370599321687230" type="number" />
+                </instance-variables>
+            </object-type>
+            <object-type name="m6_1_retry" sid="106396681936904">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="332533121722710" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Retry1.png">
+                            <collision-poly>
+                                <point x="0.155556" y="0.155556" />
+                                <point x="0.5" y="0.133333" />
+                                <point x="0.844444" y="0.155556" />
+                                <point x="0.95" y="0.5" />
+                                <point x="0.894444" y="0.894444" />
+                                <point x="0.5" y="0.938889" />
+                                <point x="0.111111" y="0.888889" />
+                                <point x="0.0555556" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="980132630664829" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Retry2.png">
+                            <collision-poly>
+                                <point x="0.155556" y="0.155556" />
+                                <point x="0.5" y="0.133333" />
+                                <point x="0.844444" y="0.155556" />
+                                <point x="0.95" y="0.5" />
+                                <point x="0.866667" y="0.866667" />
+                                <point x="0.5" y="0.9" />
+                                <point x="0.133333" y="0.866667" />
+                                <point x="0.0555556" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_Star1" sid="849194315460987">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="445315216653911" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\empty star (new).png">
+                            <collision-poly>
+                                <point x="0.336" y="0.336" />
+                                <point x="0.5" y="0.044" />
+                                <point x="0.668" y="0.332" />
+                                <point x="0.916" y="0.5" />
+                                <point x="0.808" y="0.808" />
+                                <point x="0.212" y="0.788" />
+                                <point x="0.096" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="138319876282444" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\star full (new).png">
+                            <collision-poly>
+                                <point x="0.336" y="0.336" />
+                                <point x="0.5" y="0.044" />
+                                <point x="0.668" y="0.332" />
+                                <point x="0.916" y="0.5" />
+                                <point x="0.808" y="0.808" />
+                                <point x="0.212" y="0.788" />
+                                <point x="0.096" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_Star2" sid="905606856870116">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="838609941794794" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\empty star (new).png">
+                            <collision-poly>
+                                <point x="0.336" y="0.336" />
+                                <point x="0.5" y="0.044" />
+                                <point x="0.668" y="0.332" />
+                                <point x="0.916" y="0.5" />
+                                <point x="0.808" y="0.808" />
+                                <point x="0.212" y="0.788" />
+                                <point x="0.096" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="639430406471453" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\star full (new).png">
+                            <collision-poly>
+                                <point x="0.336" y="0.336" />
+                                <point x="0.5" y="0.044" />
+                                <point x="0.668" y="0.332" />
+                                <point x="0.916" y="0.5" />
+                                <point x="0.808" y="0.808" />
+                                <point x="0.212" y="0.788" />
+                                <point x="0.096" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_Star3" sid="863283252703214">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="152369752420414" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\empty star (new).png">
+                            <collision-poly>
+                                <point x="0.336" y="0.336" />
+                                <point x="0.5" y="0.044" />
+                                <point x="0.668" y="0.332" />
+                                <point x="0.916" y="0.5" />
+                                <point x="0.808" y="0.808" />
+                                <point x="0.212" y="0.788" />
+                                <point x="0.096" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="396875409324800" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\star full (new).png">
+                            <collision-poly>
+                                <point x="0.336" y="0.336" />
+                                <point x="0.5" y="0.044" />
+                                <point x="0.668" y="0.332" />
+                                <point x="0.916" y="0.5" />
+                                <point x="0.808" y="0.808" />
+                                <point x="0.212" y="0.788" />
+                                <point x="0.096" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_1_timer" sid="113396961630533">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="657277021130651" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_BG" sid="149921842032686">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="658527894827071" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="m6_TutorialText" sid="315720911837901">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="m6_1_fridge" sid="445771653179401">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="188162310870308" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Fridge.png">
+                            <collision-poly>
+                                <point x="0.0075" y="0.00545455" />
+                                <point x="0.99375" y="0.00454545" />
+                                <point x="0.99375" y="0.995455" />
+                                <point x="0.0075" y="0.994545" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="Touch" sid="650449546605668">
             <plugin id="Touch" />
         </object-type>
-        <object-type name="m6_1_kek" sid="226917945691424">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="m6_1_buy" sid="234889915009683">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="noOpen" sid="285584221864540" type="boolean" />
-            </instance-variables>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="258547209973810" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\DoneButton.png">
-                        <collision-poly>
-                            <point x="0.02" y="0.04" />
-                            <point x="0.5" y="0" />
-                            <point x="0.98" y="0.04" />
-                            <point x="1" y="0.5" />
-                            <point x="0.98" y="0.96" />
-                            <point x="0.5" y="1" />
-                            <point x="0.02" y="0.96" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="644495898683579" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Closed Supermarket.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_1_bought" sid="661567709807141">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="fud1" sid="143733871488739" type="string" />
-            </instance-variables>
-            <behaviors>
-                <behavior-type name="Physics" sid="110755866860172">
-                    <behavior id="Physics" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="317078157847181" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-                <animation framecount="1" loop="0" name="RedMeat" pingpong="0" repeatcount="1" repeatto="0" sid="355484365569216" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Downloads\Red Meat.png">
-                        <collision-poly>
-                            <point x="0.25" y="0.25" />
-                            <point x="0.5" y="0.125" />
-                            <point x="0.875" y="0.125" />
-                            <point x="0.9375" y="0.5" />
-                            <point x="0.7625" y="0.7625" />
-                            <point x="0.5" y="0.925" />
-                            <point x="0.15" y="0.85" />
-                            <point x="0.05" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Dairy" pingpong="0" repeatcount="1" repeatto="0" sid="642064417148110" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Dairy.png">
-                        <collision-poly>
-                            <point x="0.275" y="0.275" />
-                            <point x="0.5" y="0.025" />
-                            <point x="0.75" y="0.25" />
-                            <point x="0.75625" y="0.828125" />
-                            <point x="0.63125" y="0.984375" />
-                            <point x="0.2375" y="1" />
-                            <point x="0.2375" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Leaf" pingpong="0" repeatcount="1" repeatto="0" sid="497232246952526" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Leaf Veggie.png">
-                        <collision-poly>
-                            <point x="0.1375" y="0.096875" />
-                            <point x="0.5125" y="0" />
-                            <point x="0.896875" y="0.175" />
-                            <point x="0.875" y="0.503125" />
-                            <point x="0.765625" y="0.671875" />
-                            <point x="0.521875" y="0.996875" />
-                            <point x="0.415625" y="0.96875" />
-                            <point x="0.16875" y="0.645312" />
-                            <point x="0.04375" y="0.359375" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="poultry" pingpong="0" repeatcount="1" repeatto="0" sid="645590910092894" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Poultry.png">
-                        <collision-poly>
-                            <point x="0.053125" y="0.071875" />
-                            <point x="0.2625" y="0.021875" />
-                            <point x="0.49375" y="0.146875" />
-                            <point x="0.60625" y="0.396875" />
-                            <point x="0.815625" y="0.573437" />
-                            <point x="0.778125" y="0.66875" />
-                            <point x="0.95625" y="0.859766" />
-                            <point x="0.859375" y="0.953907" />
-                            <point x="0.689062" y="0.774609" />
-                            <point x="0.5625" y="0.789063" />
-                            <point x="0.40625" y="0.634375" />
-                            <point x="0.153125" y="0.521875" />
-                            <point x="0.025" y="0.359375" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="root" pingpong="0" repeatcount="1" repeatto="0" sid="850648496877003" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Root Vegetable.png">
-                        <collision-poly>
-                            <point x="0.375" y="0.375" />
-                            <point x="0.784375" y="0.0562501" />
-                            <point x="0.976563" y="0.378125" />
-                            <point x="0.734375" y="0.559375" />
-                            <point x="0.65" y="0.65" />
-                            <point x="0.2375" y="0.915625" />
-                            <point x="0.0625" y="0.9375" />
-                            <point x="0.109375" y="0.671875" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="fish" pingpong="0" repeatcount="1" repeatto="0" sid="219218262412498" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Seafood.png">
-                        <collision-poly>
-                            <point x="0.2375" y="0.2375" />
-                            <point x="0.5" y="0.0875" />
-                            <point x="0.76875" y="0.00625" />
-                            <point x="0.928125" y="0.125" />
-                            <point x="0.99375" y="0.31875" />
-                            <point x="0.8875" y="0.5" />
-                            <point x="0.725" y="0.725" />
-                            <point x="0.5" y="0.7" />
-                            <point x="0.275" y="0.759375" />
-                            <point x="0.223438" y="0.925" />
-                            <point x="0" y="0.584375" />
-                            <point x="0.146875" y="0.589063" />
-                            <point x="0.1875" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="starch" pingpong="0" repeatcount="1" repeatto="0" sid="171611012854679" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Starch.png">
-                        <collision-poly>
-                            <point x="0.1625" y="0.1625" />
-                            <point x="0.290625" y="0.05625" />
-                            <point x="0.834375" y="0.034375" />
-                            <point x="0.83125" y="0.95" />
-                            <point x="0.309375" y="0.99375" />
-                            <point x="0.153125" y="0.89375" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="fruit" pingpong="0" repeatcount="1" repeatto="0" sid="252251291935719" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Fruit.png">
-                        <collision-poly>
-                            <point x="0.178125" y="0.25" />
-                            <point x="0.478125" y="0.025" />
-                            <point x="0.66875" y="0.059375" />
-                            <point x="0.871875" y="0.3" />
-                            <point x="0.975" y="0.521875" />
-                            <point x="0.8875" y="0.903125" />
-                            <point x="0.5375" y="1" />
-                            <point x="0.15625" y="0.91875" />
-                            <point x="0.025" y="0.50625" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Audio" sid="102605762356125">
             <plugin id="Audio" />
-        </object-type>
-        <object-type name="m6_1_endMenu" sid="898724351787005">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="846298305701171" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Win Fail State.png">
-                        <collision-poly>
-                            <point x="0.0137383" y="0.132283" />
-                            <point x="0.52133" y="0.0015748" />
-                            <point x="0.999277" y="0.19685" />
-                            <point x="0.999277" y="0.670866" />
-                            <point x="0.916124" y="0.963779" />
-                            <point x="0.52133" y="0.998425" />
-                            <point x="0.117137" y="0.984252" />
-                            <point x="0.000723066" y="0.670866" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_1_Star1" sid="849194315460987">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="445315216653911" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\empty star (new).png">
-                        <collision-poly>
-                            <point x="0.336" y="0.336" />
-                            <point x="0.5" y="0.044" />
-                            <point x="0.668" y="0.332" />
-                            <point x="0.916" y="0.5" />
-                            <point x="0.808" y="0.808" />
-                            <point x="0.212" y="0.788" />
-                            <point x="0.096" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="138319876282444" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\star full (new).png">
-                        <collision-poly>
-                            <point x="0.336" y="0.336" />
-                            <point x="0.5" y="0.044" />
-                            <point x="0.668" y="0.332" />
-                            <point x="0.916" y="0.5" />
-                            <point x="0.808" y="0.808" />
-                            <point x="0.212" y="0.788" />
-                            <point x="0.096" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_1_Star2" sid="905606856870116">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="838609941794794" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\empty star (new).png">
-                        <collision-poly>
-                            <point x="0.336" y="0.336" />
-                            <point x="0.5" y="0.044" />
-                            <point x="0.668" y="0.332" />
-                            <point x="0.916" y="0.5" />
-                            <point x="0.808" y="0.808" />
-                            <point x="0.212" y="0.788" />
-                            <point x="0.096" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="639430406471453" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\star full (new).png">
-                        <collision-poly>
-                            <point x="0.336" y="0.336" />
-                            <point x="0.5" y="0.044" />
-                            <point x="0.668" y="0.332" />
-                            <point x="0.916" y="0.5" />
-                            <point x="0.808" y="0.808" />
-                            <point x="0.212" y="0.788" />
-                            <point x="0.096" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_1_Star3" sid="863283252703214">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="152369752420414" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\empty star (new).png">
-                        <collision-poly>
-                            <point x="0.336" y="0.336" />
-                            <point x="0.5" y="0.044" />
-                            <point x="0.668" y="0.332" />
-                            <point x="0.916" y="0.5" />
-                            <point x="0.808" y="0.808" />
-                            <point x="0.212" y="0.788" />
-                            <point x="0.096" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="396875409324800" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\star full (new).png">
-                        <collision-poly>
-                            <point x="0.336" y="0.336" />
-                            <point x="0.5" y="0.044" />
-                            <point x="0.668" y="0.332" />
-                            <point x="0.916" y="0.5" />
-                            <point x="0.808" y="0.808" />
-                            <point x="0.212" y="0.788" />
-                            <point x="0.096" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_1_ecit" sid="565016615824330">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="440726779007776" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Exit1.png">
-                        <collision-poly>
-                            <point x="0.155556" y="0.155556" />
-                            <point x="0.5" y="0.127778" />
-                            <point x="0.844444" y="0.155556" />
-                            <point x="0.955556" y="0.5" />
-                            <point x="0.894444" y="0.894444" />
-                            <point x="0.5" y="0.933333" />
-                            <point x="0.111111" y="0.888889" />
-                            <point x="0.05" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="489434963973925" speed="5">
-                    <frame duration="1" hotspotX="0.495833" hotspotY="0.479167" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Exit2.png">
-                        <collision-poly>
-                            <point x="0.121212" y="0.0422535" />
-                            <point x="0.49697" y="0.00704227" />
-                            <point x="0.872727" y="0.0422535" />
-                            <point x="0.993939" y="0.478873" />
-                            <point x="0.90303" y="0.950704" />
-                            <point x="0.49697" y="0.985915" />
-                            <point x="0.0969697" y="0.943662" />
-                            <point x="0.00606061" y="0.478873" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_1_retry" sid="106396681936904">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="332533121722710" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Retry1.png">
-                        <collision-poly>
-                            <point x="0.155556" y="0.155556" />
-                            <point x="0.5" y="0.133333" />
-                            <point x="0.844444" y="0.155556" />
-                            <point x="0.95" y="0.5" />
-                            <point x="0.894444" y="0.894444" />
-                            <point x="0.5" y="0.938889" />
-                            <point x="0.111111" y="0.888889" />
-                            <point x="0.0555556" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="980132630664829" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Retry2.png">
-                        <collision-poly>
-                            <point x="0.155556" y="0.155556" />
-                            <point x="0.5" y="0.133333" />
-                            <point x="0.844444" y="0.155556" />
-                            <point x="0.95" y="0.5" />
-                            <point x="0.866667" y="0.866667" />
-                            <point x="0.5" y="0.9" />
-                            <point x="0.133333" y="0.866667" />
-                            <point x="0.0555556" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_1_recipeIngrType" sid="755063909259741">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="ingrType" sid="101388206245291" type="number" />
-                <instance-variable name="ingr" sid="276963819780768" type="string" />
-            </instance-variables>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Fruit" pingpong="0" repeatcount="1" repeatto="0" sid="891485486635089" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Fruit.png">
-                        <collision-poly>
-                            <point x="0.25" y="0.25" />
-                            <point x="0.5" y="0.075" />
-                            <point x="0.7625" y="0.2375" />
-                            <point x="0.95" y="0.5" />
-                            <point x="0.8625" y="0.8625" />
-                            <point x="0.5" y="0.9375" />
-                            <point x="0.1625" y="0.8375" />
-                            <point x="0.0625" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="SeaFood" pingpong="0" repeatcount="1" repeatto="0" sid="276377056175854" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Seafood.png">
-                        <collision-poly>
-                            <point x="0.2375" y="0.2375" />
-                            <point x="0.5" y="0.0875" />
-                            <point x="0.9" y="0.1" />
-                            <point x="0.8875" y="0.5" />
-                            <point x="0.725" y="0.725" />
-                            <point x="0.5" y="0.7" />
-                            <point x="0.15" y="0.85" />
-                            <point x="0.1875" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="leafVeggie" pingpong="0" repeatcount="1" repeatto="0" sid="475673425374309" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Leaf Veggie.png">
-                        <collision-poly>
-                            <point x="0.1375" y="0.1375" />
-                            <point x="0.5" y="0" />
-                            <point x="0.85" y="0.15" />
-                            <point x="0.8625" y="0.5" />
-                            <point x="0.725" y="0.725" />
-                            <point x="0.5" y="1" />
-                            <point x="0.2875" y="0.7125" />
-                            <point x="0.15" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="rootVeggie" pingpong="0" repeatcount="1" repeatto="0" sid="389824905497911" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Root Vegetable.png">
-                        <collision-poly>
-                            <point x="0.375" y="0.375" />
-                            <point x="0.8625" y="0.1375" />
-                            <point x="0.725" y="0.5" />
-                            <point x="0.65" y="0.65" />
-                            <point x="0.5" y="0.7625" />
-                            <point x="0.0625" y="0.9375" />
-                            <point x="0.25" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="poultry" pingpong="0" repeatcount="1" repeatto="0" sid="474021574156915" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Poultry.png">
-                        <collision-poly>
-                            <point x="0.1" y="0.1" />
-                            <point x="0.5" y="0.15" />
-                            <point x="0.6125" y="0.3875" />
-                            <point x="0.725" y="0.5" />
-                            <point x="0.9125" y="0.9125" />
-                            <point x="0.5" y="0.725" />
-                            <point x="0.375" y="0.625" />
-                            <point x="0.125" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="dairy" pingpong="0" repeatcount="1" repeatto="0" sid="475535815009282" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Dairy.png">
-                        <collision-poly>
-                            <point x="0.275" y="0.275" />
-                            <point x="0.5" y="0.025" />
-                            <point x="0.75" y="0.25" />
-                            <point x="0.75" y="0.75" />
-                            <point x="0.5" y="0.975" />
-                            <point x="0.2375" y="0.7625" />
-                            <point x="0.2375" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="starch" pingpong="0" repeatcount="1" repeatto="0" sid="323917113081968" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Starch.png">
-                        <collision-poly>
-                            <point x="0.1625" y="0.1625" />
-                            <point x="0.5" y="0.0375" />
-                            <point x="0.8375" y="0.1625" />
-                            <point x="0.8375" y="0.8375" />
-                            <point x="0.5" y="0.975" />
-                            <point x="0.15" y="0.85" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-                <animation framecount="1" loop="0" name="redMeat" pingpong="0" repeatcount="1" repeatto="0" sid="682640000220924" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\Red Meat.png">
-                        <collision-poly>
-                            <point x="0.25" y="0.25" />
-                            <point x="0.5" y="0.125" />
-                            <point x="0.875" y="0.125" />
-                            <point x="0.9375" y="0.5" />
-                            <point x="0.7625" y="0.7625" />
-                            <point x="0.5" y="0.925" />
-                            <point x="0.15" y="0.85" />
-                            <point x="0.05" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_1_EndBG" sid="834339557188132">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="585173473583796" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_TutorialText" sid="315720911837901">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="m6_1_blink1" sid="271127969076904">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="number" sid="737890596131087" type="number" />
-            </instance-variables>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="466232125832371" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_1_fooood" sid="441841679341999">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="CSS" pingpong="0" repeatcount="1" repeatto="0" sid="276003870510598" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\leftover\fud\fooood\Chicken Salad Sandwich.png" />
-                </animation>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="483805616750935" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="m6_BG" sid="149921842032686">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="658527894827071" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
         </object-type>
     </object-folder>
     <families />

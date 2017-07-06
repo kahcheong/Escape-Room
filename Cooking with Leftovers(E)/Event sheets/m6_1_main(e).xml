@@ -912,167 +912,6 @@
                                     <param id="1" name="From">1</param>
                                 </action>
                             </actions>
-                            <sub-events>
-                                <event-block sid="330087897691477">
-                                    <conditions>
-                                        <condition id="-7" inverted="1" name="Compare instance variable" sid="971935997581179" type="m6_1_fud">
-                                            <param id="0" name="Instance variable">fud1</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">m6_1_Recipe1.At(3)</param>
-                                        </condition>
-                                        <condition id="-7" inverted="1" name="Compare instance variable" sid="963055273397510" type="m6_1_fud">
-                                            <param id="0" name="Instance variable">fud1</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">m6_1_Recipe1.At(1)</param>
-                                        </condition>
-                                        <condition id="-7" inverted="1" name="Compare instance variable" sid="163516780269929" type="m6_1_fud">
-                                            <param id="0" name="Instance variable">fud1</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">m6_1_Recipe1.At(2)</param>
-                                        </condition>
-                                        <condition id="-7" inverted="1" name="Compare instance variable" sid="411097282704366" type="m6_1_fud">
-                                            <param id="0" name="Instance variable">fud1</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;&quot;</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-9" name="Destroy" sid="327963532139653" type="m6_1_fud" />
-                                        <action id="0" name="Play" sid="278474235224592" type="Audio">
-                                            <param id="0" name="Audio file">sfx_no</param>
-                                            <param id="2" name="Loop">0</param>
-                                            <param id="3" name="Volume">100</param>
-                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                                        </action>
-                                    </actions>
-                                    <sub-events>
-                                        <event-block sid="198590991096302">
-                                            <conditions>
-                                                <condition id="-7" name="Compare instance variable" sid="585838960219191" type="m6_1_RecipeList">
-                                                    <param id="0" name="Instance variable">warning</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">0</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="1" name="Append text" sid="517196528732438" type="m6_1_RecipeList">
-                                                    <param id="0" name="Text">newline &amp; newline &amp; newline &amp; &quot;The item you chose either exeeds the amount needed for the recipe, or has the wrong ingredient.&quot;</param>
-                                                </action>
-                                                <action id="-11" name="Add to" sid="437100466001484" type="m6_1_RecipeList">
-                                                    <param id="0" name="Instance variable">warning</param>
-                                                    <param id="1" name="Value">1</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
-                                </event-block>
-                                <event-block sid="705839502549208">
-                                    <conditions>
-                                        <condition id="-7" inverted="1" name="Compare instance variable" sid="394990163736615" type="m6_1_fud">
-                                            <param id="0" name="Instance variable">fud2</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">m6_1_Recipe1.At(3)</param>
-                                        </condition>
-                                        <condition id="-7" inverted="1" name="Compare instance variable" sid="724407413324752" type="m6_1_fud">
-                                            <param id="0" name="Instance variable">fud2</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">m6_1_Recipe1.At(1)</param>
-                                        </condition>
-                                        <condition id="-7" inverted="1" name="Compare instance variable" sid="301409863427866" type="m6_1_fud">
-                                            <param id="0" name="Instance variable">fud2</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">m6_1_Recipe1.At(2)</param>
-                                        </condition>
-                                        <condition id="-7" inverted="1" name="Compare instance variable" sid="788617632964801" type="m6_1_fud">
-                                            <param id="0" name="Instance variable">fud2</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;&quot;</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-9" name="Destroy" sid="766990773422982" type="m6_1_fud" />
-                                        <action id="0" name="Play" sid="229557479273118" type="Audio">
-                                            <param id="0" name="Audio file">sfx_no</param>
-                                            <param id="2" name="Loop">0</param>
-                                            <param id="3" name="Volume">100</param>
-                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                                        </action>
-                                    </actions>
-                                    <sub-events>
-                                        <event-block sid="137577052887323">
-                                            <conditions>
-                                                <condition id="-7" name="Compare instance variable" sid="302714862861855" type="m6_1_RecipeList">
-                                                    <param id="0" name="Instance variable">warning</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">0</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-11" name="Add to" sid="870591286383633" type="m6_1_RecipeList">
-                                                    <param id="0" name="Instance variable">warning</param>
-                                                    <param id="1" name="Value">1</param>
-                                                </action>
-                                                <action id="1" name="Append text" sid="133895097528348" type="m6_1_RecipeList">
-                                                    <param id="0" name="Text">newline &amp; newline &amp; newline &amp; &quot;The item you chose either exeeds the amount needed for the recipe, or has the wrong ingredient.&quot;</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
-                                </event-block>
-                                <event-block sid="555730867380632">
-                                    <conditions>
-                                        <condition id="-7" inverted="1" name="Compare instance variable" sid="332535963512569" type="m6_1_fud">
-                                            <param id="0" name="Instance variable">fud3</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">m6_1_Recipe1.At(3)</param>
-                                        </condition>
-                                        <condition id="-7" inverted="1" name="Compare instance variable" sid="276540309846641" type="m6_1_fud">
-                                            <param id="0" name="Instance variable">fud3</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">m6_1_Recipe1.At(1)</param>
-                                        </condition>
-                                        <condition id="-7" inverted="1" name="Compare instance variable" sid="667870518495835" type="m6_1_fud">
-                                            <param id="0" name="Instance variable">fud3</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">m6_1_Recipe1.At(2)</param>
-                                        </condition>
-                                        <condition id="-7" inverted="1" name="Compare instance variable" sid="235800433205257" type="m6_1_fud">
-                                            <param id="0" name="Instance variable">fud3</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;&quot;</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-9" name="Destroy" sid="218238620313016" type="m6_1_fud" />
-                                        <action id="0" name="Play" sid="453873055187659" type="Audio">
-                                            <param id="0" name="Audio file">sfx_no</param>
-                                            <param id="2" name="Loop">0</param>
-                                            <param id="3" name="Volume">100</param>
-                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                                        </action>
-                                    </actions>
-                                    <sub-events>
-                                        <event-block sid="321864932353769">
-                                            <conditions>
-                                                <condition id="-7" name="Compare instance variable" sid="384490164457387" type="m6_1_RecipeList">
-                                                    <param id="0" name="Instance variable">warning</param>
-                                                    <param id="1" name="Comparison">0</param>
-                                                    <param id="2" name="Value">0</param>
-                                                </condition>
-                                            </conditions>
-                                            <actions>
-                                                <action id="-11" name="Add to" sid="230216960189443" type="m6_1_RecipeList">
-                                                    <param id="0" name="Instance variable">warning</param>
-                                                    <param id="1" name="Value">1</param>
-                                                </action>
-                                                <action id="1" name="Append text" sid="392214656851491" type="m6_1_RecipeList">
-                                                    <param id="0" name="Text">newline &amp; newline &amp; newline &amp; &quot;The item you chose either exeeds the amount needed for the recipe, or has the wrong ingredient.&quot;</param>
-                                                </action>
-                                            </actions>
-                                        </event-block>
-                                    </sub-events>
-                                </event-block>
-                            </sub-events>
                         </event-block>
                         <event-block any="1" sid="822118977874951">
                             <conditions>
@@ -1736,6 +1575,33 @@
                             <param id="0" name="Text">&quot;You used the wrong ingredients or too many of the same ingrdient&quot;</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="989145158586989">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="232753047773186" type="System">
+                                    <param id="0" name="Variable">m6_1_timer</param>
+                                    <param id="1" name="Comparison">4</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="483305953220629" type="m6_1_ecit" />
+                                <action id="-1" name="Set X" sid="944206562162623" type="m6_1_retry">
+                                    <param id="0" name="X">960</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="252116000161062">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="866846761085641" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="754320047626802" type="m6_1_kek">
+                                    <param id="0" name="Text">&quot;You did not complete the recipe in time&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
                 <event-block sid="513334688813761">
                     <conditions>
