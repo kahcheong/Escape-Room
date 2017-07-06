@@ -1667,6 +1667,22 @@
                             <param id="0" name="Text">&quot;You used the wrong ingredients or too many of the same ingrdient&quot;</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="508014539124253">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="213286127576623" type="System">
+                                    <param id="0" name="Variable">m6_2_timer</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="484684988287494" type="m6_2_kek">
+                                    <param id="0" name="Text">&quot;You did not complete the recipe in time&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
                 <event-block sid="304533122066609">
                     <conditions>
