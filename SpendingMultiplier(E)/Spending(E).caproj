@@ -588,6 +588,23 @@
         <object-type name="mx_1_BigBuyCost" sid="968882726992501">
             <plugin id="Text" />
         </object-type>
+        <object-type name="mx_1_SWShop" sid="931355624683299">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="515237413746538" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\sandwich shop.png">
+                        <collision-poly>
+                            <point x="0.0225" y="0.0964286" />
+                            <point x="0.5" y="0.0357143" />
+                            <point x="0.975833" y="0.103571" />
+                            <point x="0.989167" y="0.953571" />
+                            <point x="0.5" y="1" />
+                            <point x="0.01" y="0.957143" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

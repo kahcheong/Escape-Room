@@ -50,5 +50,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/mx_1_truck/" />
         <folder expanded="1" path="animation-folder/mx_1_BigButton/" />
         <folder expanded="1" path="animation-folder/mx_1_buyTogel/" />
+        <folder expanded="1" path="animation-folder/mx_1_SWShop/" />
     </folders-expanded>
 </c2uistate>
