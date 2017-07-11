@@ -12,7 +12,9 @@
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
@@ -255,6 +257,9 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="255630870456284" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="603313278422175" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
@@ -541,7 +546,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443113816447773" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\buy box.png">
                         <collision-poly>
                             <point x="0" y="0.766667" />
                             <point x="1" y="0.766667" />
@@ -604,6 +609,89 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="mx_1_lights" sid="484262260929035">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="110039678473427" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_lights2" sid="981285228922975">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="367746993686184" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_lights3" sid="742653176121570">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="264864858423284" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_BigestBuy" sid="953563062206083">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="mx_1_BigBuyButton" sid="906603593970798">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="144622258851034" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503704" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\buy button clicked.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="615602336180195" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503704" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\buy button unclicked.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx1_CMoneyss" sid="884144020395989">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="942864019948440" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx1_VMoneyss" sid="113421201267661">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="930661592531052" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx1_VMoneyss2" sid="879087693925924">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894726972070752" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_moneyNeeded" sid="914835454401241">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="300714705900196" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mx_1_CASHB" sid="941041720186215">
+            <plugin id="Particles" />
+            <texture original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Dollar.png" />
+        </object-type>
+        <object-type name="mx_1_CASHV" sid="310700378205202">
+            <plugin id="Particles" />
+            <texture original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Dollar.png" />
+        </object-type>
+        <object-type name="mx_1_CASHC" sid="177558640489175">
+            <plugin id="Particles" />
+            <texture original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Dollar.png" />
         </object-type>
     </object-folder>
     <families />
@@ -670,6 +758,20 @@
         <file name="sfx_water_drip.ogg" />
         <file name="sfx_waterheater.m4a" />
         <file name="sfx_waterheater.ogg" />
+        <file name="bgm_spending_game.m4a" />
+        <file name="bgm_spending_game.ogg" />
+        <file name="bgm_food_game.m4a" />
+        <file name="bgm_food_game.ogg" />
+        <file name="sfx_cashsound.m4a" />
+        <file name="sfx_cashsound.ogg" />
+        <file name="sfx_container.m4a" />
+        <file name="sfx_container.ogg" />
+        <file name="sfx_done.m4a" />
+        <file name="sfx_done.ogg" />
+        <file name="sfx_foodplop.m4a" />
+        <file name="sfx_foodplop.ogg" />
+        <file name="sfx_grab.m4a" />
+        <file name="sfx_grab.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
