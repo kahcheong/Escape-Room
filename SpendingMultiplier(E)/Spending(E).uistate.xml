@@ -10,8 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">mx_1_main(e)</layout>
+        <layout order="0">mx_1_main(e)</layout>
+        <layout order="2">mx_1_tutorial</layout>
         <event-sheet order="1">mx_1_main(e)</event-sheet>
+        <event-sheet active="1" order="3">mx_1_tutorial</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -41,7 +43,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/mx_1_VTimer/" />
         <folder expanded="1" path="animation-folder/mx_1_BTimer/" />
         <folder expanded="1" path="animation-folder/mx_1_no/" />
-        <folder expanded="1" path="animation-folder/mx_1_timer/" />
         <folder expanded="1" path="animation-folder/mx_1_BTimer2/" />
         <folder expanded="1" path="animation-folder/mx_1_CStock/" />
         <folder expanded="1" path="animation-folder/mx_1_VStock/" />
@@ -61,10 +62,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/mx_1_moneyNeeded/" />
         <folder expanded="1" path="animation-folder/mx_1_winBG/" />
         <folder expanded="1" path="animation-folder/mx_1_endMenu/" />
-        <folder expanded="1" path="animation-folder/mx_1_star1/" />
-        <folder expanded="1" path="animation-folder/mx_1_star2/" />
-        <folder expanded="1" path="animation-folder/mx_1_star3/" />
         <folder expanded="1" path="animation-folder/mx_1_Exit/" />
         <folder expanded="1" path="animation-folder/mx_1_Retry/" />
+        <folder expanded="1" path="animation-folder/mx_1_tutorialBG/" />
+        <folder expanded="1" path="animation-folder/mx_1_tutHighlight/" />
+        <folder expanded="1" path="animation-folder/mx_1_tutHighLight2/" />
+        <folder expanded="1" path="animation-folder/mx_1_TutBg/" />
     </folders-expanded>
 </c2uistate>
