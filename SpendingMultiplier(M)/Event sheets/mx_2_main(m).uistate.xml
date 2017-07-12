@@ -6,13 +6,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <show-addaction-links>1</show-addaction-links>
     <scroll-pos>400</scroll-pos>
     <conditions-column>232</conditions-column>
-    <actions-namecolumn>19</actions-namecolumn>
+    <actions-namecolumn>21</actions-namecolumn>
     <condition-namecolumns>
         <nest>81</nest>
         <nest>94</nest>
         <nest>59</nest>
         <nest>78</nest>
-        <nest>16</nest>
+        <nest>18</nest>
     </condition-namecolumns>
     <events>
         <event collapsed="1" sid="204481053587466" />

@@ -125,7 +125,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <moneys>12</moneys>
+                        <moneys>15</moneys>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -704,7 +704,7 @@
                 </instance>
                 <instance type="mx_3_CTimer" uid="23">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -726,7 +726,7 @@
                 </instance>
                 <instance type="mx_3_VTimer" uid="24">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -748,7 +748,7 @@
                 </instance>
                 <instance type="mx_3_BTimer" uid="25">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -792,7 +792,7 @@
                 </instance>
                 <instance type="mx_3_BTimer2" uid="28">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
