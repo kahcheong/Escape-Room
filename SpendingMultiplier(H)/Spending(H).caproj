@@ -2,11 +2,11 @@
 <c2project>
     <name>Spending(H)</name>
     <description>prototype</description>
-    <version>1.0.0.1</version>
+    <version>1.0.0.3</version>
     <author></author>
     <author-email></author-email>
     <author-website>http://</author-website>
-    <app-id>com.BGNLab.SpendingMultipler</app-id>
+    <app-id>com.BGNLab.SpendingMultipler(H)</app-id>
     <unique-id>22wy03wasz11d</unique-id>
     <saved-with-version>24400</saved-with-version>
     <used-plugins>

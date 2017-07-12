@@ -12,6 +12,10 @@
                 <action id="0" name="Set text" sid="674786518581017" type="mx_1_BigestBuy">
                     <param id="0" name="Text">mx_1_bigBuyCost</param>
                 </action>
+                <action id="4" name="Set animation" sid="891427903822306" type="mx_1_bigBuy">
+                    <param id="0" name="Animation">&quot;a&quot; &amp; mx_1_bigBuy.type</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
             <sub-events>
                 <event-block sid="519557872089084">
@@ -118,7 +122,7 @@
                             </conditions>
                             <actions>
                                 <action id="0" name="Set text" sid="778405547724208" type="mx_1_TutText">
-                                    <param id="0" name="Text">&quot;Tap on a store&quot;</param>
+                                    <param id="0" name="Text">&quot;Tap on both stores&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
