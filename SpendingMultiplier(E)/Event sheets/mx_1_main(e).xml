@@ -57,13 +57,16 @@
                             <param id="3" name="Volume">10</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
-                        <action id="-9" name="Set value" sid="477518561536895" type="System">
-                            <param id="0" name="Variable">mx_1_playing</param>
-                            <param id="1" name="Value">2</param>
-                        </action>
                         <action id="-4" name="Set layer visible" sid="176495095587042" type="System">
                             <param id="0" name="Layer">&quot;end&quot;</param>
                             <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="394971473316446" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="477518561536895" type="System">
+                            <param id="0" name="Variable">mx_1_playing</param>
+                            <param id="1" name="Value">2</param>
                         </action>
                     </actions>
                 </event-block>
@@ -124,8 +127,8 @@
                                 <action id="-6" name="Set height" sid="314494520712456" type="mx_1_VMoneyss">
                                     <param id="0" name="Height">mx_1_VShop.moneys*4</param>
                                 </action>
-                                <action id="0" name="Set text" sid="268268099792275" type="mx_1_myMoneyss">
-                                    <param id="0" name="Text">&quot;$:&quot; &amp; mx_1_moneys.moneys</param>
+                                <action id="0" name="Set text" sid="268268099792275" type="mx_1_myMuney">
+                                    <param id="0" name="Text">mx_1_moneys.moneys</param>
                                 </action>
                                 <action id="0" name="Set text" sid="446274426385269" type="mx_1_bigStoreBuys">
                                     <param id="0" name="Text">mx_1_bigStoreBuys.bigbuys</param>
