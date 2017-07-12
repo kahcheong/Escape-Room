@@ -105,7 +105,7 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="940747917649430" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\money box (wide).png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -878,6 +878,10 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="mx_2_myMuney" sid="340764627828295">
+            <plugin id="Spritefont2" />
+            <texture />
         </object-type>
     </object-folder>
     <families />

@@ -130,11 +130,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1820</x>
-                        <y>1050</y>
+                        <x>1792</x>
+                        <y>1125</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>300</height>
+                        <width>246</width>
+                        <height>150</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -570,8 +570,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1820</x>
-                        <y>1130</y>
+                        <x>2134</x>
+                        <y>1117</y>
                         <z>0</z>
                         <width>202.196060181</width>
                         <height>127.702774048</height>
@@ -800,8 +800,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1820</x>
-                        <y>901</y>
+                        <x>1812</x>
+                        <y>1050</y>
                         <z>0</z>
                         <width>80</width>
                         <height>150</height>
@@ -1059,11 +1059,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1501</x>
-                        <y>1107</y>
+                        <x>162.645004272</x>
+                        <y>932.677001953</y>
                         <z>0</z>
-                        <width>350</width>
-                        <height>175</height>
+                        <width>315.290008545</width>
+                        <height>157.645004272</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1266,6 +1266,36 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.503703713</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="mx_2_myMuney" uid="59">
+                    <properties>
+                        <character-width>16</character-width>
+                        <character-height>16</character-height>
+                        <character-set>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#&quot;&apos;&amp;()[]|`\/@°+=*$£€&lt;&gt;</character-set>
+                        <text>12</text>
+                        <scale>4.5</scale>
+                        <initial-visibility>Visible</initial-visibility>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <character-spacing>-20</character-spacing>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1735</x>
+                        <y>1089</y>
+                        <z>0</z>
+                        <width>225</width>
+                        <height>161</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

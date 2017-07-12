@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout active="1" order="0">mx_2_main(m)</layout>
+        <event-sheet order="1">mx_2_main(m)</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/mx_3_bigShop/" />
+        <folder expanded="1" path="animation-folder/mx_3_CShop/" />
+        <folder expanded="1" path="animation-folder/mx_3_MySjop/" />
+        <folder expanded="1" path="animation-folder/mx_3_moneys/" />
+        <folder expanded="1" path="animation-folder/mx_3_Resourcess/" />
+        <folder expanded="1" path="animation-folder/mx_3_bigBuy/" />
+        <folder expanded="1" path="animation-folder/mx_3_VShop/" />
+        <folder expanded="1" path="animation-folder/mx_3_BShop/" />
+        <folder expanded="1" path="animation-folder/mx_3_BG/" />
+        <folder expanded="1" path="animation-folder/mx_3_CTimer/" />
+        <folder expanded="1" path="animation-folder/mx_3_VTimer/" />
+        <folder expanded="1" path="animation-folder/mx_3_BTimer/" />
+        <folder expanded="1" path="animation-folder/mx_3_no/" />
+        <folder expanded="1" path="animation-folder/mx_3_timer/" />
+        <folder expanded="1" path="animation-folder/mx_3_BTimer2/" />
+        <folder expanded="1" path="animation-folder/mx_3_CStock/" />
+        <folder expanded="1" path="animation-folder/mx_3_VStock/" />
+        <folder expanded="1" path="animation-folder/mx_3_BStock/" />
+        <folder expanded="1" path="animation-folder/mx_3_PStock/" />
+        <folder expanded="1" path="animation-folder/mx_3_truck/" />
+        <folder expanded="1" path="animation-folder/mx_3_BigButton/" />
+        <folder expanded="1" path="animation-folder/mx_3_buyTogel/" />
+        <folder expanded="1" path="animation-folder/mx_3_SWShop/" />
+        <folder expanded="1" path="animation-folder/mx_3_lights/" />
+        <folder expanded="1" path="animation-folder/mx_3_lights2/" />
+        <folder expanded="1" path="animation-folder/mx_3_lights3/" />
+        <folder expanded="1" path="animation-folder/mx_3_BigBuyButton/" />
+        <folder expanded="1" path="animation-folder/mx_3_CMoneyss/" />
+        <folder expanded="1" path="animation-folder/mx_3_VMoneyss/" />
+        <folder expanded="1" path="animation-folder/mx_3_VMoneyss2/" />
+        <folder expanded="1" path="animation-folder/mx_3_moneyNeeded/" />
+        <folder expanded="1" path="animation-folder/mx_3_winBG/" />
+        <folder expanded="1" path="animation-folder/mx_3_endMenu/" />
+        <folder expanded="1" path="animation-folder/mx_3_star1/" />
+        <folder expanded="1" path="animation-folder/mx_3_star2/" />
+        <folder expanded="1" path="animation-folder/mx_3_star3/" />
+        <folder expanded="1" path="animation-folder/mx_3_Exit/" />
+        <folder expanded="1" path="animation-folder/mx_3_Retry/" />
+    </folders-expanded>
+</c2uistate>

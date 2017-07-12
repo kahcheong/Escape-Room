@@ -145,8 +145,8 @@
                                 <action id="-6" name="Set height" sid="314494520712456" type="mx_2_VMoneyss">
                                     <param id="0" name="Height">mx_2_VShop.moneys*4</param>
                                 </action>
-                                <action id="0" name="Set text" sid="268268099792275" type="mx_2_myMoneyss">
-                                    <param id="0" name="Text">&quot;$:&quot; &amp; mx_2_moneys.moneys</param>
+                                <action id="0" name="Set text" sid="268268099792275" type="mx_2_myMuney">
+                                    <param id="0" name="Text">mx_2_moneys.moneys</param>
                                 </action>
                                 <action id="0" name="Set text" sid="446274426385269" type="mx_2_bigStoreBuys">
                                     <param id="0" name="Text">mx_2_bigStoreBuys.bigbuys</param>
@@ -1868,7 +1868,12 @@
                             <param id="2" name="Value">2</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="-10" name="Set value" sid="837818628292395" type="mx_2_Resourcess">
+                            <param id="0" name="Instance variable">platttter</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
                     <sub-events>
                         <event-block sid="391524305859047">
                             <conditions>
