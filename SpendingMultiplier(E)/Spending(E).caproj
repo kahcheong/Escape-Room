@@ -66,6 +66,7 @@
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="moneys" sid="127606248044302" type="number" />
+                <instance-variable name="yes" sid="929647564714950" type="boolean" />
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="963758445321746" speed="5">
@@ -152,6 +153,7 @@
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="moneys" sid="638351507740228" type="number" />
+                <instance-variable name="yes" sid="720693976758714" type="boolean" />
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301627365613291" speed="5">

@@ -150,6 +150,9 @@
                         <condition id="17" name="On tap object" sid="372079851327280" type="Touch">
                             <param id="0" name="Object">mx_1_CShop</param>
                         </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="616401702827925" type="mx_1_CShop">
+                            <param id="0" name="Instance variable">yes</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-3" name="Set position" sid="287978518510325" type="mx_1_lights">
@@ -159,6 +162,10 @@
                         <action id="-7" name="Set size" sid="639334466349013" type="mx_1_lights">
                             <param id="0" name="Width">250</param>
                             <param id="1" name="Height">230</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="568031268982087" type="mx_1_CShop">
+                            <param id="0" name="Instance variable">yes</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                         <action id="-16" name="Wait" sid="851994403385953" type="System">
                             <param id="0" name="Seconds">0.1</param>
@@ -174,6 +181,9 @@
                         <condition id="17" name="On tap object" sid="520388988072719" type="Touch">
                             <param id="0" name="Object">mx_1_VShop</param>
                         </condition>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="710067958195502" type="mx_1_VShop">
+                            <param id="0" name="Instance variable">yes</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-3" name="Set position" sid="594473790576284" type="mx_1_lights2">
@@ -183,6 +193,10 @@
                         <action id="-7" name="Set size" sid="592846136067849" type="mx_1_lights2">
                             <param id="0" name="Width">250</param>
                             <param id="1" name="Height">230</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="706758343244719" type="mx_1_VShop">
+                            <param id="0" name="Instance variable">yes</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                         <action id="-16" name="Wait" sid="925207903757858" type="System">
                             <param id="0" name="Seconds">0.1</param>
