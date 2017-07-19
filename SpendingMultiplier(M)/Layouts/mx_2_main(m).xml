@@ -23,7 +23,7 @@
             </parallax>
             <zoom-rate>1</zoom-rate>
             <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
+            <force-own-texture>1</force-own-texture>
             <global>0</global>
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
@@ -252,7 +252,7 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <blend-mode>0</blend-mode>
+                    <blend-mode>7</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>745</x>
@@ -274,7 +274,7 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <blend-mode>0</blend-mode>
+                    <blend-mode>7</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1105</x>
@@ -296,7 +296,7 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <blend-mode>0</blend-mode>
+                    <blend-mode>7</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>1465</x>
@@ -307,6 +307,28 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>1</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="mx_2_coniz" uid="60">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>10</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>745</x>
+                        <y>583</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>250</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -1296,6 +1318,116 @@
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="mx_2_coniz" uid="61">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>10</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>745</x>
+                        <y>334</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>250</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="mx_2_coniz" uid="62">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>10</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1105</x>
+                        <y>583</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>250</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="mx_2_coniz" uid="63">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>10</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1105</x>
+                        <y>334</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>250</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="mx_2_coniz" uid="64">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>10</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1465</x>
+                        <y>334</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>250</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="mx_2_coniz" uid="65">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>10</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1465</x>
+                        <y>583</y>
+                        <z>0</z>
+                        <width>40</width>
+                        <height>250</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

@@ -451,7 +451,7 @@
                             </conditions>
                             <actions>
                                 <action id="0" name="Set text" sid="851444219354453" type="mx_1_TutText">
-                                    <param id="0" name="Text">&quot;You will sell platters constantly, as people come to your store.&quot;</param>
+                                    <param id="0" name="Text">&quot;If you have Platters ready,You will sell platters automatically, as people come to your store.&quot;</param>
                                 </action>
                             </actions>
                         </event-block>

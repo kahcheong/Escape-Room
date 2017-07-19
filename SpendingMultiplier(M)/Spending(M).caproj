@@ -252,7 +252,7 @@
             </object-type>
             <object-type name="mx_2_CASHB" sid="941041720186215">
                 <plugin id="Particles" />
-                <texture original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Dollar.png" />
+                <texture original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\coin.png" />
             </object-type>
             <object-type name="mx_2_BG" sid="974902703547809">
                 <plugin id="Sprite" />
@@ -279,11 +279,11 @@
             </object-type>
             <object-type name="mx_2_CASHC" sid="177558640489175">
                 <plugin id="Particles" />
-                <texture original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Dollar.png" />
+                <texture original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\coin.png" />
             </object-type>
             <object-type name="mx_2_CASHV" sid="310700378205202">
                 <plugin id="Particles" />
-                <texture original-source="C:\Users\GAMEPLAYER-03\Desktop\art\Dollar.png" />
+                <texture original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\coin.png" />
             </object-type>
             <object-type name="mx_2_Cmoneys" sid="769859346300215">
                 <plugin id="Text" />
@@ -876,6 +876,14 @@
         </object-type>
         <object-type name="Function" sid="769888079027715">
             <plugin id="Function" />
+        </object-type>
+        <object-type name="mx_2_coniz" sid="689165729472612">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="758184021644771" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\GAMEPLAYER-03\Desktop\art\spideng malt\coin stack 03.png" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

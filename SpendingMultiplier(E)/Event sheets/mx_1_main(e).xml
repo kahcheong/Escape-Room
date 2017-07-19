@@ -95,6 +95,12 @@
                             <param id="0" name="Instance variable">moneys</param>
                             <param id="1" name="Value">15</param>
                         </action>
+                        <action id="0" name="Play" sid="787826273143550" type="Audio">
+                            <param id="0" name="Audio file">sfx_cashsound</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">100</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
