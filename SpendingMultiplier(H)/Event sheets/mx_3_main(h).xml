@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>mx_2_main(m)</name>
+    <name>mx_3_main(h)</name>
     <events>
         <variable constant="0" name="mx_2_score" sid="457397118357501" static="0" type="number">0</variable>
         <variable constant="0" name="mx_2_playing" sid="152829263815093" static="0" type="number">1</variable>

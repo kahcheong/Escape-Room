@@ -529,7 +529,7 @@
                 </instance>
                 <instance type="mx_1_Resoucreces" uid="81">
                     <properties>
-                        <text>Text</text>
+                        <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-44,400,0</font>
                         <color>0,0,0</color>

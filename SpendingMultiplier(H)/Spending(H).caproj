@@ -896,13 +896,16 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="mx_3_2dollas" sid="685642140182817">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>mx_2_main(m).xml</layout>
+        <layout>mx_3_main(h).xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>mx_2_main(m).xml</event-sheet>
+        <event-sheet>mx_3_main(h).xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="14">

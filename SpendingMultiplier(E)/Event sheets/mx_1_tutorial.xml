@@ -549,12 +549,88 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <event-block sid="691812261774495">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="684169146300522" type="System">
+                    <param id="0" name="Variable">mx_1_tutPage</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">7</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="611630694628251" type="mx_1_tutHighLight2">
+                    <param id="0" name="X">626</param>
+                    <param id="1" name="Y">165</param>
+                </action>
+                <action id="-7" name="Set size" sid="659042410782254" type="mx_1_tutHighLight2">
+                    <param id="0" name="Width">2085</param>
+                    <param id="1" name="Height">581</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="703308423456432" type="mx_1_tutHighLight2">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="789967517699672">
+                    <conditions>
+                        <condition id="14" name="On tap" sid="204956418519412" type="Touch" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="334690412758975" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="333613570665520" type="System">
+                            <param id="0" name="Variable">mx_1_tutPage</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="350757924166190">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="804407934196592" type="System">
+                            <param id="0" name="Object">mx_1_TutText</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="337918774430535">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="237492566200643" type="mx_1_TutText">
+                                    <param id="0" name="Instance variable">priority</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="416759094772317" type="mx_1_TutText">
+                                    <param id="0" name="Text">&quot;Otherwise they will buy from the international supplier&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="729598037493454">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="611139567947839" type="mx_1_TutText">
+                                    <param id="0" name="Instance variable">priority</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="163079502779590" type="mx_1_TutText">
+                                    <param id="0" name="Text">&quot;Tap Anywhere to Continue&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
         <event-block sid="777859099117902">
             <conditions>
                 <condition id="-14" name="Compare variable" sid="790365895613070" type="System">
                     <param id="0" name="Variable">mx_1_tutPage</param>
                     <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">7</param>
+                    <param id="2" name="Value">8</param>
                 </condition>
             </conditions>
             <actions>
