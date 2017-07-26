@@ -68,5 +68,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/mx_3_VTimer/" />
         <folder expanded="1" path="animation-folder/mx_3_winBG/" />
         <folder expanded="1" path="animation-folder/mx_3_coinz/" />
+        <folder expanded="1" path="animation-folder/mx_3_NP/" />
     </folders-expanded>
 </c2uistate>

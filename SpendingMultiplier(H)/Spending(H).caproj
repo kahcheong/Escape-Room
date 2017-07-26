@@ -124,6 +124,7 @@
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable name="moneys" sid="488606727102669" type="number" />
+                    <instance-variable name="myCost" sid="414338221075111" type="number" />
                 </instance-variables>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="340739350195356" speed="5">
@@ -300,6 +301,7 @@
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable name="moneys" sid="127606248044302" type="number" />
+                    <instance-variable name="myCost" sid="717378495515045" type="number" />
                 </instance-variables>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="963758445321746" speed="5">
@@ -760,6 +762,7 @@
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable name="moneys" sid="638351507740228" type="number" />
+                    <instance-variable name="myCost" sid="330817648778170" type="number" />
                 </instance-variables>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301627365613291" speed="5">
@@ -898,6 +901,21 @@
         </object-type>
         <object-type name="mx_3_2dollas" sid="685642140182817">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="mx_3_NP" sid="497541184169093">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="910466614320744" speed="5">
+                    <frame duration="1" hotspotX="0.500521" hotspotY="0.500833" original-source="C:\Users\GAMEPLAYER-03\Downloads\newspaper.png">
+                        <collision-poly>
+                            <point x="0.0645833" y="0.0608333" />
+                            <point x="0.935938" y="0.0608333" />
+                            <point x="0.935938" y="0.94" />
+                            <point x="0.0645833" y="0.94" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
